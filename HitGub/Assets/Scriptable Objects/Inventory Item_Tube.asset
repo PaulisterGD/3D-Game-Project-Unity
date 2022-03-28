@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2db1c1761a62a4699be847159dd75b, type: 3}
+  m_Name: Inventory Item_Tube
+  m_EditorClassIdentifier: 
+  id: InventoryItem_Tube
+  displayName: Tube
+  icon: {fileID: 21300000, guid: 90afc01a304288b438033bab8d7f3be5, type: 3}
+  prefab: {fileID: 574094582246301601, guid: a6cba5fb389550a45bf230a100ac4188, type: 3}
