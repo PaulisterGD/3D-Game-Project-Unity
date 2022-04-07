@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 58
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 60
+  controlID: 59
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 61
+  controlID: 60
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1443,10 +1443,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -511
-    m_HBaseRangeMax: 511
-    m_VBaseRangeMin: -287.5
-    m_VBaseRangeMax: 287.5
+    m_HBaseRangeMin: -492.5
+    m_HBaseRangeMax: 492.5
+    m_VBaseRangeMin: -277
+    m_VBaseRangeMax: 277
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1463,11 +1463,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1276
-      height: 575
+      height: 554
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 638, y: 287.5}
+    m_Translation: {x: 638, y: 277}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -1475,9 +1475,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -638
-      y: -287.5
+      y: -277
       width: 1276
-      height: 575
+      height: 554
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1276, y: 575}
@@ -1514,9 +1514,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e0f2ffff
-      m_LastClickedID: -3360
-      m_ExpandedIDs: 6cfbffff96490000b2500000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 64fbffff6cfbffff2e4a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1576,9 +1576,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.664855, y: 10.587925, z: -35.91168}
+    m_Target: {x: 17.497173, y: 2.7457976, z: -4.3274927}
     speed: 2
-    m_Value: {x: 15.664855, y: 10.587925, z: -35.91168}
+    m_Value: {x: 17.497173, y: 2.7457976, z: -4.3274927}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1625,13 +1625,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.09977413, y: -0.69741136, z: 0.098983, w: 0.70286876}
+    m_Target: {x: 0.118533, y: -0.6955352, z: 0.11795635, w: 0.6988784}
     speed: 2
-    m_Value: {x: -0.09977413, y: 0.69741136, z: -0.098983, w: -0.70286876}
+    m_Value: {x: 0.11852328, y: -0.69547814, z: 0.11794668, w: 0.69882107}
   m_Size:
-    m_Target: 5.984199
+    m_Target: 5.9828553
     speed: 2
-    m_Value: 5.726506
+    m_Value: 5.9828553
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1755,22 +1755,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Blender Models
+    - Assets/Scriptable Objects
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Blender Models
+  - Assets/Scriptable Objects
   m_LastFoldersGridSize: 16
   m_LastProjectPath: D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 10570000
-    m_LastClickedID: 22288
-    m_ExpandedIDs: 00000000d256000020570000c25b000000ca9a3b
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 40570000
+    m_LastClickedID: 22336
+    m_ExpandedIDs: 00000000fa56000042570000f25b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1798,7 +1798,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d2560000
+    m_ExpandedIDs: 00000000fa560000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1829,18 +1829,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Interaction
+      m_OriginalName: Interaction
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 23538
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_CreateAssetUtility:
@@ -1850,7 +1850,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 757}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207

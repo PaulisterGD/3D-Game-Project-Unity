@@ -12,13 +12,15 @@ GameObject:
   - component: {fileID: 8167333221181304265}
   - component: {fileID: 7964337976592998250}
   - component: {fileID: 7854344810385111281}
+  - component: {fileID: 1790383145723955636}
+  - component: {fileID: 4285305666351660974}
   m_Layer: 6
   m_Name: Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3013652990662049620
 Transform:
   m_ObjectHideFlags: 0
@@ -96,3 +98,29 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1790383145723955636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150914620811982864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39e01df16fa9aa40aa626ecccf291a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 0
+--- !u!114 &4285305666351660974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4150914620811982864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 11400000, guid: a5f62936fd8bf3140b4ac69d54650014, type: 2}
