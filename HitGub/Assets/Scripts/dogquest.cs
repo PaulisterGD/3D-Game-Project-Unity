@@ -17,7 +17,8 @@ public class dogquest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        nav.SetDestination(target.transform.position);
+        if(target != null) { nav.SetDestination(target.transform.position); }
+        
 
     }
     void OnTriggerEnter (UnityEngine.Collider dogtrigger) {
