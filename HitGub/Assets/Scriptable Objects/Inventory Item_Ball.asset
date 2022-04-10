@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Inventory Item_Ball
   m_EditorClassIdentifier: 
   id: InventoryItem_Ball
-  displayName: Ball
+  displayName: Frog
   icon: {fileID: 21300000, guid: d9893c6a67260c347a8b22b3f2a40e7b, type: 3}
   prefab: {fileID: 4812582123935244593, guid: d43ef4f52ad4a14418e9f99ee42ee6c4, type: 3}
