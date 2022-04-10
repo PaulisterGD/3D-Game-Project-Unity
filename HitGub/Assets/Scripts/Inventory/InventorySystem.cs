@@ -25,6 +25,15 @@ public class InventorySystem : MonoBehaviour
         m_itemDictionary = new Dictionary<InventoryItemData, InventoryItem>();
     }
 
+    public InventoryItem Get(InventoryItemData referenceData)
+	{
+        if(m_itemDictionary.TryGetValue(referenceData, out InventoryItem value))
+		{
+            return value;
+		}
+        return null;
+	}
+
     public void ItemAdd(InventoryItemData referenceData)
     {
         Debug.Log("Item pickup runs itemAdd function.");
@@ -56,5 +65,7 @@ public class InventorySystem : MonoBehaviour
                 m_itemDictionary.Remove(referenceData);
             }
         }
+
+        InventoryChangedEvent();
     }
 }
