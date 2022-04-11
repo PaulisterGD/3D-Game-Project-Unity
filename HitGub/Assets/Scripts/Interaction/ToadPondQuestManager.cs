@@ -11,18 +11,20 @@ public class ToadPondQuestManager : Interactable
         itemObject = GetComponent<ItemObject>();
     }
 
-    // Update is called once per frame
+    // Function that handles dropping off the toad in the pond and playing a dialogue that marks the end of the quest
     void UpdateToad()
     {
         itemObject.OnHandleDropOffItem();
         FindObjectOfType<DialogueTrigger>().TriggerDialogue();
     }
 
+    //Provides instructions on how to interact and why
     public override string GetDescription()
 	{
         return "Press E to return the toad!";
 	}
 
+    //Starts the interaction when the player presses the E button.
     public override void Interact()
 	{
         UpdateToad();

@@ -11,12 +11,13 @@ public class PickupObject : Interactable
         itemObject = GetComponent<ItemObject>();
     }
 
-    // Update is called once per frame
+    // Function that calls the function that handles picking up items
     void UpdateItem()
     {
         itemObject.OnHandlePickupItem();
     }
 
+    //Provides instructions on how to interact and why
     public override string GetDescription()
     {
         //if (isOn) return "Press [E] to turn OFF the light\nand make me appear!";
@@ -24,6 +25,7 @@ public class PickupObject : Interactable
         return "Press E to pick up!";
     }
 
+    //Starts the interaction when the player presses the E button.
     public override void Interact()
     {
         UpdateItem();

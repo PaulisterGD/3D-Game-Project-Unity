@@ -4,17 +4,11 @@ using UnityEngine;
 
 public class BlueNPC : Interactable
 {
-    public Light m_light;
-    public bool isOn;
-    public GameObject[] playerModels;
+    //public Light m_light;
+    //public bool isOn;
+    //public GameObject[] playerModels;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        //UpdateDialogue();
-    }
-
-    // Update is called once per frame
+    // Function that triggers the Blue NPC's dialogue when the player interacts with it.
     void UpdateDialogue()
     {
         FindObjectOfType<DialogueTrigger>().TriggerDialogue();
@@ -27,16 +21,18 @@ public class BlueNPC : Interactable
         */
     }
 
+    //Provides instructions on how to interact and why
     public override string GetDescription()
     {
         //if (isOn) return "Press [E] to turn OFF the light\nand make me appear!";
         //return "Press [E] to turn ON the light\nand make me disappear!";
-        return "";
+        return "Press E to talk";
     }
 
+    //Starts the interaction when the player presses the E button.
     public override void Interact()
     {
-        isOn = !isOn;
+        //isOn = !isOn;
         UpdateDialogue();
     }
 }
