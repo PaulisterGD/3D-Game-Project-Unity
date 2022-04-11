@@ -4,28 +4,32 @@ using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
 {
+    //Declarations of different components, like the dialogue managers.
     public Animator animator;
     public Dialogue dialogue;
     public DialogueManager dialogueManager;
-    private bool firstLineDone = false;
-
+    private bool firstLineDone = false;                                     //Boolean that determines whether to START dialogue or CONTINUE it.
+    
+    //Classic Unity message, plays once at the start of the instance of the object.
     private void Start()
     {
-        animator = FindObjectOfType<Animator>();
+        animator = FindObjectOfType<Animator>();                            //Set up the animator that runs the dialogue box animation.
     }
 
+    //Function that is called when one wants to start a dialogue.
     public void TriggerDialogue()
     {
+        //Statement that determines whether we're at the start of the dialogue or not.
         if(!firstLineDone)
         {
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-            firstLineDone = true;
+            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);    //If yes, START the dialogue.
+            firstLineDone = true;                                           //And let the script know we're done with the first line
         }
         else
         {
-            FindObjectOfType<DialogueManager>().DisplayNextSentence();
+            FindObjectOfType<DialogueManager>().DisplayNextSentence();      //If no, CONTINUE the dialogue
         }
 
-        if (!animator.GetBool("IsOpen")) { firstLineDone = false; }
+        if (!animator.GetBool("IsOpen")) { firstLineDone = false; }         //When the dialogue box transitions out of screen, reset the firstLineDone bool.
     }
 }
