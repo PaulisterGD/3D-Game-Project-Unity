@@ -15,11 +15,11 @@ D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64097
+63148
 Successfully changed project path to: D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub
 D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 137.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,150 +35,150 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56472
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003501 seconds.
+Registered in 0.007222 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 50.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 94.49 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  1.146 seconds
 Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (65ms)
+	ReloadAssembly (1148ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (428ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (118ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (169ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (422ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (50ms)
-				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (75ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002917 seconds.
+Registered in 0.008639 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001388A1A0030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000017778ACA370 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AD9A640 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-000001777C641C20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138899BC670 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001777DC63C40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138899BC670 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001777DC63C40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138893E7290 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001777DC78E50 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138893E7290 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001777CD0D220 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138899D1880 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001777CBDA010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889BDA010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001777CBDA010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889C08220 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001777CC08220 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889E13790 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-0000017778D2C550 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889C08220 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-000001777CEA5010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889D68060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-0000017778494D20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA06C20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001777CD0D220 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885D62F80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001777CEA5010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA06C20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AD9AE00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-000001777C641A30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885D74B90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001777CE51010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138898AE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889E29010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-000001777C52E010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA06C20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885D74B90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-000001777C6BE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A31EC20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-000001777C6EE220 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889E87420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-000001777D667030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AD9A640 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-000001777C641650 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AD9AE00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-000001777C641A30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A880010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001777D667030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889EAFA30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001777D833420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B66C30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001777E16C030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A880010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-000001777D833420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 51.86 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 96.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
+- Completed reload, in  2.273 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1116ms)
-		BeginReloadAssembly (155ms)
+	ReloadAssembly (2281ms)
+		BeginReloadAssembly (306ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (897ms)
-			LoadAssemblies (92ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1862ms)
+			LoadAssemblies (238ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (617ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (361ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (710ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (200ms)
+				ProcessInitializeOnLoadAttributes (349ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2980 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 135.1 MB.
 System memory in use after: 135.3 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3424.
-Total: 3.973300 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.075900 ms MarkObjects: 3.432500 ms  DeleteObjects: 0.141600 ms)
+Total: 5.862900 ms (FindLiveObjects: 0.332700 ms CreateObjectMapping: 0.140800 ms MarkObjects: 5.219000 ms  DeleteObjects: 0.167700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -193,113 +193,135 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ba00e5f925b041d63da72032eb5fa4') in 0.015674 seconds 
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2090e2abdde762ea16e0e79f8261e6fc') in 0.102170 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.5 MB.
+System memory in use after: 70.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 3424.
+Total: 6.130300 ms (FindLiveObjects: 0.501200 ms CreateObjectMapping: 0.268600 ms MarkObjects: 5.328100 ms  DeleteObjects: 0.030000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002879 seconds.
+Registered in 0.003448 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000013885B9FA90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000017778AB5E90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001389322F2B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-00000175E9176E00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A880010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B317450 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000175E05D3020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B90020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001777E4DB010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A89A820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000017778451020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AD48160 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001777CA15790 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138859EEC10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000017778CD0030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889AB9010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-000001777C8C3020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B6BA30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001777DF956D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388E559010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-0000017778C4CCA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013893384F50 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000175E9B876B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B90020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001777CB7DC30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D260420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001777D0F0030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B90020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001389322EAF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000175E9177B90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885D20870 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138898AE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B5CF010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000175E1428030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B90020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885D20870 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B3BFE30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-000001777E381010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885D20870 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001389322EED0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-00000175E9176E00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001389322ECE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000175E9176E00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DBE6020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001777CEA5010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885A1CE20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000017778451020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889FE6850 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001777C2D1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DC0E630 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.009 seconds
+- Completed reload, in  1.392 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1010ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (1394ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (830ms)
-			LoadAssemblies (99ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1192ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (325ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (559ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (86ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (27ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.4 MB.
-System memory in use after: 127.6 MB.
+System memory in use before: 127.5 MB.
+System memory in use after: 127.7 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3426.
-Total: 3.458200 ms (FindLiveObjects: 0.308000 ms CreateObjectMapping: 0.126000 ms MarkObjects: 2.990100 ms  DeleteObjects: 0.032700 ms)
+Total: 3.556900 ms (FindLiveObjects: 0.338800 ms CreateObjectMapping: 0.153700 ms MarkObjects: 3.026100 ms  DeleteObjects: 0.036000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -313,127 +335,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1387.015366 seconds.
-  path: Assets/Scripts/Interaction
-  artifactKey: Guid(ced54f26d41b1574492f3e798d6ab187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Interaction using Guid(ced54f26d41b1574492f3e798d6ab187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08235318d23466294c1a3e514a080cfb') in 0.009530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.649834 seconds.
-  path: Assets/Scripts/Interaction/BlueNPC.cs
-  artifactKey: Guid(4085b1fcfef86c34fbdae537b017cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Interaction/BlueNPC.cs using Guid(4085b1fcfef86c34fbdae537b017cd98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8661b395e5800bed82050d39910281de') in 0.037245 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 699.775613 seconds.
-  path: Assets/Scripts/Interaction/Backend/Interactable.cs
-  artifactKey: Guid(5fe2b3e8e89715f4aba1ede6c28e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Interaction/Backend/Interactable.cs using Guid(5fe2b3e8e89715f4aba1ede6c28e09fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2ac8f0fd679cc1f660dcfc39b8953f') in 0.008082 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003386 seconds.
+Registered in 0.004451 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001388AF191D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000017778AC02A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013892AD2990 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-00000177A0F80650 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885B44010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DE43020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000175EA004230 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D7BC010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001777DA8A020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B2F8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001777CA15790 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B2F8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000177A19D0020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138859EEC10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000017778CD0030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388950E040 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AF191D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-000001777C2FAF10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388E559010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000175E07EB020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138962174C0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000177A12D6B70 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D7BC010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001777DA8A020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A2E8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000177789ED740 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889D650A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013892AD25B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000177A0F81000 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA86010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138898AE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D2B4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889D650A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA86010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000175E07EB020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B317450 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000175E10B23E0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889BFA030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013892AD3CF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-00000177A0F81000 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013892AD25B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000177A0F819B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DBE6020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000175E12A8EE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A310620 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001777CA15790 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B306020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-000001777C1B0080 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA86010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  1.818 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1105ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1820ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (89ms)
-		EndReloadAssembly (827ms)
-			LoadAssemblies (108ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1518ms)
+			LoadAssemblies (200ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (317ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (557ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (193ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (146ms)
+				ProcessInitializeOnLoadAttributes (340ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 127.5 MB.
 System memory in use after: 127.7 MB.
 
 Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3428.
-Total: 3.541500 ms (FindLiveObjects: 0.274400 ms CreateObjectMapping: 0.106800 ms MarkObjects: 3.125000 ms  DeleteObjects: 0.034000 ms)
+Total: 6.518700 ms (FindLiveObjects: 0.404800 ms CreateObjectMapping: 0.333000 ms MarkObjects: 5.694300 ms  DeleteObjects: 0.083800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -449,107 +453,577 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002881 seconds.
+Registered in 0.006755 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001388B23B050 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000017778AC02A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138985D3680 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-00000177A3532C40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388CBB6030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388E21D010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000175E134A060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388CCDB030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001777DA8A020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D20C020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-00000175E05D3020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B2F8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000175E05D3020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A2E8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000177A4262820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388950E040 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000177A196C790 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B23B050 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-0000017778A34EA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388E559010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013898CF3A70 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000177A3DCFBD0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388CCDB030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001777E38AE40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DC7A010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001777C7B0830 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B23B050 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138985D47F0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000177A3532860 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA86010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138898AE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885847ED0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B23B050 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA86010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889BDA010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000175E134A060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889BFA030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138985D3680 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-00000177A3533020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138985D30B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000177A3533400 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-00000138962A5EE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-00000177A19DD700 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D20C020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-00000175E134A060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885BA0C00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000175EF76B880 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AA86010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2300ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1915ms)
+			LoadAssemblies (264ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (738ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (265ms)
+				ProcessInitializeOnLoadAttributes (390ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.5 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3430.
+Total: 11.924800 ms (FindLiveObjects: 0.556600 ms CreateObjectMapping: 0.315500 ms MarkObjects: 10.993900 ms  DeleteObjects: 0.056700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 466.626279 seconds.
+  path: Assets/Scripts/Inventory/ItemRequirement.cs
+  artifactKey: Guid(614431b78af352e40b1ab466c9b9149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Inventory/ItemRequirement.cs using Guid(614431b78af352e40b1ab466c9b9149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9038752a8efd549d3df8108f903b537') in 0.024158 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001777D0A8020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BDB840 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778B4D010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E134A060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D34020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D34020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777845DC80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D3CA30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BD73A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BDA8C0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BEC6F0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E381010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BEC6F0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BDC3E0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BDAAB0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6AC6030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E134A060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A55E2930 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.322 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1324ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1100ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3432.
+Total: 6.881800 ms (FindLiveObjects: 0.367400 ms CreateObjectMapping: 0.165200 ms MarkObjects: 6.289300 ms  DeleteObjects: 0.057500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001777D0B0030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E134BDC0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0445010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0BBF010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E04F3010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D073010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E38AE40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9CDBE50 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0BBF010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A69ED2B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177788F8210 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0445010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6BDE6A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A69ECAF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A69EBB70 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1621E30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D34020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A7DFC0B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.047 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1048ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (259ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3434.
+Total: 4.160100 ms (FindLiveObjects: 0.385400 ms CreateObjectMapping: 0.093500 ms MarkObjects: 3.636300 ms  DeleteObjects: 0.043200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003091 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000177A955A590 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A35339D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778354010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6AF8020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D0A8020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777841A020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A9179080 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6AF8020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177ABE5D830 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A35339D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0FE2010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778354010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D740010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A35339D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A35339D0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177ABE1BA80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E381010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A91D45A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.002 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (111ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (309ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3436.
+Total: 3.794400 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.128500 ms MarkObjects: 3.253700 ms  DeleteObjects: 0.031600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003231 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000175E0FF7F10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EB2B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D8A1020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0C26FA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777841A020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9CDBE50 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0C26FA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EB2B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4262820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9F88030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D8A1020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4262820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EB2B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EB2B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D8A1020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD11D250 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.252 seconds
+- Completed reload, in  0.992 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1255ms)
-		BeginReloadAssembly (215ms)
+	ReloadAssembly (992ms)
+		BeginReloadAssembly (114ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (17ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (92ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (119ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (815ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (323ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (369ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (231ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.5 MB.
-System memory in use after: 127.7 MB.
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3430.
-Total: 3.888000 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.092100 ms MarkObjects: 3.462500 ms  DeleteObjects: 0.032900 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3438.
+Total: 3.754100 ms (FindLiveObjects: 0.443800 ms CreateObjectMapping: 0.184100 ms MarkObjects: 3.100300 ms  DeleteObjects: 0.024200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -565,84 +1039,316 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002589 seconds.
+Registered in 0.002978 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000013889C14520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-00000175E1178020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013AA177DE70 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file data-00000175E1177B80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388CBB6030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D60D020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-00000177A66C0020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DA78020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B2F8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-000001777DC6B020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388B2F8010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-00000177AE7FA170 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001389928F020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D641010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889C14520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file data-00000175E1178020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013893938020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file data-00000177A6B5F020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013898CF4BB0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file data-00000177B0A45F10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DA78020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-00000175E1219E50 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388CEBF060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889C14520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013AA177F7A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file data-00000175E1177D70 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A880010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-00000177A9712010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388AFA5FA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388DC38020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013889C14520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388E559010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file data-00000177A6B5F020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D1DA020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file data-00000177A66C0020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D965030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file data-00000177A9712010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013AA177E440 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file data-00000175E11777A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013AA177DC80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file data-00000175E1176FE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D5AB030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388D1DA020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001777DC6B020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000013885DE5920 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-00000177B021AAA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001388A880010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.980 seconds
+- Completed reload, in  1.027 seconds
 Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (852ms)
+			LoadAssemblies (105ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3440.
+Total: 3.628800 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.142600 ms MarkObjects: 3.106200 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000175E1178020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E0CF4C0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A66C0020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0948F40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B3B19430 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E13FC090 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6B5F020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B0A45AC0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0948F40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E0CD7B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AE7CE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6B5F020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AE7FA170 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AE7CE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E0CCA20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777E0CF8A0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1631E40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B15FEF30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1068ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (807ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (280ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3442.
+Total: 3.284200 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.085000 ms MarkObjects: 2.908300 ms  DeleteObjects: 0.038400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003005 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000175E0916FC0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B12B2F00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A66C0020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A95BF040 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E0F87F10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E115C020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AE7CE010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A69C3D90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A95BF040 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B12B0650 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778388010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B0565EB0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A66C0020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778388010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B12B2D10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B12B2D10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000017778BE4DF0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A6B68E50 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B61CB950 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (128ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (823ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (40ms)
 			SetupLoadedEditorAssemblies (306ms)
@@ -650,22 +1356,22 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (20ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.5 MB.
-System memory in use after: 127.7 MB.
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3432.
-Total: 4.812500 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.067400 ms MarkObjects: 4.460900 ms  DeleteObjects: 0.041400 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3444.
+Total: 5.824700 ms (FindLiveObjects: 0.552000 ms CreateObjectMapping: 0.448600 ms MarkObjects: 4.709100 ms  DeleteObjects: 0.113100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -679,9 +1385,351 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 6155.962184 seconds.
-  path: Assets/Animators Animations/Dialogue Box.controller
-  artifactKey: Guid(6d451aa67bd5a9d47a79049eb0f118ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animators Animations/Dialogue Box.controller using Guid(6d451aa67bd5a9d47a79049eb0f118ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91113aab2fff0ab3b50613408eb39f1d') in 0.194462 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003240 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000177B548BE40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EA520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B10E4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DC6B020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B2510E40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B8DD2020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B0D3D010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B3BEEC90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A69C3940 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DC6B020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EA520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E14F0040 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B1264320 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B0565EB0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B10E4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E14F0040 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EA520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177AD4EA520 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B1264320 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B2510E40 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B61D8530 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (974ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (802ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3446.
+Total: 4.072500 ms (FindLiveObjects: 0.347400 ms CreateObjectMapping: 0.147000 ms MarkObjects: 3.535700 ms  DeleteObjects: 0.040900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002862 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000175E0916FC0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA991890 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B10E4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B3B8EBA0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B056FCE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B887D4E0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B3BEEC90 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177ACEF1C10 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777C5C6010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA990720 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B65A6070 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B1264320 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B115A510 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B10E4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B65A6070 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA990720 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA98F3C0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B1264320 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B056FCE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA785F20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Domain Reload Profiling:
+	ReloadAssembly (986ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (817ms)
+			LoadAssemblies (90ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3448.
+Total: 3.768600 ms (FindLiveObjects: 0.312000 ms CreateObjectMapping: 0.077700 ms MarkObjects: 3.343900 ms  DeleteObjects: 0.033800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000177B6409280 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA9914B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777DB51030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B10E4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B644F420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B8DF0010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777D989010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177A4417010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E03E1010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777C5C6010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B741C810 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B644F420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9D4E060 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA9914B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B6484020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B1264320 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E9DA4C80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001777CDA3820 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B115A510 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B10E4020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B6484020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA98E250 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA98F3C0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B1264320 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177B8DF0010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000177BA7A2290 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000175E1856030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (316ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (193ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2865 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3450.
+Total: 3.438900 ms (FindLiveObjects: 0.315400 ms CreateObjectMapping: 0.141900 ms MarkObjects: 2.945300 ms  DeleteObjects: 0.034800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

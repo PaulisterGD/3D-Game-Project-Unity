@@ -4,10 +4,16 @@ using UnityEngine;
 
 public class ToadPondQuestManager : Interactable
 {
+    private bool questComplete;
+
     private ItemObject itemObject;
+    public DialogueTrigger pondObject;
+    public ItemObject pondRequirement;
     // Start is called before the first frame update
     void Start()
     {
+        questComplete = false;
+
         itemObject = GetComponent<ItemObject>();
     }
 
@@ -15,18 +21,29 @@ public class ToadPondQuestManager : Interactable
     void UpdateToad()
     {
         itemObject.OnHandleDropOffItem();
-        FindObjectOfType<DialogueTrigger>().TriggerDialogue();
+        pondObject.TriggerDialogue();
     }
 
     //Provides instructions on how to interact and why
     public override string GetDescription()
 	{
-        return "Press E to return the toad!";
+        if (pondRequirement.MeetsRequirements()) { return "Press E to return the toad!"; }
+        else if (questComplete) { return ""; }
+        else { return "You still need to find the toad!"; }
+        
 	}
 
     //Starts the interaction when the player presses the E button.
     public override void Interact()
 	{
-        UpdateToad();
+        if (pondRequirement.MeetsRequirements())
+		{
+            UpdateToad();
+            questComplete = true;
+        } 
+        else if (questComplete)
+		{
+            UpdateToad();
+		}
 	}
 }

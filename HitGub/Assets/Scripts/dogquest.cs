@@ -6,12 +6,14 @@ using UnityEngine.AI;
 public class dogquest : MonoBehaviour
 {
     public GameObject target;
+    private bool dogReturned;
     NavMeshAgent nav;
 
     // Start is called before the first frame update
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        dogReturned = false;
     }
 
     // Update is called once per frame
@@ -22,10 +24,11 @@ public class dogquest : MonoBehaviour
 
     }
     void OnTriggerEnter (UnityEngine.Collider dogtrigger) {
-        if (dogtrigger.tag == "Interactable"){
+        if (dogtrigger.tag == "Dog Owner"){
             target = null;
+            dogReturned = true;
         } else if (dogtrigger.tag == "Player"){
-            target = GameObject.FindGameObjectWithTag ("Player");
+            if (!dogReturned) { target = GameObject.FindGameObjectWithTag("Player"); }
         }
             
         

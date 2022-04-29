@@ -30,7 +30,7 @@ public class ItemObject : MonoBehaviour
 		}
 	}
 
-    private bool MeetsRequirements()
+    public bool MeetsRequirements()
 	{
         foreach(ItemRequirement requirement in requirements)
 		{
