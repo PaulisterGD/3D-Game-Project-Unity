@@ -15,11 +15,11 @@ D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64284
+52374
 Successfully changed project path to: D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub
 D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 57.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,92 +35,116 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003450 seconds.
+Registered in 0.004117 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 52.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.97 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.589 seconds
+- Completed reload, in  0.648 seconds
 Domain Reload Profiling:
-	ReloadAssembly (589ms)
-		BeginReloadAssembly (67ms)
+	ReloadAssembly (649ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (446ms)
-			LoadAssemblies (64ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (138ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (170ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (214ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (52ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (73ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002969 seconds.
+Registered in 0.003076 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-0000023810F3F580 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380FC30020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380BCC7C30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238110084E0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F43C00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F3F580 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380F6A59E0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810800270 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F3F580 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F3F580 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380F970C30 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380F405490 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.08 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.149 seconds
+- Completed reload, in  1.146 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1150ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (1151ms)
+		BeginReloadAssembly (152ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
+			CreateAndSetChildDomain (20ms)
 		EndReloadAssembly (934ms)
-			LoadAssemblies (101ms)
+			LoadAssemblies (106ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (297ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (370ms)
+			SetupLoadedEditorAssemblies (366ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (9ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (191ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (185ms)
 				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (11ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2987 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 137.0 MB.
 System memory in use after: 137.2 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3432.
-Total: 4.332500 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.077400 ms MarkObjects: 3.907500 ms  DeleteObjects: 0.107400 ms)
+Total: 4.057700 ms (FindLiveObjects: 0.344200 ms CreateObjectMapping: 0.084100 ms MarkObjects: 3.505200 ms  DeleteObjects: 0.123100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,43 +159,559 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Dialogue
-  artifactKey: Guid(96607ae104f5a564eb0c1859357a9f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue using Guid(96607ae104f5a564eb0c1859357a9f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd276c01843fbb3e860da6c48204bbd00') in 0.007493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(f2963fe38c5fdc14ca2e07f4ec46ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(f2963fe38c5fdc14ca2e07f4ec46ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e0e499c6fd0722d3adcf932960acc5') in 0.002588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 341.345892 seconds.
-  path: Assets/Scripts/Dialogue/Dialogue.cs
-  artifactKey: Guid(fa22901153895384d88e4142512247b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Dialogue/Dialogue.cs using Guid(fa22901153895384d88e4142512247b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b11cb91720eb94549e7b3674b8a789') in 0.084767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 229.766711 seconds.
-  path: Assets/Prefabs/Cylinder.prefab
-  artifactKey: Guid(a6cba5fb389550a45bf230a100ac4188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Cylinder.prefab using Guid(a6cba5fb389550a45bf230a100ac4188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '327ab21c489881015916a7c6bae0715f') in 0.242003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000504 seconds.
-  path: Assets/Prefabs/Item Slot.prefab
-  artifactKey: Guid(87135fb3bb230744497dc00cb162f9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Item Slot.prefab using Guid(87135fb3bb230744497dc00cb162f9f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c71ad182ee05313e35683f3ca9c5810') in 0.015140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/Prefabs/Sphere.prefab
-  artifactKey: Guid(d43ef4f52ad4a14418e9f99ee42ee6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Sphere.prefab using Guid(d43ef4f52ad4a14418e9f99ee42ee6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2041cf58940c0d7cf22586ac777e35bb') in 0.016509 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 569.317171 seconds.
   path: Assets/Prefabs/WolfPrint.prefab
   artifactKey: Guid(f3d2a788ced90e24c8739d7596c201ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/WolfPrint.prefab using Guid(f3d2a788ced90e24c8739d7596c201ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231acf73fdf28453fb058976e05ad7bb') in 0.015287 seconds 
+Start importing Assets/Prefabs/WolfPrint.prefab using Guid(f3d2a788ced90e24c8739d7596c201ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5d2d91957f0d2c286e2385ea863835') in 0.207781 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002883 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023810F3F390 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380B867420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810C41030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023819DADFC0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F43C00 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F3F390 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810125010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380F816420 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F3F390 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023810F3F390 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023814683010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002381A51DA20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.215 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1216ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (997ms)
+			LoadAssemblies (115ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (208ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2871 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3482.
+Total: 3.682100 ms (FindLiveObjects: 0.382300 ms CreateObjectMapping: 0.134500 ms MarkObjects: 3.128800 ms  DeleteObjects: 0.034400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.694805 seconds.
+  path: Assets/Blender Models/beaver.blend
+  artifactKey: Guid(1020435efa5571a4c87df7821798cafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/beaver.blend using Guid(1020435efa5571a4c87df7821798cafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38379f42d95255a4be576bfa38620725') in 0.212463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001313 seconds.
+  path: Assets/Blender Models/COKEcan (1).blend
+  artifactKey: Guid(f1297bd9a6afedc42b2004ec2f6d3613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/COKEcan (1).blend using Guid(f1297bd9a6afedc42b2004ec2f6d3613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9061afef9db7c675dff0b582e9cd9dd2') in 0.078244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Blender Models/Frog.blend
+  artifactKey: Guid(585ab428fc06e5a4b9e691947b4f69d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/Frog.blend using Guid(585ab428fc06e5a4b9e691947b4f69d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6cd7d09699f39634382b848f58ae73') in 0.042305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000457 seconds.
+  path: Assets/Blender Models/fantacan.png
+  artifactKey: Guid(30f173e887fb3e74fa42933c1a311331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/fantacan.png using Guid(30f173e887fb3e74fa42933c1a311331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23d74313b238bd5b967c712e102e0cf4') in 0.029267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Blender Models/bin2.png
+  artifactKey: Guid(fdbad72bdedaa24478d2dd7cda984385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/bin2.png using Guid(fdbad72bdedaa24478d2dd7cda984385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb7f1079a1a22425f37778c066aeb48') in 0.013464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/Blender Models/binCOLORED.blend
+  artifactKey: Guid(45d349b25984fab42b75d5c6cd1bdad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/binCOLORED.blend using Guid(45d349b25984fab42b75d5c6cd1bdad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b218547f8b81cbbfcc9d2845444da') in 0.029072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000678 seconds.
+  path: Assets/Blender Models/BENCH (1).blend
+  artifactKey: Guid(9a7064d59c7fd784693676780c9f3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/BENCH (1).blend using Guid(9a7064d59c7fd784693676780c9f3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b86f42c6045dc18aaae8a7eed8534c6') in 0.048925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000666 seconds.
+  path: Assets/Blender Models/bottle 1.png
+  artifactKey: Guid(d8cc3f6a3d045a6459dd0702ed079670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/bottle 1.png using Guid(d8cc3f6a3d045a6459dd0702ed079670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2ad7cd5b7797c9704e07b2ec08e519') in 0.015312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/Blender Models/flowerpink.blend
+  artifactKey: Guid(948f19d144e30994d91d4c27fb23bbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/flowerpink.blend using Guid(948f19d144e30994d91d4c27fb23bbad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1522ae29c21fb28f9cdea68b6555c08') in 0.041249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Blender Models/cokecan.png
+  artifactKey: Guid(10c3a1de30b9fe542bdbcb250cae4900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/cokecan.png using Guid(10c3a1de30b9fe542bdbcb250cae4900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297453ca50bfbd2ac4af99df27855f9e') in 0.015036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000569 seconds.
+  path: Assets/Blender Models/frog.png
+  artifactKey: Guid(c2161164f180ee946a47bc3f6ddebe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/frog.png using Guid(c2161164f180ee946a47bc3f6ddebe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a32a4d3bce3a23d37cfab77438f436a') in 0.012004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000689 seconds.
+  path: Assets/Blender Models/COLOREDbottle.blend
+  artifactKey: Guid(9fb50cd9eb5e68b42ba3ed7e0ad18586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/COLOREDbottle.blend using Guid(9fb50cd9eb5e68b42ba3ed7e0ad18586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324471257bc21cbc8f25647dae5449cb') in 0.047814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Blender Models/flowerblue.png
+  artifactKey: Guid(8039c9a5ae71cba4a9e06e0e9fd3b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/flowerblue.png using Guid(8039c9a5ae71cba4a9e06e0e9fd3b464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386f161413c1023128662e4c63b6fd47') in 0.014023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000884 seconds.
+  path: Assets/Blender Models/GrassUVTexture.png
+  artifactKey: Guid(87c23efd6ad5ace4cb8c06c2ba92085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/GrassUVTexture.png using Guid(87c23efd6ad5ace4cb8c06c2ba92085e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4b2d009e12eeab04e3dcd06341ea70') in 0.012494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Blender Models/eye.png
+  artifactKey: Guid(428174d885ff9b34a85c21766d120066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/eye.png using Guid(428174d885ff9b34a85c21766d120066) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd490c672963ae328bc62689eee88434') in 0.012157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/Blender Models/bottle.png
+  artifactKey: Guid(c64fe58d5a7f0d646baa85a3b6801031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/bottle.png using Guid(c64fe58d5a7f0d646baa85a3b6801031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98860e26d3b39c435373f2c4d613c9d') in 0.011269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Blender Models/flowerpink.png
+  artifactKey: Guid(9868b3611971f04408039425b6d26a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/flowerpink.png using Guid(9868b3611971f04408039425b6d26a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e384926bc27498d37c298659b05907a') in 0.015945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Blender Models/FANTAcan.blend
+  artifactKey: Guid(4ce7153a6bddb44428a369e4c0f97556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/FANTAcan.blend using Guid(4ce7153a6bddb44428a369e4c0f97556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db50f7832c13c5b4ca0825c6bd4e8eed') in 0.038082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000702 seconds.
+  path: Assets/Blender Models/flowerblue.blend
+  artifactKey: Guid(8e5f16b2976de8f40abe44a5835e5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/flowerblue.blend using Guid(8e5f16b2976de8f40abe44a5835e5720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd370c569d2f6a2dad8c477a6080f4ab9') in 0.040516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000711 seconds.
+  path: Assets/Blender Models/beaver2.png
+  artifactKey: Guid(edc3e20e05470aa43a8a90d9361c2ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/beaver2.png using Guid(edc3e20e05470aa43a8a90d9361c2ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26ea0e597b8fb638ac3f6c12354b554') in 0.016189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.942348 seconds.
+  path: Assets/Blender Models/Leaves 1.blend
+  artifactKey: Guid(d36dd0bd2b3c81b47ae5d707bfd106a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/Leaves 1.blend using Guid(d36dd0bd2b3c81b47ae5d707bfd106a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cd8ca9524a6762cd18a35183783dfa') in 0.035331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000624 seconds.
+  path: Assets/Blender Models/Legs.png
+  artifactKey: Guid(cec36ef829c634942a1b3df0ca1f18a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/Legs.png using Guid(cec36ef829c634942a1b3df0ca1f18a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b687adc5f417264546ca2056c55cb953') in 0.014687 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Blender Models/LeavesUVLayout.png
+  artifactKey: Guid(e7a2a51e2d550354ea8294a29def7e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/LeavesUVLayout.png using Guid(e7a2a51e2d550354ea8294a29def7e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1c2a4babd1a573c7aa95f8d1041d8e') in 0.012472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.502449 seconds.
+  path: Assets/Blender Models/lillypad.png
+  artifactKey: Guid(ba5f92b7a8e3c084588a5a21fd9505d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/lillypad.png using Guid(ba5f92b7a8e3c084588a5a21fd9505d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69e13ed5726a4b26f2da1b3003919d9f') in 0.021954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000619 seconds.
+  path: Assets/Blender Models/lillyREAL.blend
+  artifactKey: Guid(522e0440746559848a07b873d4d9fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/lillyREAL.blend using Guid(522e0440746559848a07b873d4d9fdf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab2da3ce0c18def60b4a70483109008') in 0.044741 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Blender Models/LILLYTEXTURE111.png
+  artifactKey: Guid(17472c8d1bb55334abd47ba6c2d8b566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/LILLYTEXTURE111.png using Guid(17472c8d1bb55334abd47ba6c2d8b566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aff4cc396e8202b1a478bfaf92269ec') in 0.016889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.468513 seconds.
+  path: Assets/Blender Models/pizzabox 1.blend
+  artifactKey: Guid(5100bd2cc33fcee4088760033f2ebc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/pizzabox 1.blend using Guid(5100bd2cc33fcee4088760033f2ebc88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab3deaffc99f29828ba201aa0cda9d') in 0.078661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.722616 seconds.
+  path: Assets/Blender Models/snaky textures.png
+  artifactKey: Guid(f76ed978e474f6948a49972ce0573749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/snaky textures.png using Guid(f76ed978e474f6948a49972ce0573749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc88e42492579191bfdee633eba419f0') in 0.015660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Blender Models/snozie.png
+  artifactKey: Guid(983d989af812c594594c97e4c6d27664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/snozie.png using Guid(983d989af812c594594c97e4c6d27664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612f806c205dcec24775536b1ceaf80a') in 0.009918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000667 seconds.
+  path: Assets/Blender Models/texturepizza.png
+  artifactKey: Guid(09682945ade70b044b69ceba1fa11475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/texturepizza.png using Guid(09682945ade70b044b69ceba1fa11475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e21f9e6289cf4478c262548fe3b696e') in 0.013380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Blender Models/squirel.png
+  artifactKey: Guid(015cb11c455723e4181bfa366fb9f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/squirel.png using Guid(015cb11c455723e4181bfa366fb9f23f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c30723a716d85e00f7b34343fd450d') in 0.010141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000688 seconds.
+  path: Assets/Blender Models/tip2.png
+  artifactKey: Guid(09b03c63be103e9428ef8745275c1609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tip2.png using Guid(09b03c63be103e9428ef8745275c1609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26c0b4e436bf038b21e96c988931634') in 0.012824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Blender Models/snaky.blend
+  artifactKey: Guid(5b36963db11f70642a3d898d5cf526ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/snaky.blend using Guid(5b36963db11f70642a3d898d5cf526ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd28fa8048a8fff2d019bdae29b0f24') in 0.095753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000713 seconds.
+  path: Assets/Blender Models/tip.png
+  artifactKey: Guid(66ee4258958bcc74196227fc4cea9ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tip.png using Guid(66ee4258958bcc74196227fc4cea9ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb29a1f09f5e389ef5d7b06bd23a3c1') in 0.016419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001130 seconds.
+  path: Assets/Blender Models/squirrel.blend
+  artifactKey: Guid(69bed9e0b03373547b80675c6f9b1989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/squirrel.blend using Guid(69bed9e0b03373547b80675c6f9b1989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78172f412c9b2716a94d8d652a27c678') in 0.087684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.491032 seconds.
+  path: Assets/Blender Models/tongue.png
+  artifactKey: Guid(ac2493d4ef49cbb4d95618c652255850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tongue.png using Guid(ac2493d4ef49cbb4d95618c652255850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249e2f222deabe6faf494a98098eee3') in 0.012893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000836 seconds.
+  path: Assets/Blender Models/tree.fbx
+  artifactKey: Guid(419b99f0e39144445b1f8a47787cdbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tree.fbx using Guid(419b99f0e39144445b1f8a47787cdbbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcc3f75b7b0319cd9532cc6d8c026f7') in 0.066126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000506 seconds.
+  path: Assets/Blender Models/treetrunktexture.blend
+  artifactKey: Guid(adabf6ab8e8ad664b93e4e981a9aa09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/treetrunktexture.blend using Guid(adabf6ab8e8ad664b93e4e981a9aa09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481c853721490b8e6a8bbc30f11c09be') in 0.051699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001188 seconds.
+  path: Assets/Blender Models/tree 2.0 (1).blend
+  artifactKey: Guid(e886b271ee51eca439a7e1cb52f56347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tree 2.0 (1).blend using Guid(e886b271ee51eca439a7e1cb52f56347) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3f4dbcedd9b283fed3fa807da602e2') in 0.050958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Blender Models/tree 2.1.png
+  artifactKey: Guid(1bc350a3f351c1e4e85d181647191d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tree 2.1.png using Guid(1bc350a3f351c1e4e85d181647191d8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665b95ddfb080a660d29b812f1dc8a42') in 0.014437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000634 seconds.
+  path: Assets/Blender Models/tree leafs lod 2.png
+  artifactKey: Guid(bfa3ccf4b63269544b82f1871442b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/tree leafs lod 2.png using Guid(bfa3ccf4b63269544b82f1871442b82a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cd0196def33fd7f89896e15e21f6dd') in 0.011310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000534 seconds.
+  path: Assets/Blender Models/TreeTutorialUV.png
+  artifactKey: Guid(51874773a9b8be94cbf18bd4d34365e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/TreeTutorialUV.png using Guid(51874773a9b8be94cbf18bd4d34365e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b970822e646f4e583cb39cdb3c25b26') in 0.011510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.953395 seconds.
+  path: Assets/Blender Models/Wood.png
+  artifactKey: Guid(783ed0f435965e44e8e646617fedfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blender Models/Wood.png using Guid(783ed0f435965e44e8e646617fedfb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe69e946e50420bb8bcec7eef98e97') in 0.015866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.808161 seconds.
+  path: Assets/Scriptable Objects/Inventory Item_Ball.asset
+  artifactKey: Guid(589f9cd7d3fdbbf4d9249928188386ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Inventory Item_Ball.asset using Guid(589f9cd7d3fdbbf4d9249928188386ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bac66e7856f791fdc1b0c166aeaf793') in 0.056639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Scriptable Objects/Inventory Item_Tube.asset
+  artifactKey: Guid(e54426c3747713e47886e700558c4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Inventory Item_Tube.asset using Guid(e54426c3747713e47886e700558c4aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711ff56c4e5b19ff592fb79f2f95474c') in 0.008430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.309258 seconds.
+  path: Assets/Scriptable Objects
+  artifactKey: Guid(050394911abba204687cc9bccea543e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects using Guid(050394911abba204687cc9bccea543e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0e691d1e75cefa8b568c284371ad14') in 0.007029 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.016686 seconds.
+  path: Assets/Scriptable Objects/Inventory Item_Stick.asset
+  artifactKey: Guid(f7dbe95ffca01214595c7489ecd7f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Inventory Item_Stick.asset using Guid(f7dbe95ffca01214595c7489ecd7f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd67eff532049d4dc2b4fb6b7f3a5123c') in 0.009686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.230638 seconds.
+  path: Assets/Icons/InventoryItem_Ball_Icon.png
+  artifactKey: Guid(d9893c6a67260c347a8b22b3f2a40e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/InventoryItem_Ball_Icon.png using Guid(d9893c6a67260c347a8b22b3f2a40e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59bedf2a5bcda3fe82e6ceb35104c72') in 0.072150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000681 seconds.
+  path: Assets/Icons/InventoryItem_Tube_Icon.png
+  artifactKey: Guid(90afc01a304288b438033bab8d7f3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/InventoryItem_Tube_Icon.png using Guid(90afc01a304288b438033bab8d7f3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c87b5d8b146da6fbdb38d8ec3173a16') in 0.025349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000748 seconds.
+  path: Assets/Icons/InventoryItem_Toad_Icon.png
+  artifactKey: Guid(43173474372ee6c47a51254f834ef111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/InventoryItem_Toad_Icon.png using Guid(43173474372ee6c47a51254f834ef111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc3e44dd34d80f465883ec589c39dfd') in 0.023462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 219.671040 seconds.
+  path: Assets/Scriptable Objects/Inventory Item_Stick.asset
+  artifactKey: Guid(f7dbe95ffca01214595c7489ecd7f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scriptable Objects/Inventory Item_Stick.asset using Guid(f7dbe95ffca01214595c7489ecd7f916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8707396398c694873a4ffb799b46762b') in 0.005376 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003631 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000023818CE5070 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002381517DC80 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002381114F010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023819D88400 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002381507D9E0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023818CE5260 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002381A648340 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023814618C20 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023818CE5450 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023818CE5830 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002383E039010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380BAFA010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.150 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1151ms)
+		BeginReloadAssembly (169ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (913ms)
+			LoadAssemblies (114ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (330ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 3565.
+Total: 4.075000 ms (FindLiveObjects: 0.466300 ms CreateObjectMapping: 0.169000 ms MarkObjects: 3.403900 ms  DeleteObjects: 0.034000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003173 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000238190E3FE0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380FCE8020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000023817DBA020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002383EAF2910 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238106D0080 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238190E3630 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380F614030 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238141E3020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238190E45B0 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000238190E4D70 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002381830F020 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002380BAFA010 doesn't match image D:\Unity\3D Game Project Unity\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (112ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (313ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2872 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 3.853600 ms (FindLiveObjects: 0.348100 ms CreateObjectMapping: 0.093500 ms MarkObjects: 3.375400 ms  DeleteObjects: 0.034800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
