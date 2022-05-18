@@ -22,12 +22,12 @@ public class DialogueTrigger : MonoBehaviour
         //Statement that determines whether we're at the start of the dialogue or not.
         if(!firstLineDone)
         {
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);    //If yes, START the dialogue.
+            dialogueManager.StartDialogue(dialogue);                        //If yes, START the dialogue.
             firstLineDone = true;                                           //And let the script know we're done with the first line
         }
         else
         {
-            FindObjectOfType<DialogueManager>().DisplayNextSentence();      //If no, CONTINUE the dialogue
+            dialogueManager.DisplayNextSentence();                          //If no, CONTINUE the dialogue
         }
 
         if (!animator.GetBool("IsOpen")) { firstLineDone = false; }         //When the dialogue box transitions out of screen, reset the firstLineDone bool.

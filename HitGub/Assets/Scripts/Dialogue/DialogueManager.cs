@@ -13,11 +13,13 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
 
     //Declaring the queue that handles the sequence of sentences in dialogue.
+    public Queue<string> names;
     public Queue<string> sentences;
 
     // Start is called before the first frame update
     void Start() {
         sentences = new Queue<string>();            //Initialise the queue of dialogues
+        names = new Queue<string>();
     }
 
     //Function that starts the dialogue
@@ -26,9 +28,15 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen", true);                   //Start the animation that brings the dialogue box on-screen.
 
         //Debug.Log("Starting conversation with " + dialogue.name);
-        nameText.text = dialogue.name;                      //Set the name of the person speaking.
+        //nameText.text = dialogue.name;                      //Set the name of the person speaking.
 
         sentences.Clear();                                  //Clear the previous queue of sentences.
+
+        //Queue the new names
+        foreach (string name in dialogue.name)
+        {
+            names.Enqueue(name);
+        }
 
         //Queue the new sentences
         foreach (string sentence in dialogue.sentences)
@@ -49,20 +57,23 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        //Ready up the next sentence for printing
+        //Ready up the next sentence AND name for printing
+        string name = names.Dequeue();
         string sentence = sentences.Dequeue();
         StopAllCoroutines();                        //If the previous sentence is still being typed, stop that...
-        StartCoroutine(TypeSentence(sentence));     //...and start typing the next sentence.
+        StartCoroutine(TypeSentence(name, sentence));     //...and start typing the next sentence.
         //dialogueText.text = sentence;
     }
 
     //Coroutine to type the next sentence in the queue
-    IEnumerator TypeSentence (string sentence)
+    IEnumerator TypeSentence (string name, string sentence)
     {
         //Start with an empty dialogue text box
+        nameText.text = "";
         dialogueText.text = "";
 
         //Then, type the sentence, letter-by-letter
+        nameText.text = name;
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
@@ -74,6 +85,6 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);      //Bring the dialogue box off-screen.
-        //Debug.Log("End of conversation.");
+        Debug.Log("End of conversation.");
     }
 }
