@@ -67,8 +67,8 @@ public class PlayerInteraction : MonoBehaviour
             case Interactable.InteractionType.Hold:
                 if (Input.GetKey(key)) { interactable.Interact(); }     //Run the interactable's code when the button is HELD.
                 break;
-            case Interactable.InteractionType.Minigame:
-                //Minigame code goes here (unused for now)
+            case Interactable.InteractionType.Auto:
+                interactable.Interact();                                //Run the interactable's code on trigger.
                 break;
             default:
                 throw new System.Exception("Unsupported type of interactable.");    //If all else fails, throw an error.

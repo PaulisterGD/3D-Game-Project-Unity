@@ -7,7 +7,7 @@ public abstract class Interactable : MonoBehaviour
     {
         Click,              //PRESS E to interact
         Hold,               //HOLD E to interact
-        Minigame            //This is for minigames and custom code. (currently unused)
+        Auto                //This is for minigames and custom code. (currently unused)
     }
 
     public InteractionType interactionType;
