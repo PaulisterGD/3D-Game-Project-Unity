@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bba87ce2db158754d80a653b63f4a133
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Fuzzy Bubbles
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e5ee44bc41fd4bd44ad9140696b5a6e2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1196,6 +1196,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8948604059628334399, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_Text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948604059628334399, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: e5ee44bc41fd4bd44ad9140696b5a6e2, type: 3}
+    - target: {fileID: 8948604059742148565, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: bba87ce2db158754d80a653b63f4a133, type: 3}
     - target: {fileID: 8948604060120341379, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
       propertyPath: m_Name
       value: Screen UI
@@ -1210,7 +1222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8948604060120341407, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8948604060120341407, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1360,7 +1372,7 @@ Transform:
   m_LocalScale: {x: 0.55453, y: 0.55453, z: 0.55453}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -42.792, z: 0}
 --- !u!1 &879239740 stripped
 GameObject:
@@ -1557,7 +1569,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1128481791
 MonoBehaviour:
@@ -3719,7 +3731,7 @@ Transform:
   m_LocalScale: {x: 2.024748, y: 2.024748, z: 2.024748}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: -28.709, z: 0}
 --- !u!4 &764906183932878185
 Transform:
@@ -6885,7 +6897,7 @@ Transform:
   m_Children:
   - {fileID: 8490364260717821656}
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &3350468194113951022
 Transform:
@@ -6899,7 +6911,7 @@ Transform:
   m_LocalScale: {x: 1.818191, y: 1.818191, z: 1.818191}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &3358734642996507417
 MeshRenderer:
@@ -11145,7 +11157,7 @@ Transform:
   m_LocalScale: {x: 4.720403, y: 4.720403, z: 4.720403}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: -188.774, y: -67.695984, z: -19.074005}
 --- !u!23 &6601794081671458765
 MeshRenderer:
