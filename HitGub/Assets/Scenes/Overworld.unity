@@ -1087,167 +1087,6 @@ MonoBehaviour:
   referenceItem: {fileID: 11400000, guid: e54426c3747713e47886e700558c4aa3, type: 2}
   requirements: []
   removeRequirementsOnPickup: 0
---- !u!1 &921187043
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 921187044}
-  - component: {fileID: 921187045}
-  - component: {fileID: 921187047}
-  - component: {fileID: 921187046}
-  m_Layer: 6
-  m_Name: ProximityWarningSensor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &921187044
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921187043}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.2, y: 0, z: 16}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5747665946593846372}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &921187045
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921187043}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 35
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &921187046
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921187043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  dialogue:
-    name: Dad
-    sentences:
-    - Timmy, stop!
-    - The deer will get scared if you get too close.
-    - It will run away. So please be careful!
-  dialogueManager: {fileID: 85898909}
---- !u!114 &921187047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 921187043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0ca381b04e3e1d499080c3c7c7d5f9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionType: 0
-  warningDialogue: {fileID: 921187046}
---- !u!1 &968290484
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 968290485}
-  - component: {fileID: 968290488}
-  - component: {fileID: 968290487}
-  - component: {fileID: 968290486}
-  m_Layer: 6
-  m_Name: ProximityInfoSensor (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &968290485
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968290484}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -36.8, y: 0, z: -46.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5747665946593846372}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &968290486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968290484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a348e7fd7a359b43920d9e0235f5cfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionType: 0
-  infoDialogue: {fileID: 968290487}
---- !u!114 &968290487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968290484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  dialogue:
-    name: Dad
-    sentences:
-    - Wow! Look Timmy it is a deer!
-    - 'Deers are very common in these forests. But you do not usually see them because
-      they are so shy! '
-    - This is amazing!
-  dialogueManager: {fileID: 85898909}
---- !u!135 &968290488
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 968290484}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 40
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1016017201
 GameObject:
   m_ObjectHideFlags: 3
@@ -1977,87 +1816,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1397178958
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1397178959}
-  - component: {fileID: 1397178960}
-  - component: {fileID: 1397178962}
-  - component: {fileID: 1397178961}
-  m_Layer: 6
-  m_Name: ProximityInfoSensor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1397178959
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397178958}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 59.1, y: 0, z: 74.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 5747665946593846372}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!135 &1397178960
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397178958}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 40
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1397178961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397178958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a348e7fd7a359b43920d9e0235f5cfe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactionType: 0
-  infoDialogue: {fileID: 1397178962}
---- !u!114 &1397178962
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1397178958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  dialogue:
-    name: Dad
-    sentences:
-    - Wow! Look Timmy it is a deer!
-    - Deers are very common in these forests.
-    - But you do not usually see them because they are so shy!
-    - This is amazing!
-  dialogueManager: {fileID: 85898909}
 --- !u!1 &1498970347
 GameObject:
   m_ObjectHideFlags: 3
@@ -2839,14 +2597,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!33 &157937525645835210
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8858683124656344463}
-  m_Mesh: {fileID: 2534964839176971238, guid: f3171c076fa65ef4cba5ecd80285dd1e, type: 3}
 --- !u!23 &178789895724335840
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4221,20 +3971,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3760128956530516127}
   m_Mesh: {fileID: 4803634501217650322, guid: 8c149263dbb87b4489ba5bdd31495d91, type: 3}
---- !u!4 &1473736245806864830
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8858683124656344463}
-  m_LocalRotation: {x: -0.0032431807, y: 0, z: -0, w: 0.99999475}
-  m_LocalPosition: {x: 10.5, y: 0.1, z: 17.2}
-  m_LocalScale: {x: 1, y: 1.0000422, z: 1.736639}
-  m_Children: []
-  m_Father: {fileID: 5747665946593846372}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1486828930764316825
 Transform:
   m_ObjectHideFlags: 0
@@ -6312,47 +6048,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &3151092015639901520
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8858683124656344463}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &3151168740393544532
 Transform:
   m_ObjectHideFlags: 0
@@ -6761,6 +6456,75 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &3572539236225814728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 85898909}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 85898909}
+    - target: {fileID: 3572539236597539374, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 85898909}
+    - target: {fileID: 8438666619504766486, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_Name
+      value: DEER
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 789.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.85455
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 533.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.3170841
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9483974
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 143.027
+      objectReference: {fileID: 0}
+    - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
 --- !u!33 &3572839147381582280
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8470,49 +8234,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &4938231167555321566
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5747665946593846372}
-  - component: {fileID: 4938231167555321567}
-  - component: {fileID: 4938231167555321568}
-  m_Layer: 0
-  m_Name: DEER
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &4938231167555321567
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4938231167555321566}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 15
-  m_Center: {x: 10, y: 0, z: 15}
---- !u!114 &4938231167555321568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4938231167555321566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68a20db90f77bfd41950f77e585d77d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &4968875436334919877
 Transform:
   m_ObjectHideFlags: 0
@@ -9684,24 +9405,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5747665946593846372
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4938231167555321566}
-  m_LocalRotation: {x: -0, y: 0.9483974, z: -0, w: 0.3170841}
-  m_LocalPosition: {x: 789.1, y: 4.85455, z: 533.1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1473736245806864830}
-  - {fileID: 1397178959}
-  - {fileID: 921187044}
-  - {fileID: 968290485}
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 143.027, z: 0}
 --- !u!1 &5770229939845045494
 GameObject:
   m_ObjectHideFlags: 0
@@ -13095,24 +12798,6 @@ Transform:
   m_Father: {fileID: 4117089844698150312}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8858683124656344463
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1473736245806864830}
-  - component: {fileID: 157937525645835210}
-  - component: {fileID: 3151092015639901520}
-  m_Layer: 0
-  m_Name: Cylinder
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &8889009814134921893
 GameObject:
   m_ObjectHideFlags: 0
