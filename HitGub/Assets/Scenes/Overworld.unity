@@ -442,7 +442,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 189338050}
-  m_LocalRotation: {x: 0.124220625, y: -0.000000019088317, z: 0.0000000023896713, w: 0.9922547}
+  m_LocalRotation: {x: 0.12422062, y: 0.000000019088317, z: -0.0000000023896711, w: 0.9922547}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -707,10 +707,130 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3572539234896433817, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: interactionType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 85898909}
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[0]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[1]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[2]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539234896433818, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[3]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713982, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: interactionType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 85898909}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[0]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[1]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[2]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[3]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.sentences.Array.data[1]
+      value: Deers are very common in these forests.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.sentences.Array.data[2]
+      value: But you do not usually see them because they are so shy!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236350713983, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.sentences.Array.data[3]
+      value: This is amazing!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236597539373, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: m_Radius
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236597539374, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 85898909}
+    - target: {fileID: 3572539236597539374, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236597539374, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[0]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236597539374, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[1]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236597539374, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: dialogue.name.Array.data[2]
+      value: Dad
+      objectReference: {fileID: 0}
+    - target: {fileID: 3572539236597539375, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: interactionType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8438666619504766486, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_Name
       value: DEER
       objectReference: {fileID: 0}
+    - target: {fileID: 8438666619504766504, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: playerObject
+      value: 
+      objectReference: {fileID: 1752165358}
+    - target: {fileID: 8438666619504766504, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: sensors.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8438666619504766504, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: sensors.Array.data[0]
+      value: 
+      objectReference: {fileID: 1710800557}
+    - target: {fileID: 8438666619504766504, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: sensors.Array.data[1]
+      value: 
+      objectReference: {fileID: 2046475774}
+    - target: {fileID: 8438666619504766504, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+      propertyPath: sensors.Array.data[2]
+      value: 
+      objectReference: {fileID: 835201109}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -721,7 +841,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.000045776367
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -729,19 +849,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.3170841
+      value: 0.33446494
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9483974
+      value: 0.9424082
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -749,7 +869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 143.027
+      value: 140.92
       objectReference: {fileID: 0}
     - target: {fileID: 9104020290231825580, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -824,12 +944,11 @@ MonoBehaviour:
   animator: {fileID: 0}
   dialogue:
     name:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Birdie
+    - Birdie
+    - Birdie
+    - Birdie
+    - Birdie
     sentences:
     - Hey there Timmy!
     - Thank you so much for your help
@@ -1328,6 +1447,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8948604060812969706, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 400
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948604060812969706, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948604060812969707, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8948604060812969707, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 26
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eebaa0507863bc3459405ab3cc7a1138, type: 3}
 --- !u!95 &753761474 stripped
@@ -1398,6 +1533,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: -42.792, z: 0}
+--- !u!1 &835201109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3572539236350713980, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+  m_PrefabInstance: {fileID: 381442208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &879239740 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 574094582246301601, guid: a6cba5fb389550a45bf230a100ac4188, type: 3}
@@ -1588,7 +1728,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1128481787}
-  m_LocalRotation: {x: 0.14220116, y: 0.000000004023501, z: 5.780651e-10, w: 0.98983777}
+  m_LocalRotation: {x: 0.14220116, y: -0.0000000040235006, z: -5.780674e-10, w: 0.98983777}
   m_LocalPosition: {x: 802, y: 6.8199997, z: 296}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2485,6 +2625,11 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.4788957
   m_Center: {x: 0.3543548, y: 0.60119706, z: 0.10988535}
+--- !u!1 &1710800557 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3572539234896433798, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+  m_PrefabInstance: {fileID: 381442208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1743193888
 GameObject:
   m_ObjectHideFlags: 0
@@ -2822,12 +2967,9 @@ MonoBehaviour:
   animator: {fileID: 0}
   dialogue:
     name:
-    - 
-    - 
-    - 
-    - 
-    - 
-    - 
+    - Beaver
+    - Beaver
+    - Beaver
     sentences:
     - Oh hello Timmy!
     - Thank you so much for all the sticks!
@@ -2875,6 +3017,11 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2046475774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3572539236597539371, guid: 1efdb6d8f4a99274d93f82d7cce0c3c1, type: 3}
+  m_PrefabInstance: {fileID: 381442208}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2059189124
 GameObject:
   m_ObjectHideFlags: 0

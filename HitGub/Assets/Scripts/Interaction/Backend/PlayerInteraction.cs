@@ -68,7 +68,8 @@ public class PlayerInteraction : MonoBehaviour
                 if (Input.GetKey(key)) { interactable.Interact(); }     //Run the interactable's code when the button is HELD.
                 break;
             case Interactable.InteractionType.Auto:
-                interactable.Interact();                                //Run the interactable's code on trigger.
+                interactable.Interact();
+                interactable.interactionType = Interactable.InteractionType.Click; //Run the interactable's code on trigger.
                 break;
             default:
                 throw new System.Exception("Unsupported type of interactable.");    //If all else fails, throw an error.

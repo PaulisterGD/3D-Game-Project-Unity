@@ -4,33 +4,41 @@ using UnityEngine;
 
 public class DeerFleeingManager : MonoBehaviour
 {
+    public float speed = 1f;
+    public Transform playerObject;
+    public bool fleeCheck;
+    public GameObject[] sensors;
+    private Vector3 fleeDirection;
+    private Vector3 lastPlayerPosition;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        fleeCheck = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+		if (fleeCheck)
+		{
+            transform.Translate( Vector3.forward * Time.deltaTime * speed );
+		}
     }
 
      //Detect collisions between the GameObjects with Colliders attached
     void OnTriggerEnter(Collider collision)
     {
-        //Check for a match with the specified name on any GameObject that collides with your GameObject
-        if (collision.gameObject.name == "MyGameObjectName")
-        {
-            //If the GameObject's name matches the one you suggest, output this message in the console
-            Debug.Log("Do something here");
-        }
-
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
         if (collision.gameObject.tag == "Player")
         {
-            //If the GameObject has the same tag as specified, output this message in the console
-            Debug.Log("Do something else here");
+            fleeDirection = playerObject.position - lastPlayerPosition;
+            fleeCheck = true;
+            foreach(GameObject sensor in sensors)
+			{
+                sensor.SetActive(false);
+            }
         }
     }
 }
