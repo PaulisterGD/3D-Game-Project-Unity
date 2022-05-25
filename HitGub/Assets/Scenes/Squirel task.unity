@@ -253,7 +253,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 187951181}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: c870779314c2e4e4dbda2bc445e25401, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
@@ -425,6 +425,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a33087fd15c83e46896fa685eaab030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 6270446250751956539, guid: df2d60e44c45c6445b960135105dc6aa, type: 3}
+  xLevel: 0
+  zLevel: 0
+  yLevel: 11
 --- !u!4 &483956601
 Transform:
   m_ObjectHideFlags: 0
@@ -650,7 +654,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6948748408973674852, guid: c90b6c1465dbbf347abce0f882ec39bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.67071
+      value: 9.111029
       objectReference: {fileID: 0}
     - target: {fileID: 6948748408973674852, guid: c90b6c1465dbbf347abce0f882ec39bc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -754,15 +758,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6948748410415583405, guid: c90b6c1465dbbf347abce0f882ec39bc, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.97184116
+      value: 0.9718412
       objectReference: {fileID: 0}
     - target: {fileID: 6948748410415583405, guid: c90b6c1465dbbf347abce0f882ec39bc, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2356369
+      value: 0.23563689
       objectReference: {fileID: 0}
     - target: {fileID: 6948748410415583405, guid: c90b6c1465dbbf347abce0f882ec39bc, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 6948748410415583405, guid: c90b6c1465dbbf347abce0f882ec39bc, type: 3}
       propertyPath: m_LocalRotation.z
@@ -856,8 +860,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505118575}
-  m_LocalRotation: {x: 0.22501613, y: 0.000000018918332, z: 0.0000000021151787, w: 0.9743551}
-  m_LocalPosition: {x: 0, y: 9.091029, z: -16.48046}
+  m_LocalRotation: {x: 0.22501612, y: 0.000000018555355, z: 0.0000000020313538, w: 0.9743551}
+  m_LocalPosition: {x: 0, y: 9.531348, z: -16.48046}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -972,7 +976,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 669085756836230075, guid: 5b22cb5ef07b8cf478c4627f8cfa5ea8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17968094
+      value: 0.62
       objectReference: {fileID: 0}
     - target: {fileID: 669085756836230075, guid: 5b22cb5ef07b8cf478c4627f8cfa5ea8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1322,6 +1326,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactionType: 0
   animator: {fileID: 2902776610017098390}
+  spawnNuts: {fileID: 483956599}
+  nutCount: 0
+  questCompletionTally: 50
+  questComplete: 0
   time: 0.5
 --- !u!135 &2902776610017098392
 SphereCollider:
@@ -1485,6 +1493,7 @@ GameObject:
   - component: {fileID: 5131095233748651066}
   - component: {fileID: 5131095233748651067}
   - component: {fileID: 5131095233748651065}
+  - component: {fileID: 5131095233748651068}
   m_Layer: 6
   m_Name: squirrel
   m_TagString: Untagged
@@ -1551,7 +1560,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
-  dialogueTrigger: {fileID: 5131095233748651065}
+  questCompleteDetect: {fileID: 2902776610017098389}
+  startQuestDialogue: {fileID: 5131095233748651065}
+  endQuestDialogue: {fileID: 5131095233748651068}
+--- !u!114 &5131095233748651068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5131095233748651064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Squirrel
+    sentences:
+    - Thank you Timmy!! You are the best.
+  dialogueManager: {fileID: 257573850}
 --- !u!4 &5512018097465824898
 Transform:
   m_ObjectHideFlags: 0
