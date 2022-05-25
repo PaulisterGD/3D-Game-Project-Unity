@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menu/menu.unity
+    guid: bfd0b2227669a364fbc878552033f5b8
+  - enabled: 1
+    path: Assets/Menu/Settings.unity
+    guid: ec078a7b759ab52438b19ff98aa2787d
+  - enabled: 1
+    path: Assets/Scenes/Squirel task.unity
+    guid: c3386d19b71886e40adb228c880deb46
   m_configObjects: {}
