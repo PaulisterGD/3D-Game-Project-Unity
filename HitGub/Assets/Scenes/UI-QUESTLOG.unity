@@ -252,6 +252,7 @@ GameObject:
   - component: {fileID: 311038452}
   - component: {fileID: 311038451}
   - component: {fileID: 311038453}
+  - component: {fileID: 311038454}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -267,15 +268,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311038449}
   m_LocalRotation: {x: 0.0016927049, y: -0.012613135, z: -0.020006536, w: 0.9997189}
-  m_LocalPosition: {x: 0, y: 0, z: 29}
-  m_LocalScale: {x: 23.79469, y: 23.79469, z: 23.79469}
+  m_LocalPosition: {x: 0, y: 0, z: 22}
+  m_LocalScale: {x: 7.7648473, y: 7.7648473, z: 7.7648473}
   m_Children: []
   m_Father: {fileID: 1411125498}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0.165, y: -1.449, z: -2.295}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1064, y: 656}
+  m_AnchoredPosition: {x: 770, y: 668}
   m_SizeDelta: {x: 30, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &311038451
@@ -298,7 +299,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 26a81ef7214e6804dbe365a2a41d16f0, type: 3}
+  m_Sprite: {fileID: -4721465168965347959, guid: 2313a69ab60f2b94c9fb72f090c5c505, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -335,7 +336,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -346,7 +347,7 @@ MonoBehaviour:
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 5081071698210949071, guid: 1f4ce5b2e9061584e823779a1aa88928, type: 3}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
   m_AnimationTriggers:
@@ -372,6 +373,22 @@ MonoBehaviour:
           m_StringArgument: UI
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!111 &311038454
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311038449}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 0}
+  m_Animations:
+  - {fileID: 7400000, guid: f48b12b55289a774983dc510e4fcc4ec, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &755211770
 PrefabInstance:
   m_ObjectHideFlags: 0
