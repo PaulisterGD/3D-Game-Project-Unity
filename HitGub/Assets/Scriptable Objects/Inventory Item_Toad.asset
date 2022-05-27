@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InventoryItem_Toad
   displayName: Toad
-  icon: {fileID: 21300000, guid: 43173474372ee6c47a51254f834ef111, type: 3}
+  icon: {fileID: 21300000, guid: 395c3a6e972affb4db4e224ba6f14442, type: 3}
   prefab: {fileID: 6854591007900906479, guid: 879f3612d86f6d144bc74fdce7250722, type: 3}
