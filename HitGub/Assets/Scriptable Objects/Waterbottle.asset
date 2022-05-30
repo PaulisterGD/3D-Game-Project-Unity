@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Waterbottle
   m_EditorClassIdentifier: 
   id: InventoryItem_WaterBottle
-  displayName: WaterBottle
-  icon: {fileID: -6931339683150358059, guid: b091fb246df061e49b046f69642fd567, type: 3}
+  displayName: 
+  icon: {fileID: 21300000, guid: 166b4d24f3000cc4b94d70a851c0a9ec, type: 3}
   prefab: {fileID: 919132149155446097, guid: 9fb50cd9eb5e68b42ba3ed7e0ad18586, type: 3}

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Pizza box
   m_EditorClassIdentifier: 
   id: InventoryItem_Pizzabox
-  displayName: PizzaBox
-  icon: {fileID: -6931339683150358059, guid: b091fb246df061e49b046f69642fd567, type: 3}
+  displayName: 
+  icon: {fileID: 21300000, guid: 0ca65cc387e87b24b885521631d96cb0, type: 3}
   prefab: {fileID: 919132149155446097, guid: 5100bd2cc33fcee4088760033f2ebc88, type: 3}
