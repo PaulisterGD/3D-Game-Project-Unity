@@ -12,15 +12,15 @@ public class FlowerPlanter : Interactable
     // Start is called before the first frame update
     void Start()
     {
-        lowBound = -5.0f;
-        highBound = 5.0f;
+        lowBound = -2.5f;
+        highBound = 2.5f;
     }
 
     void PlantFlower()
 	{
         xRand = Random.Range(lowBound, highBound);
         zRand = Random.Range(lowBound, highBound);
-        Instantiate(flowerObject, new Vector3(transform.position.x + xRand, 0, transform.position.z + zRand), transform.rotation);
+        Instantiate(flowerObject, new Vector3(transform.position.x + xRand, transform.position.y, transform.position.z + zRand), transform.rotation);
     }
 
 	public override void Interact()

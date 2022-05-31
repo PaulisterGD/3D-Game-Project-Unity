@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/Overworld.unity
-=======
-- path: Assets/Scenes/HedgehogQuest.unity
->>>>>>> maja-hedgehog
+- path: Assets/Scenes/Squirel task.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
