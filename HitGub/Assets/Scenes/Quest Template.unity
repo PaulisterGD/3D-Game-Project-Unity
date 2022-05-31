@@ -314,8 +314,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4580440413213757471, guid: 952ee9baae052ee42ad13beaed5e65af, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 555165167}
+    m_RemovedComponents:
+    - {fileID: 4580440413213757471, guid: 952ee9baae052ee42ad13beaed5e65af, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 952ee9baae052ee42ad13beaed5e65af, type: 3}
+--- !u!114 &555165167 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6875376417920212362, guid: a1e94b316ab81024f87b69c5142725d1, type: 3}
+  m_PrefabInstance: {fileID: 182559488}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeaf9ec1aff91944795acfb005f20e9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &874815320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4580440413213757467, guid: 952ee9baae052ee42ad13beaed5e65af, type: 3}
+  m_PrefabInstance: {fileID: 497886259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &874815321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874815320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Dudde
+    sentences:
+    - Hello
+    - Bye
+  dialogueManager: {fileID: 555165167}
 --- !u!4 &876590913 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5167086288962154748, guid: 13826d419e24dd94b9066f404d6e9688, type: 3}

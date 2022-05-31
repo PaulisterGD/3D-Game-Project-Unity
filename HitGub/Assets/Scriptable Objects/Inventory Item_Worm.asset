@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d2db1c1761a62a4699be847159dd75b, type: 3}
+  m_Name: Inventory Item_Worm
+  m_EditorClassIdentifier: 
+  id: InventoryItem_Worm
+  displayName: 
+  icon: {fileID: 21300000, guid: 48522d0752926764aafe70f9962b0364, type: 3}
+  prefab: {fileID: 919132149155446097, guid: 563f1a11f62283d418d6d16d92fc62b0, type: 3}

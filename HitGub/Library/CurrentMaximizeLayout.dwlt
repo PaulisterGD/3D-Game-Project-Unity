@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 8}
   - {fileID: 13}
 =======
@@ -25,10 +26,15 @@ MonoBehaviour:
 =======
   - {fileID: 15}
 >>>>>>> Mir-Map
+=======
+  - {fileID: 8}
+  - {fileID: 13}
+>>>>>>> maja-hedgehog
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1920
@@ -53,6 +59,14 @@ MonoBehaviour:
   vertical: 0
   controlID: 397
 >>>>>>> Mir-Map
+=======
+    width: 1521.6
+    height: 716.4
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
+  vertical: 0
+  controlID: -1
+>>>>>>> maja-hedgehog
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -74,6 +88,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
     y: 654
@@ -90,6 +105,12 @@ MonoBehaviour:
     width: 1163
     height: 800
 >>>>>>> Mir-Map
+=======
+    x: 7.2000003
+    y: 301.6
+    width: 744.6
+    height: 474.60004
+>>>>>>> maja-hedgehog
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -98,28 +119,37 @@ MonoBehaviour:
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_TargetSize: {x: 2560, y: 1600}
 =======
   m_TargetSize: {x: 825, y: 463.99997}
 >>>>>>> squirel-and-menu
+=======
+  m_TargetSize: {x: 2560, y: 1600}
+>>>>>>> maja-hedgehog
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_MaximizeOnPlay: 1
+  m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
   m_Stats: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SelectedSizes: 08000000000000000000000000000000000000000000000000000000000000000000000000000000
 =======
   m_SelectedSizes: 01000000000000000000000000000000000000000000000000000000000000000000000000000000
 >>>>>>> squirel-and-menu
+=======
+  m_SelectedSizes: 07000000000000000000000000000000000000000000000000000000000000000000000000000000
+>>>>>>> maja-hedgehog
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_HBaseRangeMin: -1280
     m_HBaseRangeMax: 1280
@@ -131,6 +161,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -185.59999
     m_VBaseRangeMax: 185.59999
 >>>>>>> squirel-and-menu
+=======
+    m_HBaseRangeMin: -1024
+    m_HBaseRangeMax: 1024
+    m_VBaseRangeMin: -640
+    m_VBaseRangeMax: 640
+>>>>>>> maja-hedgehog
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -150,6 +186,7 @@ MonoBehaviour:
       y: 21
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       width: 1273
       height: 324
     m_Scale: {x: 0.2025, y: 0.2025}
@@ -166,12 +203,19 @@ MonoBehaviour:
     m_Scale: {x: 0.60572916, y: 0.60572916}
     m_Translation: {x: 581.5, y: 389.5}
 >>>>>>> Mir-Map
+=======
+      width: 744.6
+      height: 453.60004
+    m_Scale: {x: 0.35437503, y: 0.35437503}
+    m_Translation: {x: 372.3, y: 226.80002}
+>>>>>>> maja-hedgehog
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
       x: -3143.21
@@ -199,6 +243,15 @@ MonoBehaviour:
   m_defaultScale: 0.60572916
   m_LastWindowPixelSize: {x: 1163, y: 800}
 >>>>>>> Mir-Map
+=======
+      x: -1050.5819
+      y: -640
+      width: 2101.1638
+      height: 1280
+    m_MinimalGUI: 1
+  m_defaultScale: 0.35437503
+  m_LastWindowPixelSize: {x: 930.75, y: 593.25006}
+>>>>>>> maja-hedgehog
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -219,14 +272,19 @@ MonoBehaviour:
   m_Children:
   - {fileID: 4}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 7}
 =======
   - {fileID: 11}
 >>>>>>> Mir-Map
+=======
+  - {fileID: 7}
+>>>>>>> maja-hedgehog
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1274
@@ -251,6 +309,14 @@ MonoBehaviour:
   vertical: 1
   controlID: 398
 >>>>>>> Mir-Map
+=======
+    width: 745.6
+    height: 716.4
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
+  vertical: 1
+  controlID: -1
+>>>>>>> maja-hedgehog
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -260,6 +326,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
@@ -288,6 +355,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
 >>>>>>> Mir-Map
+=======
+>>>>>>> maja-hedgehog
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: SceneView
   m_EditorClassIdentifier: 
@@ -296,6 +365,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     width: 1274
@@ -314,10 +384,18 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
 >>>>>>> Mir-Map
+=======
+    width: 745.6
+    height: 220.8
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 5}
+>>>>>>> maja-hedgehog
   m_Panes:
   - {fileID: 5}
   - {fileID: 6}
   m_Selected: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_LastSelected: 1
 --- !u!114 &5
@@ -408,6 +486,10 @@ MonoBehaviour:
   m_LastSelected: 0
 --- !u!114 &8
 >>>>>>> Mir-Map
+=======
+  m_LastSelected: 1
+--- !u!114 &5
+>>>>>>> maja-hedgehog
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -427,6 +509,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
     x: 0
 <<<<<<< HEAD
@@ -450,6 +533,15 @@ MonoBehaviour:
   m_ShowContextualTools: 0
   m_WindowGUID: c208863edda971b4bb0cdce24181c953
 >>>>>>> squirel-and-menu
+=======
+    x: 7.2000003
+    y: 80.8
+    width: 744.6
+    height: 199.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_ShowContextualTools: 0
+  m_WindowGUID: 3ba6daac78d14314c9bea910810a7136
+>>>>>>> maja-hedgehog
   m_Gizmos: 1
   m_OverrideSceneCullingMask: 6917529027641081856
   m_SceneIsLit: 1
@@ -459,6 +551,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: -6.449715, y: 2.164412, z: -2.6141443}
@@ -474,6 +567,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 460.66232, y: 29.140287, z: 30.099268}
 >>>>>>> Mir-Map
+=======
+    m_Target: {x: 0.78029317, y: 8.247726, z: 3.6651874}
+    speed: 2
+    m_Value: {x: 0.78029317, y: 8.247726, z: 3.6651874}
+>>>>>>> maja-hedgehog
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -522,6 +620,7 @@ MonoBehaviour:
   m_Rotation:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.02350826, y: 0.9761475, z: -0.1388642, w: -0.16525117}
     speed: 2
     m_Value: {x: -0.02350817, y: 0.9761438, z: -0.13886367, w: -0.16525054}
@@ -547,6 +646,15 @@ MonoBehaviour:
     speed: 2
     m_Value: 21.400076
 >>>>>>> Mir-Map
+=======
+    m_Target: {x: -0.20729423, y: 0.003519111, z: -0.0007456379, w: -0.9782721}
+    speed: 2
+    m_Value: {x: -0.20729423, y: 0.003519111, z: -0.0007456379, w: -0.9782721}
+  m_Size:
+    m_Target: 11.513062
+    speed: 2
+    m_Value: 11.513062
+>>>>>>> maja-hedgehog
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -555,10 +663,13 @@ MonoBehaviour:
 <<<<<<< HEAD
     m_Speed: 1
     m_SpeedNormalized: 0.5
+<<<<<<< HEAD
 =======
     m_Speed: 0.64068
     m_SpeedNormalized: 0.32
 >>>>>>> squirel-and-menu
+=======
+>>>>>>> maja-hedgehog
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -585,12 +696,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
+=======
+  m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
+>>>>>>> maja-hedgehog
   m_Name: 
   m_EditorClassIdentifier: 
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Text: Console
     m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
@@ -724,6 +840,21 @@ MonoBehaviour:
   m_LayerEditor:
     m_SelectedLayerIndex: 0
 >>>>>>> squirel-and-menu
+=======
+    m_Text: Animation
+    m_Image: {fileID: -3237396543322336831, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 7.2000003
+    y: 80.8
+    width: 845.4
+    height: 383.8
+  m_ViewDataDictionary: {fileID: 0}
+  m_LockTracker:
+    m_IsLocked: 0
+  m_LastSelectedObjectID: -12446
+>>>>>>> maja-hedgehog
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -741,6 +872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     y: 581
     width: 1274
     height: 366
@@ -755,15 +887,25 @@ MonoBehaviour:
     y: 309.6
     width: 746.4
     height: 413.19998
+=======
+    y: 220.8
+    width: 745.6
+    height: 495.60004
+>>>>>>> maja-hedgehog
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
+<<<<<<< HEAD
   - {fileID: 8}
   m_Selected: 0
   m_LastSelected: 1
 >>>>>>> squirel-and-menu
+=======
+  m_Selected: 0
+  m_LastSelected: 0
+>>>>>>> maja-hedgehog
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -772,6 +914,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   m_EditorHideFlags: 0
@@ -803,16 +946,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
 >>>>>>> squirel-and-menu
+=======
+>>>>>>> maja-hedgehog
   m_EditorHideFlags: 1
   m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> maja-hedgehog
   - {fileID: 9}
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1274
     y: 0
     width: 363
@@ -862,6 +1011,17 @@ MonoBehaviour:
     height: 897
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &11
+=======
+    x: 745.6
+    y: 0
+    width: 329.6
+    height: 716.4
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 3302
+--- !u!114 &9
+>>>>>>> maja-hedgehog
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -872,15 +1032,20 @@ MonoBehaviour:
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: 
 =======
   m_Name: ProjectBrowser
 >>>>>>> Mir-Map
+=======
+  m_Name: 
+>>>>>>> maja-hedgehog
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
     y: 0
 <<<<<<< HEAD
@@ -924,6 +1089,49 @@ MonoBehaviour:
       m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 9273ffff6afbffff464a0000
+=======
+    y: 0
+    width: 329.6
+    height: 315.2
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 10}
+  m_Panes:
+  - {fileID: 10}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &10
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 1
+  m_Script: {fileID: 12061, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Hierarchy
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 752.8
+    y: 80.8
+    width: 327.6
+    height: 294.2
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 60}
+      m_SelectedIDs: 7acfffff
+      m_LastClickedID: -12422
+      m_ExpandedIDs: 74cfffff82cfffff84cfffffa8d4ffffb6d4ffffe0d4ffff1cdbffff1edbffffdee3ffff44e4ffff6afbffff12560000f65b0000ba5e0000445f00004e5f00003e600000
+>>>>>>> maja-hedgehog
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -939,14 +1147,22 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
+<<<<<<< HEAD
         m_ClientGUIView: {fileID: 7}
+=======
+        m_ClientGUIView: {fileID: 4}
+>>>>>>> maja-hedgehog
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
     m_LockTracker:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
+<<<<<<< HEAD
   m_WindowGUID: ce2a09fe40cdddc478ddaa47c0a46aa6
+=======
+  m_WindowGUID: 7cdd147174e1ffe4a8ae2c87d1e8c412
+>>>>>>> maja-hedgehog
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -963,6 +1179,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 433
     width: 363
     height: 514
@@ -1078,6 +1295,19 @@ MonoBehaviour:
   m_LastSelected: 1
 --- !u!114 &12
 >>>>>>> Mir-Map
+=======
+    y: 315.2
+    width: 329.6
+    height: 401.2
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 12}
+  m_Panes:
+  - {fileID: 12}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &12
+>>>>>>> maja-hedgehog
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1099,6 +1329,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1274
     y: 506
     width: 361
@@ -1115,6 +1346,12 @@ MonoBehaviour:
     width: 1751
     height: 465
 >>>>>>> Mir-Map
+=======
+    x: 752.8
+    y: 396
+    width: 327.6
+    height: 380.2
+>>>>>>> maja-hedgehog
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -1129,6 +1366,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     - Assets/Shaders
@@ -1158,10 +1396,22 @@ MonoBehaviour:
   m_LastFoldersGridSize: 87
   m_LastProjectPath: C:\Users\Mirthe\Documents\GitHub\3D-Game-Project-Unity\HitGub
 >>>>>>> Mir-Map
+=======
+    - Assets/Scenes
+    m_Globs: []
+    m_OriginalText: 
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scenes
+  m_LastFoldersGridSize: -1
+  m_LastProjectPath: C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub
+>>>>>>> maja-hedgehog
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_SelectedIDs: e84c0000
     m_LastClickedID: 19688
@@ -1175,6 +1425,11 @@ MonoBehaviour:
     m_LastClickedID: 21412
     m_ExpandedIDs: 000000007e5300008053000082530000845300008653000000ca9a3b
 >>>>>>> Mir-Map
+=======
+    m_SelectedIDs: d24c0000
+    m_LastClickedID: 19666
+    m_ExpandedIDs: 00000000a84c0000aa4c0000ac4c0000ae4c0000b04c000000ca9a3b
+>>>>>>> maja-hedgehog
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1192,6 +1447,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 0}
 =======
       m_ClientGUIView: {fileID: 12}
@@ -1199,6 +1455,9 @@ MonoBehaviour:
 =======
       m_ClientGUIView: {fileID: 11}
 >>>>>>> Mir-Map
+=======
+      m_ClientGUIView: {fileID: 11}
+>>>>>>> maja-hedgehog
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1212,6 +1471,7 @@ MonoBehaviour:
     m_LastClickedID: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000b44c0000b64c0000b84c0000ba4c0000bc4c0000be4c0000c04c0000e24c000000ca9a3b
 =======
     m_ExpandedIDs: 00000000e84c000000ca9a3b
@@ -1219,6 +1479,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 000000007e5300008053000082530000845300008653000000ca9a3b
 >>>>>>> Mir-Map
+=======
+    m_ExpandedIDs: 00000000a84c0000aa4c0000ac4c0000ae4c0000b04c000000ca9a3b
+>>>>>>> maja-hedgehog
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1245,6 +1508,7 @@ MonoBehaviour:
   m_ListAreaState:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 0cd9ffff
     m_LastClickedInstanceID: -9972
     m_HadKeyboardFocusLastEvent: 0
@@ -1261,6 +1525,12 @@ MonoBehaviour:
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fc6c00008c64000000000000
 >>>>>>> Mir-Map
+=======
+    m_SelectedInstanceIDs: 7acfffff
+    m_LastClickedInstanceID: -12422
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000e0640000
+>>>>>>> maja-hedgehog
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1278,6 +1548,7 @@ MonoBehaviour:
       m_IsRenamingFilename: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_ClientGUIView: {fileID: 11}
 =======
       m_ClientGUIView: {fileID: 12}
@@ -1285,6 +1556,9 @@ MonoBehaviour:
 =======
       m_ClientGUIView: {fileID: 11}
 >>>>>>> Mir-Map
+=======
+      m_ClientGUIView: {fileID: 11}
+>>>>>>> maja-hedgehog
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1295,6 +1569,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
     m_ScrollPosition: {x: 0, y: 0}
+<<<<<<< HEAD
     m_GridSize: 16
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 115
@@ -1337,6 +1612,12 @@ MonoBehaviour:
     height: 465
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &14
+=======
+    m_GridSize: 64
+  m_SkipHiddenPackages: 0
+  m_DirectoriesAreaWidth: 110
+--- !u!114 &13
+>>>>>>> maja-hedgehog
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1344,6 +1625,7 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+<<<<<<< HEAD
   m_EditorHideFlags: 0
   m_Script: {fileID: 12071, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1373,6 +1655,8 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+=======
+>>>>>>> maja-hedgehog
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
@@ -1380,6 +1664,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     x: 1637
@@ -1418,6 +1703,20 @@ MonoBehaviour:
   m_LastSelected: 1
 --- !u!114 &16
 >>>>>>> Mir-Map
+=======
+    x: 1075.2
+    y: 0
+    width: 446.40002
+    height: 716.4
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
+  m_ActualView: {fileID: 14}
+  m_Panes:
+  - {fileID: 14}
+  m_Selected: 0
+  m_LastSelected: 0
+--- !u!114 &14
+>>>>>>> maja-hedgehog
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1439,6 +1738,7 @@ MonoBehaviour:
     serializedVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     x: 1637
     y: 73
     width: 282
@@ -1455,10 +1755,17 @@ MonoBehaviour:
     width: 807
     height: 1286
 >>>>>>> Mir-Map
+=======
+    x: 1082.4
+    y: 80.8
+    width: 445.40002
+    height: 695.4
+>>>>>>> maja-hedgehog
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_CachedPref: -160
     m_ControlHash: -371814159
@@ -1476,10 +1783,18 @@ MonoBehaviour:
   m_LastInspectedObjectInstanceID: 19190
   m_LastVerticalScrollValue: 720
 >>>>>>> squirel-and-menu
+=======
+    m_CachedPref: -160
+    m_ControlHash: -371814159
+    m_PrefName: Preview_InspectorPreview
+  m_LastInspectedObjectInstanceID: -1
+  m_LastVerticalScrollValue: 180
+>>>>>>> maja-hedgehog
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -1519,3 +1834,5 @@ MonoBehaviour:
 >>>>>>> Mir-Map
   m_ViewDataDictionary: {fileID: 0}
 >>>>>>> squirel-and-menu
+=======
+>>>>>>> maja-hedgehog
