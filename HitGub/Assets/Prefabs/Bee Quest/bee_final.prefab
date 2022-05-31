@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1585906711932698726}
   - component: {fileID: 744544154980280293}
   - component: {fileID: 3919803375944217594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 4344484473593381969}
   - component: {fileID: 6399332083853608593}
   - component: {fileID: 281650528514309690}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 3417077683484663108}
   - component: {fileID: 2526136430010835485}
   - component: {fileID: 7954970703006580025}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 2209878676313038263}
   - component: {fileID: 1653794452818121557}
   - component: {fileID: 4544086581646086178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 2623206576431317668}
   - component: {fileID: 42967353813370241}
   - component: {fileID: 1792776518949902935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -416,7 +416,7 @@ GameObject:
   - component: {fileID: 2974808595616375911}
   - component: {fileID: 4240748077115881166}
   - component: {fileID: 678253579179908032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +497,7 @@ GameObject:
   - component: {fileID: 3667918133904237134}
   - component: {fileID: 1731146654947589845}
   - component: {fileID: 1264213409880741811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -578,7 +578,7 @@ GameObject:
   - component: {fileID: 5746927203525312812}
   - component: {fileID: 2194321720753924731}
   - component: {fileID: 994294720776850043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -659,7 +659,7 @@ GameObject:
   - component: {fileID: 2153168190933912677}
   - component: {fileID: 2508411787010822114}
   - component: {fileID: 119665377234228392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -740,7 +740,7 @@ GameObject:
   - component: {fileID: 4464133080500702385}
   - component: {fileID: 3148316834796531397}
   - component: {fileID: 160695079931355231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   - component: {fileID: 4370519394673095905}
   - component: {fileID: 4563049214705152096}
   - component: {fileID: 8787684228359912145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 2805420602351108887}
   - component: {fileID: 2755502607937197108}
   - component: {fileID: 1270967525596309245}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -983,7 +983,7 @@ GameObject:
   - component: {fileID: 1845850872643106139}
   - component: {fileID: 5380876912873231875}
   - component: {fileID: 4754777887218630389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1062,7 +1062,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7368950659198677355}
-  m_Layer: 0
+  - component: {fileID: 7642577034494960835}
+  - component: {fileID: 6666812002192866261}
+  - component: {fileID: 5743908208112413744}
+  - component: {fileID: 8353351935495627657}
+  - component: {fileID: 6625812792184479754}
+  - component: {fileID: 7785530829430679240}
+  - component: {fileID: 1217502594142373576}
+  m_Layer: 6
   m_Name: bee_final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1096,3 +1103,140 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7642577034494960835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3233fcf4e74a28d45a6fba67a33946ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 0
+  questStartDialogue: {fileID: 6666812002192866261}
+  postFlowerDialogue: {fileID: 5743908208112413744}
+  questEndDialogue: {fileID: 8353351935495627657}
+  giveSeeds: {fileID: 7785530829430679240}
+  giveWaterBottle: {fileID: 1217502594142373576}
+  seedCount: 5
+  questState: 0
+--- !u!114 &6666812002192866261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Bee
+    - Bee
+    - Bee
+    sentences:
+    - Quest start dialogue
+    - This will play when the bee asks for help.
+    - Plant the flowers bozo
+  dialogueManager: {fileID: 0}
+--- !u!114 &5743908208112413744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Bee
+    - Bee
+    - Bee
+    sentences:
+    - Midpoint of quest update
+    - This is where the bee needs these flowers watered
+    - and gives a water bottle for them
+  dialogueManager: {fileID: 6875376417920212362, guid: a1e94b316ab81024f87b69c5142725d1, type: 3}
+--- !u!114 &8353351935495627657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Bee
+    - Bee
+    - Bee
+    sentences:
+    - OMG Timmy you're so clever and helpful and kind
+    - Have my babie- wait
+    - That got a little much there
+  dialogueManager: {fileID: 6875376417920212362, guid: a1e94b316ab81024f87b69c5142725d1, type: 3}
+--- !u!136 &6625812792184479754
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 10
+  m_Height: 30
+  m_Direction: 1
+  m_Center: {x: 6.05, y: -7.16, z: 0}
+--- !u!114 &7785530829430679240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 11400000, guid: b34e2c234719b5e45b7c699306d82d79, type: 2}
+  requirements:
+  - itemData: {fileID: 11400000, guid: b34e2c234719b5e45b7c699306d82d79, type: 2}
+    amount: 1
+  removeRequirementsOnPickup: 0
+--- !u!114 &1217502594142373576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856552886960565201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 11400000, guid: 5e8842673fce6c34ba166851abf2ce28, type: 2}
+  requirements:
+  - itemData: {fileID: 11400000, guid: 5e8842673fce6c34ba166851abf2ce28, type: 2}
+    amount: 1
+  removeRequirementsOnPickup: 0

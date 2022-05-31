@@ -22,7 +22,20 @@ public class ItemObject : MonoBehaviour
         Destroy(gameObject);
     }
 
-    public void OnHandleDropOffItem()
+	public void OnHandleGiveItem()
+	{
+		if (MeetsRequirements())
+		{
+			if (removeRequirementsOnPickup)
+			{
+				RemoveRequirements();
+			}
+		}
+
+		InventorySystem.current.ItemAdd(referenceItem);
+	}
+
+	public void OnHandleDropOffItem()
 	{
 		if (MeetsRequirements())
 		{
