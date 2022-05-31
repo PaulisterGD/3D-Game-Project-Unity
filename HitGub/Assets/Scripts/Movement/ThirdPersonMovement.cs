@@ -8,6 +8,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public Transform cam;
     //public Camera interactCam;
     public Transform groundCheck;
+    //public GameObject projectile;
 
     public float speed = 6f;
     public float gravity = -9.81f;
@@ -77,4 +78,15 @@ public class ThirdPersonMovement : MonoBehaviour
         focus = null;
     }
     */
+    
+    
+    
+    
+    
+    // test for breadcrumbs following
+    
+    // if(Input.GetKeyDown(KeyCode.Space))
+    //     {
+    //         Instantiate(projectile, transform.position, projectile.transform.rotation); // create the object at the player to shoot
+    //     }
 }
