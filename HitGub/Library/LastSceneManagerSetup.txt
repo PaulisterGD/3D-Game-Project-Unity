@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/BeeQuest.unity
-=======
-- path: Assets/Scenes/Duck.unity
->>>>>>> squirel-and-menu
+- path: Assets/Scenes/Overworld.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
