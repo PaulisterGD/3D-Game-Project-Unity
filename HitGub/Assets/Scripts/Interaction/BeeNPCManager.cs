@@ -4,22 +4,24 @@ using UnityEngine;
 
 public class BeeNPCManager : Interactable
 {
-    public GameObject flowerObject;
+
+    public GameObject flowerPlanter;
+    public FlowerWaterManager waterManager;
     public DialogueTrigger questStartDialogue, postFlowerDialogue, questEndDialogue;
     public ItemObject giveSeeds, giveWaterBottle;
     public float seedCount = 5;
-    public float dialogueDelay = 0;
-    public float xRand, zRand, lowBound, highBound;
 
     public enum QuestState
 	{
         QuestStart,
         PreFlower,
         PostFlower,
+        Watering,
         QuestEnd
 	}
     public QuestState questState;
 
+    private float dialogueDelayOne, dialogueDelayTwo;
     private bool flowerSeedsGiven, waterBottleGiven;
 
     // Start is called before the first frame update
@@ -27,72 +29,48 @@ public class BeeNPCManager : Interactable
     {
         flowerSeedsGiven = false;
         waterBottleGiven = false;
-        lowBound = -5.0f;
-        highBound = 5.0f;
+        dialogueDelayOne = 0;
+        dialogueDelayTwo = 0;
         questState = QuestState.QuestStart;
     }
 
-
-    // Update is called once per frame
-    void QuestStartFunc()
-    {
-        questStartDialogue.TriggerDialogue();
-        dialogueDelay++;
-        
-        if (dialogueDelay > 3)
-		{
-            if (!flowerSeedsGiven)
-            {
-                for (int i = 0; i < seedCount; i++)
-                {
-                    giveSeeds.OnHandleGiveItem();
-                }
-                flowerSeedsGiven = true;
-                questState = QuestState.PreFlower;
-            }
-        }
-        /*
-        switch (questState)
-		{
-            case QuestState.QuestStart:
-                
-                break;
-            case QuestState.PostFlower:
-                postFlowerDialogue.TriggerDialogue();
-                if (!waterBottleGiven) { giveWaterBottle.OnHandleGiveItem(); waterBottleGiven = true; }
-                giveWaterBottle.OnHandleGiveItem();
-                break;
-            case QuestState.QuestEnd:
-                questEndDialogue.TriggerDialogue();
-                break;
-            default:
-                break;
-        }
-        */
-    }
-
-    public void FlowerPlanting()
+	void Update()
 	{
-        xRand = Random.Range(lowBound, highBound);
-        zRand = Random.Range(lowBound, highBound);
-        Instantiate(flowerObject, new Vector3(transform.position.x + xRand, transform.position.y, transform.position.z + zRand), transform.rotation);
-    }
+		switch (questState)
+		{
+            case QuestState.QuestStart: break;
+            case QuestState.PreFlower: if (!giveSeeds.MeetsRequirements()) { questState = QuestState.PostFlower; } break;
+            case QuestState.PostFlower:	
+                if (waterBottleGiven) { 
+                    questState = QuestState.Watering;
+                } 
+                break;
+            case QuestState.Watering:
+                Debug.Log("Waiting for quest competion...");
+                bool waterCheck = waterManager.WaterCheck();
+                Debug.Log("Check returns " + waterCheck);
+                if (waterCheck) { 
+                    questState = QuestState.QuestEnd;
+                } 
+                break;
+            case QuestState.QuestEnd: break;
+            default:
+                Debug.LogError("whoa what's going on? The state machine broke!");
+                break;
+        }
+        Debug.Log(questState);
+	}
 
 	public override string GetDescription()
 	{
         switch (questState)
         {
-            case QuestState.QuestStart:
-                return "Press E to talk to the bee!";
-            case QuestState.PreFlower:
-                return "Plant 5 flowers!";
-            case QuestState.PostFlower:
-                return "Press E to see what the bee has to say!";
-            case QuestState.QuestEnd:
-                return "Press E to show the watered flowers to the bee!";
-            default:
-                Debug.LogError("whoa what's going on? The state machine broke!");
-                return "";
+            case QuestState.QuestStart: return "Press E to talk to the bee!";
+            case QuestState.PreFlower: return "Plant 5 flowers!";
+            case QuestState.PostFlower: return "Press E to see what the bee has to say!";
+            case QuestState.Watering: return "You need to water the plants!";
+            case QuestState.QuestEnd: return "Press E to show the watered flowers to the bee!";
+            default: Debug.LogError("whoa what's going on? The state machine broke!"); return "";
         }
     }
 
@@ -106,10 +84,42 @@ public class BeeNPCManager : Interactable
             case QuestState.PreFlower:
                 break;
             case QuestState.PostFlower:
+                PostFlowerStateFunc();
+                break;
+            case QuestState.Watering:
                 break;
             case QuestState.QuestEnd:
+                questEndDialogue.TriggerDialogue();
                 break;
         }
-        
 	}
+
+    void QuestStartFunc()
+    {
+        questStartDialogue.TriggerDialogue();
+        dialogueDelayOne++;
+
+        if (dialogueDelayOne > 3){
+            if (!flowerSeedsGiven) {
+                for (int i = 0; i < seedCount; i++) { giveSeeds.OnHandleGiveItem(); }
+                flowerSeedsGiven = true;
+                questState = QuestState.PreFlower;
+            }
+        }
+    }
+
+    public void PostFlowerStateFunc()
+	{
+        postFlowerDialogue.TriggerDialogue();
+        dialogueDelayTwo++;
+
+        if (dialogueDelayTwo > 3)
+        {
+            if (!waterBottleGiven)
+            {
+                giveWaterBottle.OnHandleGiveItem();
+                waterBottleGiven = true;
+            }
+        }
+    }
 }

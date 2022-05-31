@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7942869692697970244}
   - component: {fileID: 8680800425186157616}
   - component: {fileID: 5905226090646612650}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2019964843490921433}
   - component: {fileID: 5600999642517741710}
   - component: {fileID: 6774826998408233102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 5632001518914979472}
   - component: {fileID: 8144442990061208855}
   - component: {fileID: 5935840532027645533}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -254,7 +254,7 @@ GameObject:
   - component: {fileID: 5356102754174943150}
   - component: {fileID: 1830083840207674614}
   - component: {fileID: 1312000833715860480}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -333,7 +333,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3858090715082980254}
-  m_Layer: 0
+  - component: {fileID: 1234921859552688057}
+  - component: {fileID: 1910394003692165853}
+  - component: {fileID: 8526682389604828908}
+  m_Layer: 6
   m_Name: BeeQuestFlower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -360,6 +363,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1234921859552688057
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522002964922016036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1, z: 0.5}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1910394003692165853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522002964922016036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9358d32747272846846cb8f0438e4b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 0
+  waterCheck: {fileID: 8526682389604828908}
+  waterManager: {fileID: 2760318658467191255, guid: c0eb71d920286314184e22f6ccbb131a, type: 3}
+--- !u!114 &8526682389604828908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4522002964922016036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 0}
+  requirements:
+  - itemData: {fileID: 11400000, guid: 5e8842673fce6c34ba166851abf2ce28, type: 2}
+    amount: 1
+  removeRequirementsOnPickup: 0
 --- !u!1 &4910970608058236230
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,7 +419,7 @@ GameObject:
   - component: {fileID: 8035478474008415908}
   - component: {fileID: 794755752768097380}
   - component: {fileID: 5774154774325720271}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -452,7 +500,7 @@ GameObject:
   - component: {fileID: 8980901724192413617}
   - component: {fileID: 8126700686182328552}
   - component: {fileID: 4444154739394000844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1116,6 +1116,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
+  selfCollider: {fileID: 6625812792184479754}
+  flowerPlanter: {fileID: 1779689992850770810, guid: 5507686c8eee4a944bf6b95162b5f01b, type: 3}
+  waterManager: {fileID: 2760318658467191255, guid: c0eb71d920286314184e22f6ccbb131a, type: 3}
   questStartDialogue: {fileID: 6666812002192866261}
   postFlowerDialogue: {fileID: 5743908208112413744}
   questEndDialogue: {fileID: 8353351935495627657}
