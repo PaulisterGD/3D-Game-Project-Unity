@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InventoryItem_Paper
   displayName: 
-  icon: {fileID: 21300000, guid: bf18120aab4ac5d42902521969db4a5f, type: 3}
+  icon: {fileID: 21300000, guid: 83200deb667dd8046adf20f9b708ee15, type: 3}
   prefab: {fileID: 919132149155446097, guid: 059b483d9845b50438ce288bc5e8af3a, type: 3}

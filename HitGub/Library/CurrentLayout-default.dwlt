@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1521.6
     height: 766.4
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -123,7 +123,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 3957
+  controlID: 135
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,10 +145,10 @@ MonoBehaviour:
     y: 0
     width: 745.6
     height: 716.4
-  m_MinSize: {x: 201, y: 421}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 3958
+  controlID: 44
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -168,8 +168,8 @@ MonoBehaviour:
     y: 0
     width: 745.6
     height: 220.8
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 3932
+  controlID: 92
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -361,7 +361,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
       y: 21
       width: 744.6
       height: 453.60004
-    m_Scale: {x: 0.35437503, y: 0.35437503}
+    m_Scale: {x: 0.3635742, y: 0.36357424}
     m_Translation: {x: 372.3, y: 226.80002}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -382,12 +382,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -1050.5819
-      y: -640
-      width: 2101.1638
-      height: 1280
+      x: -1024
+      y: -623.80664
+      width: 2048
+      height: 1247.6133
     m_MinimalGUI: 1
-  m_defaultScale: 0.35437503
+  m_defaultScale: 0.3635742
   m_LastWindowPixelSize: {x: 930.75, y: 593.25006}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -565,10 +565,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 30.799988}
-      m_SelectedIDs: 62cfffff
-      m_LastClickedID: -12446
-      m_ExpandedIDs: 74cfffff82cfffff84cfffffa8d4ffffb6d4ffffe0d4ffff1cdbffff1edbffffdee3ffff44e4ffff6afbffff12560000f65b0000ba5e0000445f00004e5f00003e600000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 74540000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -630,22 +630,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scriptable Objects
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scriptable Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d24c0000
-    m_LastClickedID: 19666
-    m_ExpandedIDs: 00000000a84c0000aa4c0000ac4c0000ae4c0000b04c000000ca9a3b
+    m_SelectedIDs: 284c0000
+    m_LastClickedID: 19496
+    m_ExpandedIDs: 00000000fe4b0000004c0000024c0000044c0000064c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -673,7 +673,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a84c0000aa4c0000ac4c0000ae4c0000b04c000000ca9a3b
+    m_ExpandedIDs: 00000000fe4b0000004c0000024c0000044c0000064c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -700,7 +700,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000e0640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -725,7 +725,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 152.79999}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 110

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InventoryItem_Pizzabox
   displayName: 
-  icon: {fileID: 21300000, guid: 0ca65cc387e87b24b885521631d96cb0, type: 3}
+  icon: {fileID: 21300000, guid: e4ec3268319e8ed488486bc16a975648, type: 3}
   prefab: {fileID: 919132149155446097, guid: 5100bd2cc33fcee4088760033f2ebc88, type: 3}
