@@ -13,7 +13,7 @@ public class DialogueTrigger : MonoBehaviour
     //Classic Unity message, plays once at the start of the instance of the object.
     private void Start()
     {
-        animator = FindObjectOfType<Animator>();                            //Set up the animator that runs the dialogue box animation.
+        animator = GameObject.FindWithTag("DialogueBox").GetComponent<Animator>();                            //Set up the animator that runs the dialogue box animation.
     }
 
     //Function that is called when one wants to start a dialogue.

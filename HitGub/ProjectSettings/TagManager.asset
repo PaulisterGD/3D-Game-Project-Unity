@@ -8,6 +8,7 @@ TagManager:
   - Interactable
   - Dog Owner
   - BreadCrumb
+  - DialogueBox
   layers:
   - Default
   - TransparentFX
