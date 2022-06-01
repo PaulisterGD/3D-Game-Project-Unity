@@ -14,4 +14,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI-MAP.unity
     guid: d9a154397c71b374884cb63216d8d717
+  - enabled: 1
+    path: Assets/Scenes/Overworld.unity
+    guid: e3e3172a99ea89c449f632ddbaaafbc9
+  - enabled: 1
+    path: Assets/Scenes/QUEST Overworld.unity
+    guid: 4d65a50b873b55848a936fa1dbda5eda
+  - enabled: 1
+    path: Assets/Scenes/MAP Overworld.unity
+    guid: 325a686bc101f5e408f0f219c28c98e3
   m_configObjects: {}
