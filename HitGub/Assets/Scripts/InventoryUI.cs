@@ -44,7 +44,7 @@ public class InventoryUI : MonoBehaviour
         }
         else
         {
-            Debug.Log("Item is null, gotta fix!");
+            Debug.LogError("Item is null, gotta fix!");
         }
         
     }
