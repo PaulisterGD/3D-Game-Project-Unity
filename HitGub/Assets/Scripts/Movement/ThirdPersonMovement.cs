@@ -21,10 +21,12 @@ public class ThirdPersonMovement : MonoBehaviour
     public float turnSmoothTime = 0.1f;
     float turnSmoothVelocity;
 
-    //public Interactable focus;
+    public bool firstLoad = true;
 
-    // Update is called once per frame
-    void Update()
+	//public Interactable focus;
+
+	// Update is called once per frame
+	void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
@@ -67,7 +69,8 @@ public class ThirdPersonMovement : MonoBehaviour
         */
     }
 
-    /*
+
+	/*
     void SetFocus (Interactable newFocus)
     {
         focus = newFocus;
@@ -78,15 +81,15 @@ public class ThirdPersonMovement : MonoBehaviour
         focus = null;
     }
     */
-    
-    
-    
-    
-    
-    // test for breadcrumbs following
-    
-    // if(Input.GetKeyDown(KeyCode.Space))
-    //     {
-    //         Instantiate(projectile, transform.position, projectile.transform.rotation); // create the object at the player to shoot
-    //     }
+
+
+
+
+
+	// test for breadcrumbs following
+
+	// if(Input.GetKeyDown(KeyCode.Space))
+	//     {
+	//         Instantiate(projectile, transform.position, projectile.transform.rotation); // create the object at the player to shoot
+	//     }
 }

@@ -38,14 +38,14 @@ public class TakeScreenshot : MonoBehaviour
             yield return null;
 
             obj.SetActive(false);
-
+            /*
             Sprite s = AssetDatabase.LoadAssetAtPath<Sprite>($"Assets/{pathFolder}/{data.id}_Icon.png");
             if (s != null)
             {
                 data.icon = s;
                 EditorUtility.SetDirty(data);
             }
-
+            */
             yield return null;
         }
     }

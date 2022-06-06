@@ -337,7 +337,7 @@ MonoBehaviour:
   controller: {fileID: 669085756836230073}
   cam: {fileID: 0}
   groundCheck: {fileID: 669085755937646269}
-  speed: 6
+  speed: 15
   gravity: -9.81
   groundDistance: 0.4
   groundMask:

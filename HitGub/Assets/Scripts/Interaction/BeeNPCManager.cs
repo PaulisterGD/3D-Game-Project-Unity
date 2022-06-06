@@ -73,7 +73,6 @@ public class BeeNPCManager : Interactable
             default: Debug.LogError("whoa what's going on? The state machine broke!"); return "";
         }
     }
-
 	public override void Interact()
 	{
         switch (questState)
