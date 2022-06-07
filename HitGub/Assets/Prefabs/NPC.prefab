@@ -107,6 +107,7 @@ GameObject:
   - component: {fileID: 4580440413213757469}
   - component: {fileID: 4580440413213757470}
   - component: {fileID: 4580440413213757471}
+  - component: {fileID: 7443299147556566273}
   m_Layer: 6
   m_Name: NPC
   m_TagString: Interactable
@@ -143,11 +144,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
-  m_light: {fileID: 0}
-  isOn: 0
-  playerModels:
-  - {fileID: 4580440413369501482}
-  - {fileID: 4580440413211837774}
 --- !u!135 &4580440413213757470
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -175,13 +171,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   dialogue:
-    name: Blooper
+    name:
+    - Bob
+    - Steven
+    - Jeff
+    - Jan Versteegh
     sentences:
     - Howdy friend!
     - I'm not feeling too hot, I seem to have fallen ill!
     - Can you get me 4 pills?
     - If I can take these over a few days, I'll be better in no time!
   dialogueManager: {fileID: 0}
+--- !u!114 &7443299147556566273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4580440413213757467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 11400000, guid: 66ed67bc533a119419e4aae029473e7d, type: 2}
+  requirements:
+  - itemData: {fileID: 11400000, guid: 66ed67bc533a119419e4aae029473e7d, type: 2}
+    amount: 1
+  removeRequirementsOnPickup: 0
 --- !u!1 &4580440413369501482
 GameObject:
   m_ObjectHideFlags: 0

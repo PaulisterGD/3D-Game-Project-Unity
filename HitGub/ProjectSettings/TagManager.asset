@@ -8,7 +8,12 @@ TagManager:
   - Interactable
   - Dog Owner
   - BreadCrumb
+<<<<<<< Updated upstream
   - DialogueBox
+=======
+  - duck
+  - MomDuck
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
