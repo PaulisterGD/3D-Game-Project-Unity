@@ -31,6 +31,7 @@ public class DialogueManager : MonoBehaviour
         //Debug.Log("Starting conversation with " + dialogue.name);
         //nameText.text = dialogue.name;                      //Set the name of the person speaking.
 
+        names.Clear();                                      //Clear the previous queue of names.
         sentences.Clear();                                  //Clear the previous queue of sentences.
 
         //Queue the new names

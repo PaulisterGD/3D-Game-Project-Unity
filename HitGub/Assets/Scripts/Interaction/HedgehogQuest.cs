@@ -6,8 +6,9 @@ public class HedgehogQuest : Interactable
 {
 
     private bool questComplete;
-
     private ItemObject itemObject;
+
+    public HedgehogUI hedgehogUI;
     public DialogueTrigger hedgehogObject;
     public ItemObject hedgehogRequirement;
 
@@ -47,5 +48,9 @@ public class HedgehogQuest : Interactable
         {
             UpdateHedgehog();
         }
+		else
+		{
+            hedgehogUI.QuestStartPopUp();
+		}
     }
 }

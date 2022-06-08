@@ -1,0 +1,377 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.34f1 (9a4c9c70452b) revision 10112156'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'pl' Physical Memory: 8036 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.34f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/majec/OneDrive/Documents/GitHub/3D-Game-Project-Unity/HitGub
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52491
+Successfully changed project path to: C:/Users/majec/OneDrive/Documents/GitHub/3D-Game-Project-Unity/HitGub
+C:/Users/majec/OneDrive/Documents/GitHub/3D-Game-Project-Unity/HitGub
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 69.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.34f1 (9a4c9c70452b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/majec/OneDrive/Documents/GitHub/3D-Game-Project-Unity/HitGub/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f91)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   30.0.15.1295
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.34f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002431 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (605ms)
+		BeginReloadAssembly (74ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (452ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (149ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (177ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004209 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001BC29AA0080 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC297FEE70 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29D29810 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29D29810 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29F02220 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29F02220 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29D3EA20 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A6A5010 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A6D4820 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29CF7820 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Searcher.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29D3EA20 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29B4BBA0 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Utilities.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A677290 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A8C2C30 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29892010 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29EA4EC0 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC297FEC70 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2975D010 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29C5C010 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC25660010 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29EA4EC0 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC25AD9810 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Cinemachine.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC25B09A20 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A0CB020 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC297FDC70 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC297FE470 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A0CB020 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC29793C20 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC25CD63E0 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001BC2A0F3630 doesn't match image C:\Users\majec\OneDrive\Documents\GitHub\3D-Game-Project-Unity\HitGub\Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.155 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1156ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (945ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.8 MB.
+System memory in use after: 147.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 3545.
+Total: 3.212200 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.836500 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Icons/Sticknooutline.png
+  artifactKey: Guid(089b553148e055240b7260aab56dfeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Sticknooutline.png using Guid(089b553148e055240b7260aab56dfeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc5e1f77712cdd80c9098505b27bed0f') in 0.144986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Icons/Crumpled_Papernooutline.png
+  artifactKey: Guid(83200deb667dd8046adf20f9b708ee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Crumpled_Papernooutline.png using Guid(83200deb667dd8046adf20f9b708ee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d84c3cbb7f80dfec94f2753e3f0f613') in 0.009641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Icons/Toadnooutline.png
+  artifactKey: Guid(86a8ead6098dc3049989fa5d2f966607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Toadnooutline.png using Guid(86a8ead6098dc3049989fa5d2f966607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84731534d82268a0183d690bdcab7c5') in 0.009691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Icons/InventoryItem_Tube_Icon.png
+  artifactKey: Guid(90afc01a304288b438033bab8d7f3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/InventoryItem_Tube_Icon.png using Guid(90afc01a304288b438033bab8d7f3be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493649edfcaf7bcc24d0a8583c7f48da') in 0.010854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Icons/Water_Bottlenooutline.png
+  artifactKey: Guid(95aa7f30e7c28e3418c0fb444a110c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Water_Bottlenooutline.png using Guid(95aa7f30e7c28e3418c0fb444a110c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726424f485e1c804f89f2e66f0c3856a') in 0.010593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Icons/BreadCrumbs.png
+  artifactKey: Guid(5d7b972769f79414abf0820fa334018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/BreadCrumbs.png using Guid(5d7b972769f79414abf0820fa334018f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec1cf95ace4f49f6a6df1737c85edcd') in 0.011133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Icons/Wormnooutline.png
+  artifactKey: Guid(48522d0752926764aafe70f9962b0364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Wormnooutline.png using Guid(48522d0752926764aafe70f9962b0364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd0a832b09181aadfc6e728e047713e') in 0.010624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Icons/IconImportPreset.preset
+  artifactKey: Guid(0928281f33ea338418dc1ba69095ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/IconImportPreset.preset using Guid(0928281f33ea338418dc1ba69095ab74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2452937518e6507b652fac630beb33') in 0.010521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Icons/Seedsnooutline.png
+  artifactKey: Guid(316a4008d6d88ed468c6f406700cdb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Seedsnooutline.png using Guid(316a4008d6d88ed468c6f406700cdb63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496bb6d90c8ee88f84f976d76fa8271e') in 0.011585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Icons/InventoryItem_Ball_Icon.png
+  artifactKey: Guid(d9893c6a67260c347a8b22b3f2a40e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/InventoryItem_Ball_Icon.png using Guid(d9893c6a67260c347a8b22b3f2a40e7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70223f8302bd432e5ce152fed0f5ba9b') in 0.012225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Icons/Bread_Crumbsnooutline.png
+  artifactKey: Guid(c0c566596f3f2964383198ae153f7c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Bread_Crumbsnooutline.png using Guid(c0c566596f3f2964383198ae153f7c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a527c7e416f30de3737cff230efc552b') in 0.010712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Icons/Cannooutline.png
+  artifactKey: Guid(6bf1e888e372eca4b8ab1df9e7bf7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Cannooutline.png using Guid(6bf1e888e372eca4b8ab1df9e7bf7eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '614d3876e1b56bc2a6fb97a83c2da3ea') in 0.010123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Icons/Flower seeds icon.png
+  artifactKey: Guid(9bdbd1a5655cfaf4aad217b50db17634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Flower seeds icon.png using Guid(9bdbd1a5655cfaf4aad217b50db17634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d4def6c78bf5ea3db6f6a8bc974683e') in 0.011424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Icons/Pizzaboxnooutline.png
+  artifactKey: Guid(e4ec3268319e8ed488486bc16a975648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Pizzaboxnooutline.png using Guid(e4ec3268319e8ed488486bc16a975648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efafe69da476bda1455337e353c264f') in 0.010289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Icons/WaterBottleIcon.png
+  artifactKey: Guid(3e31e9b610a58d643aa7553ec21ab4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/WaterBottleIcon.png using Guid(3e31e9b610a58d643aa7553ec21ab4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6284c5b209ca51154df72aa7e21c6b') in 0.010775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.973855 seconds.
+  path: Assets/Icons/Quest UI
+  artifactKey: Guid(7e815ccecb7c6fd46afb79a3d4b479e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI using Guid(7e815ccecb7c6fd46afb79a3d4b479e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e122c2228f5468dfbcd01df419bd6d06') in 0.002001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.064968 seconds.
+  path: Assets/Icons/Quest UI/Sprite sheet2.png
+  artifactKey: Guid(803f3bab6f5a0514e9783a2025abf112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI/Sprite sheet2.png using Guid(803f3bab6f5a0514e9783a2025abf112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b864e069046db85eab984ce2254fb92') in 0.075689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.871330 seconds.
+  path: Assets/Icons/Quest UI/Sprite sheet2.png
+  artifactKey: Guid(803f3bab6f5a0514e9783a2025abf112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI/Sprite sheet2.png using Guid(803f3bab6f5a0514e9783a2025abf112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c63fc3dda55dae83ab6ab7147f692b8') in 0.106451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 201.162781 seconds.
+  path: Assets/Icons/Quest UI/Sprite sheet.png
+  artifactKey: Guid(3de65c68cc93e334bb83521b4e693213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI/Sprite sheet.png using Guid(3de65c68cc93e334bb83521b4e693213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c36c7862b1bd97f9eeff7b15a6c54b0') in 0.061251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.030621 seconds.
+  path: Assets/Icons/Quest UI/Sprite sheet.png
+  artifactKey: Guid(3de65c68cc93e334bb83521b4e693213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI/Sprite sheet.png using Guid(3de65c68cc93e334bb83521b4e693213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe333e4fc5a6a11f604c4053be87838') in 0.030133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.497982 seconds.
+  path: Assets/Icons/Quest UI/Sprite sheet 1.png
+  artifactKey: Guid(405aec451e079324fb3168682ae9acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI/Sprite sheet 1.png using Guid(405aec451e079324fb3168682ae9acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1606f5fafe7571d720bdc0a0c1a560') in 0.057126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.173245 seconds.
+  path: Assets/Icons/Quest UI/Sprite sheet 1.png
+  artifactKey: Guid(405aec451e079324fb3168682ae9acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Icons/Quest UI/Sprite sheet 1.png using Guid(405aec451e079324fb3168682ae9acf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8bfcc699e271b0098b6514c56dcabb') in 0.035924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.021382 seconds.
+  path: Assets/UIAssets/Icons.png
+  artifactKey: Guid(b091fb246df061e49b046f69642fd567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/Icons.png using Guid(b091fb246df061e49b046f69642fd567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c166a4bc5dd46bf405fac5d3d5fcdb92') in 0.098077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/UIAssets/Questlogfinal.png
+  artifactKey: Guid(4b515316f1e93564cab08343706cbfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/Questlogfinal.png using Guid(4b515316f1e93564cab08343706cbfe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c007ccc1992ccc18305fafda97cdd6') in 0.057368 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/UIAssets/IMG_0184.PNG
+  artifactKey: Guid(1f4ce5b2e9061584e823779a1aa88928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/IMG_0184.PNG using Guid(1f4ce5b2e9061584e823779a1aa88928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77809d087254fe5a43857d89991f43c') in 0.117614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/UIAssets/IMG_0183.PNG
+  artifactKey: Guid(2313a69ab60f2b94c9fb72f090c5c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/IMG_0183.PNG using Guid(2313a69ab60f2b94c9fb72f090c5c505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2c8e8848c0646c970fcd723c18ffc8') in 0.101367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/UIAssets/mapfinalversion.png
+  artifactKey: Guid(f0a44d6b812eb3846bc3d3f722655116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/mapfinalversion.png using Guid(f0a44d6b812eb3846bc3d3f722655116) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d896decd7d718cb5976d40aed7f280') in 0.042056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/UIAssets/IMG_0181.png
+  artifactKey: Guid(26a81ef7214e6804dbe365a2a41d16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/IMG_0181.png using Guid(26a81ef7214e6804dbe365a2a41d16f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d962438996257f62f81ac7ff90b091a') in 0.046527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.813314 seconds.
+  path: Assets/UIAssets/Sprite sheet.png
+  artifactKey: Guid(20f2d75e56b660a43b8024f2bddea145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/Sprite sheet.png using Guid(20f2d75e56b660a43b8024f2bddea145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c07b3c0aee0dce54be9550fddf65a7d') in 0.042546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.009891 seconds.
+  path: Assets/UIAssets/Sprite sheet.png
+  artifactKey: Guid(20f2d75e56b660a43b8024f2bddea145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/Sprite sheet.png using Guid(20f2d75e56b660a43b8024f2bddea145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df80283a034df9f32cd889e058a5b25') in 0.023326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.599736 seconds.
+  path: Assets/UIAssets/Sprite sheet.png
+  artifactKey: Guid(20f2d75e56b660a43b8024f2bddea145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UIAssets/Sprite sheet.png using Guid(20f2d75e56b660a43b8024f2bddea145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755082dc7fe2c1afcb81bb8bfe1de071') in 0.282867 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

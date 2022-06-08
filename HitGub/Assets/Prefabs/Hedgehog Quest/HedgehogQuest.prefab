@@ -135,11 +135,7 @@ MonoBehaviour:
   referenceItem: {fileID: 11400000, guid: bfc7f181cb4a83f42ac52428de986d7c, type: 2}
   requirements:
   - itemData: {fileID: 11400000, guid: bfc7f181cb4a83f42ac52428de986d7c, type: 2}
-    amount: 1
-  - itemData: {fileID: 11400000, guid: bfc7f181cb4a83f42ac52428de986d7c, type: 2}
-    amount: 1
-  - itemData: {fileID: 11400000, guid: bfc7f181cb4a83f42ac52428de986d7c, type: 2}
-    amount: 1
+    amount: 3
   removeRequirementsOnPickup: 0
 --- !u!114 &647954822057935337
 MonoBehaviour:
@@ -154,5 +150,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
+  QuestUIConditionals:
+    popUpQuestUI:
+    - {fileID: 1724669690757317851, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -1541248559124943982, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -4627029583574066590, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -6917440622478499766, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    clipboardQuestUI:
+    - {fileID: -7080137379401597176, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -897901808488855705, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -3144724316961717700, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -4793930757072083748, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
   hedgehogObject: {fileID: 647954822057935343}
   hedgehogRequirement: {fileID: 647954822057935340}
