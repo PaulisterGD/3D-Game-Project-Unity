@@ -46,7 +46,7 @@ public class BeeNPCManager : Interactable
                 } 
                 break;
             case QuestState.Watering:
-                Debug.Log("Waiting for quest competion...");
+                //Debug.Log("Waiting for quest competion...");
                 bool waterCheck = waterManager.WaterCheck();
                 Debug.Log("Check returns " + waterCheck);
                 if (waterCheck) { 
@@ -98,7 +98,7 @@ public class BeeNPCManager : Interactable
         questStartDialogue.TriggerDialogue();
         dialogueDelayOne++;
 
-        if (dialogueDelayOne > 3){
+        if (dialogueDelayOne > 5){
             if (!flowerSeedsGiven) {
                 for (int i = 0; i < seedCount; i++) { giveSeeds.OnHandleGiveItem(); }
                 flowerSeedsGiven = true;
@@ -112,7 +112,7 @@ public class BeeNPCManager : Interactable
         postFlowerDialogue.TriggerDialogue();
         dialogueDelayTwo++;
 
-        if (dialogueDelayTwo > 3)
+        if (dialogueDelayTwo > 6)
         {
             if (!waterBottleGiven)
             {

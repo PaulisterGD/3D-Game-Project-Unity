@@ -13,7 +13,7 @@ public class QuestUIManager : MonoBehaviour
 
     //Declare the sprite that will be given by other scripts for the pop-in Quest UI.
     public Sprite selectedPopUpSprite;
-    public List<Sprite> clipBoardQuestSprite = new List<Sprite>;
+    public List<Sprite> clipBoardQuestSprite = new List<Sprite>();
 
     // Start is called before the first frame update
     private void Start()
@@ -32,7 +32,7 @@ public class QuestUIManager : MonoBehaviour
 	{                  
         popUp.sprite = sprite;                              //Clear out the last sprite and replace it with the new one.
         animator.SetBool("PopUpFlag", true);                //Start the quest pop-up animation
-        Invoke("EndPopUp", 3);
+        Invoke("EndPopUp", 5);
     }
 
     public void EndPopUp()

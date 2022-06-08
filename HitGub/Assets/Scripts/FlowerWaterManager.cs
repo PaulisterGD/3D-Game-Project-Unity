@@ -7,7 +7,8 @@ public class FlowerWaterManager : MonoBehaviour
     public int wateredFlowerCount;
     private int requiredCount = 5;
 
-	public void Awake()
+
+	private void Awake()
 	{
 		wateredFlowerCount = 0;
 	}
@@ -19,7 +20,7 @@ public class FlowerWaterManager : MonoBehaviour
 
     public bool WaterCheck()
 	{
-        if (wateredFlowerCount >= requiredCount) return true;
+		if (wateredFlowerCount >= requiredCount) { return true; }
         return false;
 	}
 }
