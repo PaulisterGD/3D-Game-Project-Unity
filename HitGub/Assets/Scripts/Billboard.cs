@@ -5,7 +5,7 @@ using UnityEngine;
 public class Billboard : MonoBehaviour
 {
     private Camera theCam;
-
+    public GameObject attachedObject;
     public bool useStaticBillboard;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +23,11 @@ public class Billboard : MonoBehaviour
         {
             transform.rotation = theCam.transform.rotation;
         }
+
+		if (attachedObject == null)
+		{
+            Destroy(gameObject);
+		}
 
         transform.rotation = Quaternion.Euler(0f, transform.rotation.eulerAngles.y, 0f);
     }
