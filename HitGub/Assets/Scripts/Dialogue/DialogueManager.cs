@@ -28,23 +28,13 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", true);                   //Start the animation that brings the dialogue box on-screen.
 
-        //Debug.Log("Starting conversation with " + dialogue.name);
-        //nameText.text = dialogue.name;                      //Set the name of the person speaking.
-
         names.Clear();                                      //Clear the previous queue of names.
         sentences.Clear();                                  //Clear the previous queue of sentences.
 
         //Queue the new names
-        foreach (string name in dialogue.name)
-        {
-            names.Enqueue(name);
-        }
-
+        foreach (string name in dialogue.name) { names.Enqueue(name); }
         //Queue the new sentences
-        foreach (string sentence in dialogue.sentences)
-        {
-            sentences.Enqueue(sentence);
-        }
+        foreach (string sentence in dialogue.sentences) { sentences.Enqueue(sentence); }
 
         //Start the function that displays the next sentence
         DisplayNextSentence();

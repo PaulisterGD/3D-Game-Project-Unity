@@ -21,18 +21,9 @@ public class HedgehogUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (requirementArray[2].MeetsRequirements())
-		{
-            QuestProgressPopUp(3);
-		} 
-        else if (requirementArray[1].MeetsRequirements())
-		{
-            QuestProgressPopUp(2);
-		}
-        else if (requirementArray[0].MeetsRequirements())
-		{
-            QuestProgressPopUp(1);
-		}
+        if (requirementArray[2].MeetsRequirements()){ QuestProgressPopUp(3); } 
+        else if (requirementArray[1].MeetsRequirements()){ QuestProgressPopUp(2); }
+        else if (requirementArray[0].MeetsRequirements()){ QuestProgressPopUp(1); }
     }
 
     public void QuestStartPopUp()

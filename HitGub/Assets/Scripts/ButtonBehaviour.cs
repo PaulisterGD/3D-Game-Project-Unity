@@ -9,4 +9,14 @@ public class ButtonBehaviour : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
     }
+
+    public void SwitchUI(string nameUI)
+	{
+        var userInterface = GameObject.Find(nameUI);
+        if (userInterface != null)
+		{
+            userInterface.SetActive(true);
+            gameObject.SetActive(false);
+		}
+	}
 }
