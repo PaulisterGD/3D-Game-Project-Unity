@@ -7,13 +7,28 @@ public class wolfprint : Interactable
     //public Light m_light;
     //public bool isOn;
     //public GameObject[] playerModels;
-
+    public GameObject billboard;
     public DialogueTrigger dialogueTrigger;
+    public int tally, dialogueCount;
 
-    // Function that triggers the Blue NPC's dialogue when the player interacts with it.
-    void UpdateDialogue()
+	private void Start()
+	{
+		dialogueCount = dialogueTrigger.dialogue.sentences.Length;
+        tally = 0;
+	}
+
+	// Function that triggers the Blue NPC's dialogue when the player interacts with it.
+	void UpdateDialogue()
     {
         dialogueTrigger.TriggerDialogue();
+        if(tally < dialogueCount)
+		{
+            tally++;
+		}
+		else
+		{
+            billboard.SetActive(false);
+		}
         /*
         m_light.enabled = isOn;
         foreach (GameObject modelObject in playerModels)

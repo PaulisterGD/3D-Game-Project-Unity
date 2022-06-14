@@ -20,7 +20,7 @@ public class QuestUIManager : MonoBehaviour
     private void Start()
 	{
         clipBoardQuestSprite = null;
-        animator = popUp.GetComponent<Animator>();
+        animator = GameObject.FindWithTag("QuestUI").GetComponent<Animator>();
         animator.SetBool("PopUpFlag", false);
 	}
 
@@ -34,11 +34,12 @@ public class QuestUIManager : MonoBehaviour
 	{                  
         popUp.sprite = sprite;                              //Clear out the last sprite and replace it with the new one.
         animator.SetBool("PopUpFlag", true);                //Start the quest pop-up animation
-        Invoke("EndPopUp", 5);
+        StartCoroutine(EndPopUp());
     }
 
-    public void EndPopUp()
+    IEnumerator EndPopUp()
 	{
+        yield return new WaitForSeconds(5);
         animator.SetBool("PopUpFlag", false);
     }
 

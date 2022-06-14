@@ -19,15 +19,16 @@ public class Billboard : MonoBehaviour
         if(!useStaticBillboard)
         {
             transform.LookAt(theCam.transform);
-        } else
+        } 
+        else
         {
             transform.rotation = theCam.transform.rotation;
         }
 
-		if (attachedObject == null)
-		{
-            Destroy(gameObject);
-		}
+		//if (attachedObject == null)
+		//{
+            //Destroy(gameObject);
+		//}
 
         transform.rotation = Quaternion.Euler(0f, transform.rotation.eulerAngles.y, 0f);
     }

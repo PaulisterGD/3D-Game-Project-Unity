@@ -7,6 +7,7 @@ public class DeerFleeingManager : MonoBehaviour
     public float speed = 1f;
     public Transform playerObject;
     public bool fleeCheck;
+    public GameObject billboard;
     public GameObject[] sensors;
     private Vector3 fleeDirection;
     private Vector3 lastPlayerPosition;
@@ -23,7 +24,12 @@ public class DeerFleeingManager : MonoBehaviour
     {
 		if (fleeCheck)
 		{
-            transform.Translate( Vector3.forward * Time.deltaTime * speed );
+            billboard.SetActive(false);
+            transform.Translate( Vector3.up * Time.deltaTime * speed );
+		}
+        if (transform.position.z > 500)
+		{
+            Destroy(gameObject);
 		}
     }
 
@@ -33,7 +39,7 @@ public class DeerFleeingManager : MonoBehaviour
         //Check for a match with the specific tag on any GameObject that collides with your GameObject
         if (collision.gameObject.tag == "Player")
         {
-            fleeDirection = playerObject.position - lastPlayerPosition;
+            //fleeDirection = playerObject.position - lastPlayerPosition;
             fleeCheck = true;
             foreach(GameObject sensor in sensors)
 			{

@@ -109,8 +109,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04d63659f0f5fbe479eea95986e69b34, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactionType: 0
+  interactionType: 2
+  billboard: {fileID: 0}
   dialogueTrigger: {fileID: 2338924455024410765}
+  tally: 0
+  dialogueCount: 0
 --- !u!114 &2338924455024410765
 MonoBehaviour:
   m_ObjectHideFlags: 0

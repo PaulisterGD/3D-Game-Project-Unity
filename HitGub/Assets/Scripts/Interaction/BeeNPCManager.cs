@@ -100,7 +100,7 @@ public class BeeNPCManager : Interactable
         questStartDialogue.TriggerDialogue();
         dialogueDelayOne++;
 
-        if (dialogueDelayOne > 5){
+        if (dialogueDelayOne > questStartDialogue.dialogue.sentences.Length){
             if (!flowerSeedsGiven) {
                 for (int i = 0; i < seedCount; i++) { giveSeeds.OnHandleGiveItem(); }
                 flowerSeedsGiven = true;
@@ -114,7 +114,7 @@ public class BeeNPCManager : Interactable
         postFlowerDialogue.TriggerDialogue();
         dialogueDelayTwo++;
 
-        if (dialogueDelayTwo > 6)
+        if (dialogueDelayTwo > postFlowerDialogue.dialogue.sentences.Length)
         {
             if (!waterBottleGiven)
             {

@@ -15,6 +15,7 @@ public class Squirel : Interactable
     public int questID = 4;
     private bool questFlag, uiFlag;
 
+
 	private void Start()
 	{
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
@@ -22,9 +23,8 @@ public class Squirel : Interactable
         uiFlag = false;
 	}
 
-
-	// Function that triggers the Blue NPC's dialogue when the player interacts with it.
-	void UpdateDialogue()
+    // Function that triggers the Blue NPC's dialogue when the player interacts with it.
+    void UpdateDialogue()
     {
         questFlag = questCompleteDetect.GetComponent<WiggleTree>().questComplete;
         if (!questFlag)
