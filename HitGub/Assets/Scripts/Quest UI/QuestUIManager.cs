@@ -26,8 +26,8 @@ public class QuestUIManager : MonoBehaviour
 
     public void SetClipboardSprite (Sprite cbSprite, int id)
 	{
-        clipBoardQuestSprite[id] = cbSprite;
-        UpdateClipboard();
+        UISprites[id].sprite = cbSprite;
+        //UpdateClipboard();
 	}
 
     public void SetPopUpSprite (Sprite sprite)
@@ -42,6 +42,7 @@ public class QuestUIManager : MonoBehaviour
         animator.SetBool("PopUpFlag", false);
     }
 
+    /*
     public void UpdateClipboard()
 	{
         if (clipBoardQuestSprite != null)
@@ -55,4 +56,5 @@ public class QuestUIManager : MonoBehaviour
 			}
 		}
 	}
+    */
 }

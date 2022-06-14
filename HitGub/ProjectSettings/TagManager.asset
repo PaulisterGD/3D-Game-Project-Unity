@@ -9,6 +9,7 @@ TagManager:
   - Dog Owner
   - BreadCrumb
   - DialogueBox
+  - QuestUI
   layers:
   - Default
   - TransparentFX

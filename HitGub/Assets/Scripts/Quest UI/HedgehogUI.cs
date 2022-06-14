@@ -7,6 +7,7 @@ public class HedgehogUI : MonoBehaviour
     public QuestUIConditionals questUIConditionals;
     public QuestUIManager questUIManager;
     public ItemObject[] requirementArray;
+    public int questID = 0;
 
     private bool[] questFlags;
 
@@ -31,6 +32,7 @@ public class HedgehogUI : MonoBehaviour
         if (!questFlags[0])
 		{
             questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[0]);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[0], questID);
             questFlags[0] = true;
         }
 	}
@@ -40,6 +42,7 @@ public class HedgehogUI : MonoBehaviour
         if (!questFlags[number])
 		{
             questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[number]);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[number], questID);
             questFlags[number] = true;
         }
 	}

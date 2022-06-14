@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637904553065102266
-    m_Hash: 95856951
+      ticks: 637906725566829270
+    m_Hash: 3633383100
   m_LockFileStatus:
     m_FilePath: D:/Unity/3D Game Project Unity/3D-Game-Project-Unity/HitGub/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637904553065172210
-    m_Hash: 74969189
+      ticks: 637906725566839264
+    m_Hash: 1255977113
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

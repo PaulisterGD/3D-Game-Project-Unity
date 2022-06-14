@@ -8,7 +8,7 @@ public class BeaverQuest : Interactable
     private bool questComplete;
 
     private ItemObject itemObject;
-    public DialogueTrigger beaverObject;
+    public DialogueTrigger startQuest, finishQuest;
     public ItemObject beaverRequirement;
 
     // Start is called before the first frame update
@@ -23,15 +23,20 @@ public class BeaverQuest : Interactable
     void UpdateBeaver()
     {
         itemObject.OnHandleDropOffItem();
-        beaverObject.TriggerDialogue();
+        finishQuest.TriggerDialogue();
     }
+
+    public void StartQuest()
+	{
+        startQuest.TriggerDialogue();
+	}
 
     //Provides instructions on how to interact and why
     public override string GetDescription()
     {
         if (beaverRequirement.MeetsRequirements()) { return "Press E to return the sticks to the Beaver!!"; }
         else if (questComplete) { return ""; }
-        else { return "Find sticks for the Beaver!"; }
+        else { return "Press E to talk to the beaver!"; }
 
     }
 
@@ -47,5 +52,9 @@ public class BeaverQuest : Interactable
         {
             UpdateBeaver();
         }
+		else
+		{
+            StartQuest();
+		}
     }
 }

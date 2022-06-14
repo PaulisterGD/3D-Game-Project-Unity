@@ -18,6 +18,11 @@ public class FlowerWaterManager : MonoBehaviour
         wateredFlowerCount++;
 	}
 
+	public void WaterCountReset()
+	{
+		wateredFlowerCount = 0;
+	}
+
     public bool WaterCheck()
 	{
 		if (wateredFlowerCount >= requiredCount) { return true; }

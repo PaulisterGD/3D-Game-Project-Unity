@@ -7,7 +7,7 @@ public class BirdQuest : Interactable
     private bool questComplete;
 
     private ItemObject itemObject;
-    public DialogueTrigger birdObject;
+    public DialogueTrigger questStart, questEnd;
     public ItemObject birdRequirement;
 
     // Start is called before the first frame update
@@ -18,11 +18,16 @@ public class BirdQuest : Interactable
         itemObject = GetComponent<ItemObject>();
     }
 
+    public void StartQuest()
+	{
+        questStart.TriggerDialogue();
+	}
+
     // Function that handles dropping off the sticks for the beaver and playing a dialogue that marks the end of the quest
-    void UpdateBird()
+    void FinishQuest()
     {
         itemObject.OnHandleDropOffItem();
-        birdObject.TriggerDialogue();
+        questEnd.TriggerDialogue();
     }
 
     //Provides instructions on how to interact and why
@@ -30,7 +35,7 @@ public class BirdQuest : Interactable
     {
         if (birdRequirement.MeetsRequirements()) { return "Press E to return the sticks to the Bird!!"; }
         else if (questComplete) { return ""; }
-        else { return "Find sticks for the Bird!"; }
+        else { return "Press E to talk to the bird!"; }
 
     }
 
@@ -39,12 +44,16 @@ public class BirdQuest : Interactable
     {
         if (birdRequirement.MeetsRequirements())
         {
-            UpdateBird();
+            FinishQuest();
             questComplete = true;
         }
         else if (questComplete)
         {
-            UpdateBird();
+            FinishQuest();
         }
+		else
+		{
+            StartQuest();
+		}
     }
 }

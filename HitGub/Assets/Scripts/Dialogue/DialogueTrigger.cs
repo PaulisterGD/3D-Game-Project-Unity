@@ -11,7 +11,7 @@ public class DialogueTrigger : MonoBehaviour
     private bool firstLineDone = false;                                     //Boolean that determines whether to START dialogue or CONTINUE it.
 
     //Classic Unity message, plays once at the start of the instance of the object.
-    private void Start()
+    private void Awake()
     {
         animator = GameObject.FindWithTag("DialogueBox").GetComponent<Animator>();                            //Set up the animator that runs the dialogue box animation.
     }

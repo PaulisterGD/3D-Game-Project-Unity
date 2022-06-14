@@ -8,7 +8,7 @@ public class BeeUI : MonoBehaviour
     public QuestUIManager questUIManager;
     public BeeNPCManager npcManager;
     public ItemObject[] requirementArray;
-    public int questID = 2;
+    public int questID = 1;
 
     private bool[] questFlags = new bool[2];
 
@@ -37,8 +37,11 @@ public class BeeUI : MonoBehaviour
 	{
         if (!questFlags[state])
 		{
-            questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[state]);
-            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[state], questID);
+            var popupUI = questUIConditionals.popUpQuestUI[state];
+            var clipboardUI = questUIConditionals.clipboardQuestUI[state];
+            questUIManager.SetPopUpSprite(popupUI);
+            questUIManager.SetClipboardSprite(clipboardUI, questID);
+            questFlags[state] = true;
 		}
 	}
 }

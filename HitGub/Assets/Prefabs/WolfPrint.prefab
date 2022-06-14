@@ -125,7 +125,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   dialogue:
-    name: Dad
+    name:
+    - Dad
+    - Dad
+    - Dad
+    - Timmy
     sentences:
-    - Watch out son! Do not follow it, it is a wolf print. Wolfs can be dangerous.
+    - Oh wait, Timmy, look at the ground!
+    - 'These are wolf prints, they appeared a few weeks back when we had a sighting
+      of a wolf. '
+    - We managed to move the wolf a safe distance away, but we kept the tracks for
+      visitors!
+    - Wow! So cool!
   dialogueManager: {fileID: 0}

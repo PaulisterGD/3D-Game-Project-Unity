@@ -49,16 +49,18 @@ public class BeeNPCManager : Interactable
                 //Debug.Log("Waiting for quest competion...");
                 bool waterCheck = waterManager.WaterCheck();
                 Debug.Log("Check returns " + waterCheck);
-                if (waterCheck) { 
+                if (waterCheck) {
+                    giveWaterBottle.OnHandleDropOffItem();
+                    waterManager.WaterCountReset();
                     questState = QuestState.QuestEnd;
                 } 
                 break;
             case QuestState.QuestEnd: break;
             default:
-                Debug.LogError("whoa what's going on? The state machine broke!");
+                Debug.LogError("whoa what's going on? The state machine broke in Update!");
                 break;
         }
-        Debug.Log(questState);
+        //Debug.Log(questState);
 	}
 
 	public override string GetDescription()
@@ -70,7 +72,7 @@ public class BeeNPCManager : Interactable
             case QuestState.PostFlower: return "Press E to see what the bee has to say!";
             case QuestState.Watering: return "You need to water the plants!";
             case QuestState.QuestEnd: return "Press E to show the watered flowers to the bee!";
-            default: Debug.LogError("whoa what's going on? The state machine broke!"); return "";
+            default: Debug.LogError("whoa what's going on? The state machine broke in GetDescription!"); return "";
         }
     }
 	public override void Interact()
