@@ -321,4 +321,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   time: 10
-  yBound: 0.1
+  yBound: 38

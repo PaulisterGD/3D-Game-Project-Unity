@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class WiggleTree : Interactable
 {
+    public QuestUIConditionals questUIConditionals;
+    public QuestUIManager questUIManager;
     public Animator animator;
     public GameObject spawnNuts;
+    public int questID = 4;
     public int nutCount;
     public int questCompletionTally = 50;
     public bool questComplete;
@@ -15,6 +18,7 @@ public class WiggleTree : Interactable
     // Start is called before the first frame update
     void Start()
     {
+        questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         questComplete = false;
         nutCount = 0;
     }
@@ -28,6 +32,8 @@ public class WiggleTree : Interactable
             Debug.Log("On");
             spawnNuts.GetComponent<SpawnNuts>().spawnNuts();
             nutCount++;
+            questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[nutCount - 1]);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[nutCount - 1], questID);
             Invoke("DeActivateTreeWiggle", time);
             //animator.SetBool("TreeWiggleToggle", false);
             if (nutCount >= questCompletionTally) questComplete = true;

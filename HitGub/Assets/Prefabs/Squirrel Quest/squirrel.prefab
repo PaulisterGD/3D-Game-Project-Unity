@@ -306,9 +306,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
+  questUIConditionals:
+    popUpQuestUI:
+    - {fileID: 253378295203254794, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    clipboardQuestUI:
+    - {fileID: 8248127540446537296, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+  questUIManager: {fileID: 0}
   questCompleteDetect: {fileID: 0}
   startQuestDialogue: {fileID: 7677769992908547491}
   endQuestDialogue: {fileID: 7677769992908547494}
+  questID: 4
 --- !u!114 &7677769992908547491
 MonoBehaviour:
   m_ObjectHideFlags: 0

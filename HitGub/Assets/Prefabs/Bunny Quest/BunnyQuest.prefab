@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9193683466772544165}
   - component: {fileID: 9193683466772544166}
   - component: {fileID: 9193683466772544167}
+  - component: {fileID: 952264783481095316}
   - component: {fileID: 9193683466772544160}
   - component: {fileID: 9193683466772544161}
   - component: {fileID: 9193683466772544162}
@@ -99,6 +100,32 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &952264783481095316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193683466772544163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Bunny
+    - Bunny
+    - Bunny
+    - Timmy
+    sentences:
+    - Oh Timmy, please help me!
+    - I'm stuck in this pile of trash! How can I jump around and enjoy the woods
+      with all this trash around?
+    - Please take it away from here!
+    - Not a problem, my friend! I will take this trash and put it in the trash can.
+  dialogueManager: {fileID: 0}
 --- !u!114 &9193683466772544160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,5 +185,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
+  startBunny: {fileID: 952264783481095316}
   bunnyObject: {fileID: 9193683466772544160}
   bunnyRequirement: {fileID: 9193683466772544161}
