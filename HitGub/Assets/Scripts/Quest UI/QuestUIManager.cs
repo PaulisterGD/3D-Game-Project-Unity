@@ -24,12 +24,21 @@ public class QuestUIManager : MonoBehaviour
         animator.SetBool("PopUpFlag", false);
 	}
 
+    /// <summary>
+    /// Sets the quest update sprite that goes on the clipboard menu as soon as progress is had in a quest.
+    /// </summary>
+    /// <param name="cbSprite"></param>
+    /// <param name="id"></param>
     public void SetClipboardSprite (Sprite cbSprite, int id)
 	{
         UISprites[id].sprite = cbSprite;
         //UpdateClipboard();
 	}
 
+    /// <summary>
+    /// Sets the quest update sprite that pops up on screen as soon as an action is done.
+    /// </summary>
+    /// <param name="sprite"></param>
     public void SetPopUpSprite (Sprite sprite)
 	{                  
         popUp.sprite = sprite;                              //Clear out the last sprite and replace it with the new one.
