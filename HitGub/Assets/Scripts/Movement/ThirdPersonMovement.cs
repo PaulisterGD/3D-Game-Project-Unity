@@ -64,6 +64,17 @@ public class ThirdPersonMovement : MonoBehaviour
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
 
+        if (transform.hasChanged)
+		{
+            anim.SetBool("IsWalking", true);
+            anim.SetBool("IsIdle", false);
+            transform.hasChanged = false;
+        }
+		else
+		{
+            anim.SetBool("IsWalking", false);
+            anim.SetBool("IsIdle", true);
+        }
 
         //if (Input.GetKey(KeyCode.W))
         //{
@@ -84,7 +95,7 @@ public class ThirdPersonMovement : MonoBehaviour
         //{
         //    anim.SetBool("IsWalking", true);
         //    anim.SetBool("IsIdle", false);
-            
+
         //}
         //else
         //{
