@@ -94,7 +94,7 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9193683466772544163}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
@@ -185,6 +185,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
+  questUIConditionals:
+    popUpQuestUI:
+    - {fileID: -9060483802609955935, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -860215772119102629, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: 82129562986059667, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: 1257899126032722779, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: 4955551019411649232, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    clipboardQuestUI:
+    - {fileID: -2324210604057961781, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: 3041599536865686148, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: 6644481471075587092, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: 2926446641725298978, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    - {fileID: -3533641197506803546, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+  questUIManager: {fileID: 0}
+  billboard: {fileID: 0}
   startBunny: {fileID: 952264783481095316}
   bunnyObject: {fileID: 9193683466772544160}
   bunnyRequirement: {fileID: 9193683466772544161}
+  trash:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

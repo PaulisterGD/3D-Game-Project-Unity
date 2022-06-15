@@ -16,6 +16,7 @@ public class FlowerWaterManager : MonoBehaviour
 	public void IncrementWaterCount()
 	{
         wateredFlowerCount++;
+		Debug.Log("Watered count is now... " + wateredFlowerCount);
 	}
 
 	public void WaterCountReset()

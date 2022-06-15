@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class FollowPlayer: MonoBehaviour
 {
+    public Animator anim;
     public Transform target;
     NavMeshAgent nav;
 
@@ -12,11 +13,23 @@ public class FollowPlayer: MonoBehaviour
     void Start()
     {
         nav = GetComponent<NavMeshAgent>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         nav.SetDestination(target.position);
+
+        if (nav.velocity.magnitude > 1)
+        {
+            anim.SetBool("IsWalk", true);
+            anim.SetBool("IsIdle", false);
+        }
+        else
+        {
+            anim.SetBool("IsWalk", false);
+            anim.SetBool("IsIdle", true);
+        }
     }
 }

@@ -4,13 +4,20 @@ using UnityEngine;
 
 public class BunnyQuest : Interactable
 {
-    private int dialogueCount;
+    private int dialogueCount, tally;
     private bool questTriggered, questComplete;
+    private bool[] bunnyProgressFlags = new bool[4];
     private ItemObject itemObject;
+    private int questID = 2;
 
+    public int trashCount;
+    public QuestUIConditionals questUIConditionals;
+    public QuestUIManager questUIManager;
     public GameObject billboard;
     public DialogueTrigger startBunny, bunnyObject;
     public ItemObject bunnyRequirement;
+    public ItemObject[] trash;
+    public Animator bunnyAnimator;
 
     // Start is called before the first frame update
     void Start()
@@ -18,15 +25,46 @@ public class BunnyQuest : Interactable
         questComplete = false;
         questTriggered = false;
         dialogueCount = 0;
-
+        questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         itemObject = GetComponent<ItemObject>();
     }
 
-    // Function that handles dropping off the worms for the hedgehog and playing a dialogue that marks the end of the quest
-    void UpdateBunny()
+	private void Update()
+	{
+        UpdateTrashCount();
+        if (trashCount > 0) ProgressUI(trashCount);
+	}
+
+    public void UpdateTrashCount()
+	{
+        trashCount = 0;
+        for (int i = 0; i < trash.Length; i++)
+		{
+            if (trash[i].MeetsRequirements()) trashCount++;
+        }
+	}
+
+    public void ProgressUI(int state)
+    {
+        if (!bunnyProgressFlags[state - 1])
+		{
+            questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[state]);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[state], questID);
+            bunnyProgressFlags[state - 1] = true;
+		}
+    }
+
+	// Function that handles dropping off the worms for the hedgehog and playing a dialogue that marks the end of the quest
+	void UpdateBunny()
     {
         itemObject.OnHandleDropOffItem();
         bunnyObject.TriggerDialogue();
+        if (tally < bunnyObject.dialogue.sentences.Length) tally++;
+        else
+        {
+            bunnyAnimator.Play("Bunny Waving Animation");
+            billboard.SetActive(false);
+        }
     }
 
     void StartBunny()
@@ -38,6 +76,8 @@ public class BunnyQuest : Interactable
 		}
 		else
 		{
+            questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[0]);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[0], questID);
             questTriggered = true;
 		}
 	}
@@ -58,7 +98,6 @@ public class BunnyQuest : Interactable
         {
             UpdateBunny();
             questComplete = true;
-            billboard.SetActive(false);
         }
         else if (questComplete)
         {

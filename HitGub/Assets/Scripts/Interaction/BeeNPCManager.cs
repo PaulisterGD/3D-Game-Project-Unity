@@ -41,7 +41,8 @@ public class BeeNPCManager : Interactable
             case QuestState.QuestStart: break;
             case QuestState.PreFlower: if (!giveSeeds.MeetsRequirements()) { questState = QuestState.PostFlower; } break;
             case QuestState.PostFlower:	
-                if (waterBottleGiven) { 
+                if (waterBottleGiven) {
+                    waterManager.WaterCountReset();
                     questState = QuestState.Watering;
                 } 
                 break;

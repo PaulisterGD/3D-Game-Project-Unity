@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 647954822057935339}
   - component: {fileID: 647954822057935338}
   - component: {fileID: 647954822057935341}
+  - component: {fileID: 8131994343140956674}
   - component: {fileID: 647954822057935343}
   - component: {fileID: 647954822057935340}
   - component: {fileID: 647954822057935337}
@@ -99,6 +100,33 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &8131994343140956674
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647954822057935342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a826b2a0b1e015a4db39a34d80f4ac29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  dialogue:
+    name:
+    - Hedgy
+    - Timmy
+    - Hedgy
+    - Dad
+    - Timmy
+    sentences:
+    - Hiii Timmy......
+    - Hedgehog, what's wrong? You look pale!
+    - I'm famished, I need some worms to eat for the day!
+    - Hedgehogs love worms, Timmy! Thankfully, I know a spot that has plenty of them!
+    - Fantastic! Let's go find some worms!
+  dialogueManager: {fileID: 0}
 --- !u!114 &647954822057935343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -150,16 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionType: 0
-  QuestUIConditionals:
-    popUpQuestUI:
-    - {fileID: 1724669690757317851, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    - {fileID: -1541248559124943982, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    - {fileID: -4627029583574066590, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    - {fileID: -6917440622478499766, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    clipboardQuestUI:
-    - {fileID: -7080137379401597176, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    - {fileID: -897901808488855705, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    - {fileID: -3144724316961717700, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-    - {fileID: -4793930757072083748, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+  hedgehogUI: {fileID: 0}
+  startQuest: {fileID: 8131994343140956674}
   hedgehogObject: {fileID: 647954822057935343}
   hedgehogRequirement: {fileID: 647954822057935340}

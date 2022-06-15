@@ -211,7 +211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   referenceItem: {fileID: 11400000, guid: 441f242ecdbeb0a429d4d9a726bc0277, type: 2}
-  requirements: []
+  requirements:
+  - itemData: {fileID: 11400000, guid: 441f242ecdbeb0a429d4d9a726bc0277, type: 2}
+    amount: 1
   removeRequirementsOnPickup: 0
 --- !u!114 &1673995139292073672
 MonoBehaviour:

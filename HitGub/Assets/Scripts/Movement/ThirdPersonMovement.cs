@@ -22,8 +22,14 @@ public class ThirdPersonMovement : MonoBehaviour
     float turnSmoothVelocity;
 
     public bool firstLoad = true;
+    Animator anim;
 
-	//public Interactable focus;
+    //public Interactable focus;
+
+    public void Start()
+	{
+        anim = GetComponent<Animator>();
+    }
 
 	// Update is called once per frame
 	void Update()
@@ -49,6 +55,32 @@ public class ThirdPersonMovement : MonoBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.W))
+        {
+            anim.SetBool("IsWalking", true);
+            anim.SetBool("IsIdle", false);
+        }
+        else if (Input.GetKey(KeyCode.A))
+        {
+            anim.SetBool("IsWalking", true);
+            anim.SetBool("IsIdle", false);
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            anim.SetBool("IsWalking", true);
+            anim.SetBool("IsIdle", false);
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            anim.SetBool("IsWalking", true);
+            anim.SetBool("IsIdle", false);
+            
+        }
+        else
+        {
+            anim.SetBool("IsWalking", false);
+            anim.SetBool("IsIdle", true);
         }
 
         /*
