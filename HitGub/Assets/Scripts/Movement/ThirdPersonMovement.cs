@@ -24,6 +24,8 @@ public class ThirdPersonMovement : MonoBehaviour
     public bool firstLoad = true;
     Animator anim;
 
+    public Joystick joystick, cameraJoystick;
+
     //public Interactable focus;
 
     public void Start()
@@ -40,8 +42,13 @@ public class ThirdPersonMovement : MonoBehaviour
             velocity.y = -1f;
         }
 
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
+        //float horizontal = Input.GetAxisRaw("Horizontal");
+        //float vertical = Input.GetAxisRaw("Vertical");
+
+        float horizontal = joystick.Horizontal;
+        float vertical = joystick.Vertical;
+
+
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
@@ -56,32 +63,34 @@ public class ThirdPersonMovement : MonoBehaviour
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.W))
-        {
-            anim.SetBool("IsWalking", true);
-            anim.SetBool("IsIdle", false);
-        }
-        else if (Input.GetKey(KeyCode.A))
-        {
-            anim.SetBool("IsWalking", true);
-            anim.SetBool("IsIdle", false);
-        }
-        else if (Input.GetKey(KeyCode.S))
-        {
-            anim.SetBool("IsWalking", true);
-            anim.SetBool("IsIdle", false);
-        }
-        else if (Input.GetKey(KeyCode.D))
-        {
-            anim.SetBool("IsWalking", true);
-            anim.SetBool("IsIdle", false);
+
+
+        //if (Input.GetKey(KeyCode.W))
+        //{
+        //    anim.SetBool("IsWalking", true);
+        //    anim.SetBool("IsIdle", false);
+        //}
+        //else if (Input.GetKey(KeyCode.A))
+        //{
+        //    anim.SetBool("IsWalking", true);
+        //    anim.SetBool("IsIdle", false);
+        //}
+        //else if (Input.GetKey(KeyCode.S))
+        //{
+        //    anim.SetBool("IsWalking", true);
+        //    anim.SetBool("IsIdle", false);
+        //}
+        //else if (Input.GetKey(KeyCode.D))
+        //{
+        //    anim.SetBool("IsWalking", true);
+        //    anim.SetBool("IsIdle", false);
             
-        }
-        else
-        {
-            anim.SetBool("IsWalking", false);
-            anim.SetBool("IsIdle", true);
-        }
+        //}
+        //else
+        //{
+        //    anim.SetBool("IsWalking", false);
+        //    anim.SetBool("IsIdle", true);
+        //}
 
         /*
         if (Input.GetKeyDown("Interact")) {

@@ -5,11 +5,11 @@ using UnityEngine;
 public class BeeNPCManager : Interactable
 {
 
-    public GameObject flowerPlanter;
+    public GameObject flowerPlanter, billboard;
     public FlowerWaterManager waterManager;
     public DialogueTrigger questStartDialogue, postFlowerDialogue, questEndDialogue;
     public ItemObject giveSeeds, giveWaterBottle;
-    public float seedCount = 5;
+    public float seedCount = 5, tally;
 
     public enum QuestState
 	{
@@ -92,6 +92,8 @@ public class BeeNPCManager : Interactable
                 break;
             case QuestState.QuestEnd:
                 questEndDialogue.TriggerDialogue();
+                if (tally < questEndDialogue.dialogue.sentences.Length) tally++;
+                else billboard.SetActive(false);
                 break;
         }
 	}

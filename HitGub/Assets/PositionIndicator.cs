@@ -5,7 +5,7 @@ using UnityEngine;
 public class PositionIndicator : MonoBehaviour
 {
     public GameObject playerModel;
-    public float MapX, MapY, xCoefficient, yCoefficient, xOffset, yOffset, screenX, screenY;
+    private float MapX, MapY, xCoefficient, yCoefficient, xOffset, yOffset, screenX, screenY;
     //Resolution[] resolution = Screen.resolutions;
 
     // Start is called before the first frame update
