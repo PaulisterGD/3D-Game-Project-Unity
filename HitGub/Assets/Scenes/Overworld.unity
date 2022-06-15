@@ -8770,9 +8770,8 @@ MonoBehaviour:
     clipboardQuestUI:
     - {fileID: 2642575053720804712, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
     - {fileID: 706334559436795089, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
-  questUIManager: {fileID: 0}
-  npcManager: {fileID: 0}
-  requirementArray: []
+  questUIManager: {fileID: 184988188}
+  npcManager: {fileID: 8210179171802863258}
   questID: 2
 --- !u!1 &1839820495
 GameObject:

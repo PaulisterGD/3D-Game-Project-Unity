@@ -7,7 +7,6 @@ public class BeeUI : MonoBehaviour
     public QuestUIConditionals questUIConditionals;
     public QuestUIManager questUIManager;
     public BeeNPCManager npcManager;
-    public ItemObject[] requirementArray;
     public int questID = 1;
 
     private bool[] questFlags = new bool[2];
