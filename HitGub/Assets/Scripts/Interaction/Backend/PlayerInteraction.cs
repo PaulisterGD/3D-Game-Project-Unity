@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -58,11 +59,12 @@ public class PlayerInteraction : MonoBehaviour
     //Code that determines how to interact with an object.
     void HandleInteraction(Interactable interactable)
     {
+        var gamepad = Gamepad.current;
         KeyCode key = KeyCode.E;                                        //Set the interaction key (in our case, this is haed-coded to E)
         switch (interactable.interactionType)
         {
             case Interactable.InteractionType.Click:
-                if (Input.GetKeyDown(key)) { interactable.Interact(); } //Run the interactable's code when the button is PRESSED.
+                if (gamepad.buttonSouth.wasPressedThisFrame) { interactable.Interact(); } //Run the interactable's code when the button is PRESSED.
                 break;
             case Interactable.InteractionType.Hold:
                 if (Input.GetKey(key)) { interactable.Interact(); }     //Run the interactable's code when the button is HELD.
