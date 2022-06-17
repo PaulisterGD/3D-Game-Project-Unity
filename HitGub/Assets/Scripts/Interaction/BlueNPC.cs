@@ -12,6 +12,7 @@ public class BlueNPC : Interactable
     void UpdateDialogue()
     {
         FindObjectOfType<DialogueTrigger>().TriggerDialogue();
+        FindObjectOfType<ItemObject>().OnHandleGiveItem();
         /*
         m_light.enabled = isOn;
         foreach (GameObject modelObject in playerModels)

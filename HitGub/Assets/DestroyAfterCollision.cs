@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class DestroyAfterCollision : MonoBehaviour
 {
+    public bool destroymyCrumb;
+
+    public GameObject crumb;
+
     // public GameObject projectile;
     // // Start is called before the first frame update
     // void Start()
@@ -18,14 +22,29 @@ public class DestroyAfterCollision : MonoBehaviour
     //     Destroy(gameObject);
     // }
 
-    void OnTriggerEnter(Collider collision)
+    // void OnTriggerEnter(Collider collision)
+    // {
+    //     Debug.Log("does this work");
+    //     if (collision.gameObject.tag == "BreadCrumb")
+    //     {
+    //         Debug.Log("Do something here");
+    //     }
+    // }
+
+    void Update()
     {
-        Debug.Log("does this wokr");
-        if (collision.gameObject.tag == "BreadCrumb")
+        if (destroymyCrumb)
         {
-            Debug.Log("Do something here");
+            Destroy(crumb);
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.CompareTag("duck"))
+        {
+            destroymyCrumb = true;
+        }
+    }
 }
 

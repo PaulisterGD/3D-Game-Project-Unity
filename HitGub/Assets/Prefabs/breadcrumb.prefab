@@ -91,7 +91,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7949325592443995122}
   - component: {fileID: -6884301445122788207}
-  - component: {fileID: 656099022735093798}
+  - component: {fileID: 4846274924141380790}
+  - component: {fileID: 2200727542601848106}
   m_Layer: 0
   m_Name: breadcrumb
   m_TagString: BreadCrumb
@@ -127,7 +128,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &656099022735093798
+--- !u!54 &4846274924141380790
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7285272987358173512}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2200727542601848106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,3 +156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ab767721bf36cf43ad1fbb329887ec4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroymyCrumb: 0
+  crumb: {fileID: 7285272987358173512}
+  hello: 0

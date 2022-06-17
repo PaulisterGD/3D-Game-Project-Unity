@@ -23,7 +23,11 @@ public class ItemObject : MonoBehaviour
     }
 
 	public void OnHandleGiveItem()
+<<<<<<< Updated upstream
 	{
+=======
+    {
+>>>>>>> Stashed changes
 		if (MeetsRequirements())
 		{
 			if (removeRequirementsOnPickup)
@@ -32,10 +36,17 @@ public class ItemObject : MonoBehaviour
 			}
 		}
 
+<<<<<<< Updated upstream
 		InventorySystem.current.ItemAdd(referenceItem);
 	}
 
 	public void OnHandleDropOffItem()
+=======
+        InventorySystem.current.ItemAdd(referenceItem);
+    }
+
+    public void OnHandleDropOffItem()
+>>>>>>> Stashed changes
 	{
 		if (MeetsRequirements())
 		{
