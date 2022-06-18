@@ -24,13 +24,15 @@ public class DuckFollowBread : MonoBehaviour
     {
         BreadCrumb = GameObject.FindWithTag("BreadCrumb");
         target = BreadCrumb.GetComponent<Transform>();
-        nav.SetDestination(BreadCrumb.transform.position);
+        nav.SetDestination(target.transform.position);
     }
 
-    void OnTriggerEnter (UnityEngine.Collider ducktrigger) {
-            
-    }
-            
-        
+    void OnTriggerEnter (Collider ducktrigger) {
+        if(ducktrigger.gameObject.name == "big mama duck")
+		{
+            target = ducktrigger.transform;
+            nav.SetDestination(target.transform.position);
+            duckReturned = true;
+        }
     }
 }
