@@ -23,8 +23,11 @@ public class DuckFollowBread : MonoBehaviour
     void Update()
     {
         BreadCrumb = GameObject.FindWithTag("BreadCrumb");
-        target = BreadCrumb.GetComponent<Transform>();
-        nav.SetDestination(target.transform.position);
+        if (BreadCrumb != null)
+		{
+            target = BreadCrumb.GetComponent<Transform>();
+            nav.SetDestination(target.transform.position);
+        }
     }
 
     void OnTriggerEnter (Collider ducktrigger) {
