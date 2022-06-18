@@ -52,7 +52,6 @@ public class DialogueManager : MonoBehaviour
         //Ready up the next sentence AND name for printing
         string name = names.Dequeue();
         string sentence = sentences.Dequeue();
-
         StopAllCoroutines();                        //If the previous sentence is still being typed, stop that...
         StartCoroutine(TypeSentence(name, sentence));     //...and start typing the next sentence.
         //dialogueText.text = sentence;

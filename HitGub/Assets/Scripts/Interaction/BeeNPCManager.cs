@@ -10,7 +10,6 @@ public class BeeNPCManager : Interactable
     public DialogueTrigger questStartDialogue, postFlowerDialogue, questEndDialogue;
     public ItemObject giveSeeds, giveWaterBottle;
     public float seedCount = 5, tally;
-    public Animator beeAnimator;
 
     public enum QuestState
 	{
@@ -33,7 +32,6 @@ public class BeeNPCManager : Interactable
         dialogueDelayOne = 0;
         dialogueDelayTwo = 0;
         questState = QuestState.QuestStart;
-        beeAnimator = GetComponent<Animator>();
     }
 
 	void Update()
@@ -94,31 +92,19 @@ public class BeeNPCManager : Interactable
                 break;
             case QuestState.QuestEnd:
                 questEndDialogue.TriggerDialogue();
-                if (tally < questEndDialogue.dialogue.sentences.Length)
-                {
-                    tally++;
-                }
-                else
-                {
-                    beeAnimator.Play("Bee flying");
-                    billboard.SetActive(false);
-                }
-					break;
-				}
+                if (tally < questEndDialogue.dialogue.sentences.Length) tally++;
+                else billboard.SetActive(false);
+                break;
+        }
 	}
 
     void QuestStartFunc()
     {
         questStartDialogue.TriggerDialogue();
-        
-        if (dialogueDelayOne < questStartDialogue.dialogue.sentences.Length)
-        {
-            dialogueDelayOne++;
-        }
-		else
-		{
-            if (!flowerSeedsGiven)
-            {
+        dialogueDelayOne++;
+
+        if (dialogueDelayOne > questStartDialogue.dialogue.sentences.Length){
+            if (!flowerSeedsGiven) {
                 for (int i = 0; i < seedCount; i++) { giveSeeds.OnHandleGiveItem(); }
                 flowerSeedsGiven = true;
                 questState = QuestState.PreFlower;
@@ -129,13 +115,10 @@ public class BeeNPCManager : Interactable
     public void PostFlowerStateFunc()
 	{
         postFlowerDialogue.TriggerDialogue();
+        dialogueDelayTwo++;
 
-        if (dialogueDelayTwo < postFlowerDialogue.dialogue.sentences.Length)
+        if (dialogueDelayTwo > postFlowerDialogue.dialogue.sentences.Length)
         {
-            dialogueDelayTwo++;
-        }
-		else
-		{
             if (!waterBottleGiven)
             {
                 giveWaterBottle.OnHandleGiveItem();

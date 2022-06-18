@@ -31,7 +31,6 @@ public class QuestUIManager : MonoBehaviour
     /// <param name="id"></param>
     public void SetClipboardSprite (Sprite cbSprite, int id)
 	{
-        UISprites[id].rectTransform.sizeDelta = new Vector2(cbSprite.rect.size.x, cbSprite.rect.size.y); 
         UISprites[id].sprite = cbSprite;
         //UpdateClipboard();
 	}
