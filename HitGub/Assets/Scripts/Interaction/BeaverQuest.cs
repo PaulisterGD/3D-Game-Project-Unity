@@ -40,6 +40,7 @@ public class BeaverQuest : Interactable
         if (!beaverUIFlags[number - 1])
         {
             questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[number]);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[number], questID);
             beaverUIFlags[number - 1] = true;
         }
     }
@@ -53,7 +54,7 @@ public class BeaverQuest : Interactable
         else
         {
             billboard.SetActive(false);
-            questUIManager.SetClipboardSprite(null, questID);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[6], questID);
         }
     }
 
@@ -71,9 +72,9 @@ public class BeaverQuest : Interactable
     //Provides instructions on how to interact and why
     public override string GetDescription()
     {
-        if (beaverRequirement.MeetsRequirements()) { return "Press E to return the sticks to the Beaver!!"; }
+        if (beaverRequirement.MeetsRequirements()) { return "Interact to return the sticks to the Beaver!!"; }
         else if (questComplete) { return ""; }
-        else { return "Press E to talk to the beaver!"; }
+        else { return "Interact to talk to the beaver!"; }
 
     }
 

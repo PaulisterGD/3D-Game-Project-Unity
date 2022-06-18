@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ThirdPersonMovement : MonoBehaviour
 {
@@ -24,7 +25,7 @@ public class ThirdPersonMovement : MonoBehaviour
     public bool firstLoad = true;
     Animator anim;
 
-    public Joystick joystick, cameraJoystick;
+    public Joystick joystick;
 
     //public Interactable focus;
 
@@ -48,7 +49,11 @@ public class ThirdPersonMovement : MonoBehaviour
         float horizontal = joystick.Horizontal;
         float vertical = joystick.Vertical;
 
+        //CustomInput.GetAxis("Camera Horizontal");
+        //CustomInput.GetAxis("Camera Vertical");
 
+        //CustomInput.SetAxis("Camera Horizontal", cameraJoystick.Horizontal);
+        //CustomInput.SetAxis("Camera Vertical", cameraJoystick.Vertical);
 
         Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
