@@ -30,7 +30,4 @@ public class DuckFollowBread : MonoBehaviour
     void OnTriggerEnter (UnityEngine.Collider ducktrigger) {
             
     }
-            
-        
-    }
 }
