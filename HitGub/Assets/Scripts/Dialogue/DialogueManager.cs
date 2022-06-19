@@ -80,4 +80,5 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen", false);      //Bring the dialogue box off-screen.
         Debug.Log("End of conversation.");
     }
+
 }
