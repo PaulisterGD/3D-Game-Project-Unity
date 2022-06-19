@@ -17,6 +17,8 @@ public class PlayerInteraction : MonoBehaviour
     public LayerMask interactMask;          //A layer mask that is set to "Interactables".
     bool canInteract;                       //The bool that is affected by the interactable detection code.
     public Collider[] interactCollider;     //List of colliders that have been spotted.
+    private Gamepad gamepad = Gamepad.current;
+
 
     // Update is called once per frame
     void Update()
@@ -59,7 +61,6 @@ public class PlayerInteraction : MonoBehaviour
     //Code that determines how to interact with an object.
     void HandleInteraction(Interactable interactable)
     {
-        var gamepad = Gamepad.current;
         KeyCode key = KeyCode.E;                                        //Set the interaction key (in our case, this is haed-coded to E)
         switch (interactable.interactionType)
         {

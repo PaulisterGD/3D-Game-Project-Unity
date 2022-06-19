@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class dogquest : MonoBehaviour
 {
     public Animator anim;
-    public GameObject target, billboard;
+    public GameObject target, billboard, dogOwner;
     public bool dogReturned;
     NavMeshAgent nav;
 
@@ -21,24 +21,26 @@ public class dogquest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(target != null) { nav.SetDestination(target.transform.position); }
+        float goalDistance = Vector3.Distance(transform.position, dogOwner.transform.position);
+        if (goalDistance < 10)
+        {
+            target = dogOwner;
+            dogReturned = true;
+        }
+
+        if (target != null) { nav.SetDestination(target.transform.position); }
 
         if(nav.velocity.magnitude > 1) anim.SetBool("IsMoving", true);
         else anim.SetBool("IsMoving", false);
     }
 
     void OnTriggerEnter (Collider dogtrigger) {
-        if (dogtrigger.tag == "Dog Owner"){
-            target = null;
-            dogReturned = true;
-        } else if (dogtrigger.tag == "Player"){
+        if (dogtrigger.tag == "Player"){
             if (!dogReturned) { 
                 target = GameObject.FindGameObjectWithTag("Player");
                 billboard.SetActive(false);
             }
         }
-            
-        
     }
 /*void OnTriggerEnter (UnityEngine.Collider NPCtrigger){
     if (){            

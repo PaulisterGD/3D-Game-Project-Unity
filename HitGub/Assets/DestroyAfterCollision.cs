@@ -8,32 +8,41 @@ public class DestroyAfterCollision : MonoBehaviour
 
     public GameObject crumb;
 
-    // public GameObject projectile;
-    // // Start is called before the first frame update
-    // void Start()
-    // {
-        
-    // }
+    private float initializationTime;
 
-    // // Update is called once per frame
-    // void OnCollisionEnter(Collision collision)
-    // {
-    //     Destroy(collision.collider.gameObject);
-    //     Destroy(gameObject);
-    // }
+	// public GameObject projectile;
+	// // Start is called before the first frame update
+	// void Start()
+	// {
 
-    // void OnTriggerEnter(Collider collision)
-    // {
-    //     Debug.Log("does this work");
-    //     if (collision.gameObject.tag == "BreadCrumb")
-    //     {
-    //         Debug.Log("Do something here");
-    //     }
-    // }
+	// }
 
-    void Update()
+	// // Update is called once per frame
+	// void OnCollisionEnter(Collision collision)
+	// {
+	//     Destroy(collision.collider.gameObject);
+	//     Destroy(gameObject);
+	// }
+
+	// void OnTriggerEnter(Collider collision)
+	// {
+	//     Debug.Log("does this work");
+	//     if (collision.gameObject.tag == "BreadCrumb")
+	//     {
+	//         Debug.Log("Do something here");
+	//     }
+	// }
+
+	// Start is called before the first frame update
+	void Start()
+	{
+		initializationTime = Time.realtimeSinceStartup;
+	}
+
+	void Update()
     {
-        if (destroymyCrumb)
+		float timeSinceInitialization = Time.realtimeSinceStartup - initializationTime;
+        if (destroymyCrumb || timeSinceInitialization >= 5)
         {
             Destroy(crumb);
         }

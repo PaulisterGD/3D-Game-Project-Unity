@@ -80,8 +80,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3775637501bceea479fa651680183b62, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  anim: {fileID: 7897687119098532437}
   target: {fileID: 0}
   billboard: {fileID: 0}
+  dogOwner: {fileID: 0}
   dogReturned: 0
 --- !u!195 &5274694877534524721
 NavMeshAgent:

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class DropCrumbs : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class DropCrumbs : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(breadCrumbRequirement.MeetsRequirements())
+        var gamepad = Gamepad.current;
+        if (breadCrumbRequirement.MeetsRequirements())
         {
             breadCrumbFlag = true;
         }
@@ -25,7 +27,7 @@ public class DropCrumbs : MonoBehaviour
         {
             breadCrumbFlag = false;
         }
-        if(Input.GetKeyDown(KeyCode.E))
+        if(gamepad.buttonSouth.wasPressedThisFrame)
         {
             if(breadCrumbFlag)
             {
