@@ -5,7 +5,6 @@ using UnityEngine.AI;
 
 public class DuckFollowBread : MonoBehaviour
 {
-    public ItemObject itemObject;
     public GameObject BreadCrumb, mamaDuck;
     public Transform target;
     public bool duckReturned;
@@ -24,6 +23,7 @@ public class DuckFollowBread : MonoBehaviour
         SetTarget();
         duckReturned = false;
         uiUpdated = false;
+        transform.Rotate(-90, 0, 0);
     }
 
     // Update is called once per frame

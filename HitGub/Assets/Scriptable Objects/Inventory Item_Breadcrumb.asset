@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: InventoryItem_Breadcrumb
   displayName: 
-  icon: {fileID: 21300000, guid: 465b4e34f7317ec4cab3578d2b70ccfa, type: 3}
+  icon: {fileID: 21300000, guid: 5d7b972769f79414abf0820fa334018f, type: 3}
   prefab: {fileID: 7285272987358173512, guid: 4e74bf20c499be545a71b0c0b783e5d7, type: 3}

@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 2451930720194832363}
   - component: {fileID: 4109531979676583487}
   - component: {fileID: 4109531979676583472}
-  - component: {fileID: 4109531979676583475}
   m_Layer: 0
   m_Name: baby duck 04
   m_TagString: duck
@@ -136,19 +135,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BreadCrumb: {fileID: 0}
+  mamaDuck: {fileID: 0}
   target: {fileID: 0}
---- !u!114 &4109531979676583475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4109531979676583486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  referenceItem: {fileID: 11400000, guid: 66ed67bc533a119419e4aae029473e7d, type: 2}
-  requirements: []
-  removeRequirementsOnPickup: 0
+  duckReturned: 0
+  questUI:
+    popUpQuestUI:
+    - {fileID: -400831703399472793, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+    clipboardQuestUI:
+    - {fileID: -1518553680661744355, guid: 20f2d75e56b660a43b8024f2bddea145, type: 3}
+  questUIManager: {fileID: 0}
