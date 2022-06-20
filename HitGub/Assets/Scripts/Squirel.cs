@@ -14,6 +14,7 @@ public class Squirel : Interactable
     public DialogueTrigger startQuestDialogue, endQuestDialogue;
     public int questID = 4;
     private bool questFlag, uiFlag;
+    private int questStartTally, questEndTally;
 
 
 	private void Start()
@@ -21,6 +22,8 @@ public class Squirel : Interactable
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         questFlag = false;
         uiFlag = false;
+        questStartTally = 0;
+        questEndTally = 0;
 	}
 
     // Function that triggers the Blue NPC's dialogue when the player interacts with it.
@@ -30,9 +33,22 @@ public class Squirel : Interactable
         if (!questFlag)
         {
             startQuestDialogue.TriggerDialogue();
-            QuestStartUI();
+            if(questStartTally < startQuestDialogue.dialogue.sentences.Length) questStartTally++;
+			else 
+            {
+                QuestStartUI();
+            }
         }
-        else endQuestDialogue.TriggerDialogue();
+        else
+        {
+            endQuestDialogue.TriggerDialogue();
+            if (questEndTally < endQuestDialogue.dialogue.sentences.Length) questEndTally++;
+			else
+			{
+                uiFlag = true;
+                QuestStartUI();
+			}
+        }
         /*
         m_light.enabled = isOn;
         foreach (GameObject modelObject in playerModels)
@@ -49,6 +65,10 @@ public class Squirel : Interactable
             questUIManager.SetPopUpSprite(questUIConditionals.popUpQuestUI[0]);
             questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[0], questID);
 		}
+        else
+        {
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[1], questID);
+        }
 	}
 
     //Provides instructions on how to interact and why

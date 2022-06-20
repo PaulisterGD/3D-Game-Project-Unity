@@ -49,6 +49,7 @@ public class FlowerPlanter : Interactable
 
 	public override string GetDescription()
 	{
-        return "Press E to plant a flower!";
+        if (seedCount.MeetsRequirements()) return "Interact to plant a flower!";
+        return "";
 	}
 }

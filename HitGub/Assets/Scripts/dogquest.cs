@@ -30,7 +30,7 @@ public class dogquest : MonoBehaviour
 
         if (target != null) { nav.SetDestination(target.transform.position); }
 
-        if(nav.velocity.magnitude > 1) anim.SetBool("IsMoving", true);
+        if(nav.velocity.magnitude > 0.1) anim.SetBool("IsMoving", true);
         else anim.SetBool("IsMoving", false);
     }
 

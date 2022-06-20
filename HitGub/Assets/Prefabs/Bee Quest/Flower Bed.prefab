@@ -117,6 +117,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1779689992850770812, guid: 5507686c8eee4a944bf6b95162b5f01b, type: 3}
+      propertyPath: flowerObject
+      value: 
+      objectReference: {fileID: 8219336267797929245, guid: 6656e5588a21a39489f422d1a78ee5bb, type: 3}
+    - target: {fileID: 1779689992850770812, guid: 5507686c8eee4a944bf6b95162b5f01b, type: 3}
       propertyPath: beeQuestManager
       value: 
       objectReference: {fileID: 0}

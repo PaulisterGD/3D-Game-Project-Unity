@@ -62,6 +62,7 @@ public class BunnyQuest : Interactable
         if (tally < bunnyObject.dialogue.sentences.Length) tally++;
         else
         {
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[5], questID);
             bunnyAnimator.Play("Bunny Waving Animation");
             billboard.SetActive(false);
         }

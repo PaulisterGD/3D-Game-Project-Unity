@@ -8,6 +8,7 @@ public class HedgehogUI : MonoBehaviour
     public QuestUIManager questUIManager;
     public ItemObject[] requirementArray;
     public int questID = 0;
+    public HedgehogQuest questChecker;
 
     private bool[] questFlags;
 
@@ -25,6 +26,11 @@ public class HedgehogUI : MonoBehaviour
         if (requirementArray[2].MeetsRequirements()){ QuestProgressPopUp(3); } 
         else if (requirementArray[1].MeetsRequirements()){ QuestProgressPopUp(2); }
         else if (requirementArray[0].MeetsRequirements()){ QuestProgressPopUp(1); }
+
+		if (questChecker.questComplete)
+		{
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[4], questID);
+        }
     }
 
     public void QuestStartPopUp()

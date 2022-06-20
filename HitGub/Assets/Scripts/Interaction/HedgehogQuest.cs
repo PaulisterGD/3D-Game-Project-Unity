@@ -5,7 +5,7 @@ using UnityEngine;
 public class HedgehogQuest : Interactable
 {
 
-    private bool questComplete;
+    public bool questComplete;
     private ItemObject itemObject;
     private int tally;
 
@@ -44,9 +44,9 @@ public class HedgehogQuest : Interactable
     //Provides instructions on how to interact and why
     public override string GetDescription()
     {
-        if (hedgehogRequirement.MeetsRequirements()) { return "Press E to give the worms to the hedgehog!!"; }
+        if (hedgehogRequirement.MeetsRequirements()) { return "Interact to give the worms to the hedgehog!!"; }
         else if (questComplete) { return ""; }
-        else { return "Hedgehog needs some worms! Find them!"; }
+        else { return "Interact to talk to this poorly hedgehog!"; }
 
     }
 

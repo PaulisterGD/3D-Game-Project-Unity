@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2576010384783688237}
   - component: {fileID: 2327185516122736300}
   - component: {fileID: 7416522378991094813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ GameObject:
   - component: {fileID: 2516156022702127741}
   - component: {fileID: 3794835238495180809}
   - component: {fileID: 2099241075678385811}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 214326702015740585}
   - component: {fileID: 4456114790445676846}
   - component: {fileID: 2211765457088389732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -252,7 +252,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8744620919615702951}
-  m_Layer: 0
+  - component: {fileID: 6039018120633647839}
+  - component: {fileID: 1152439888457785776}
+  - component: {fileID: 4028753423065930575}
+  m_Layer: 6
   m_Name: flower01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -276,3 +279,48 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6039018120633647839
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219336267797929245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.2, y: 0.6, z: 0.2}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &1152439888457785776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219336267797929245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9358d32747272846846cb8f0438e4b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 0
+  waterCheck: {fileID: 4028753423065930575}
+  waterManager: {fileID: 2760318658467191255, guid: c0eb71d920286314184e22f6ccbb131a, type: 3}
+--- !u!114 &4028753423065930575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8219336267797929245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08df442928b03e348a785f359b1199b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  referenceItem: {fileID: 0}
+  requirements:
+  - itemData: {fileID: 11400000, guid: 5e8842673fce6c34ba166851abf2ce28, type: 2}
+    amount: 1
+  removeRequirementsOnPickup: 0
