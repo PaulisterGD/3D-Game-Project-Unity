@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class BeeNPCManager : Interactable
 {
-
+    private bool tickOnce;
     public GameObject flowerPlanter, billboard;
     public FlowerWaterManager waterManager;
     public DialogueTrigger questStartDialogue, postFlowerDialogue, questEndDialogue;
     public ItemObject giveSeeds, giveWaterBottle;
     public float seedCount = 5, tally;
     public Animator beeAnimator;
+    public QuestProgressManager progressManager;
+
 
     public enum QuestState
 	{
@@ -30,13 +32,16 @@ public class BeeNPCManager : Interactable
     {
         flowerSeedsGiven = false;
         waterBottleGiven = false;
+        tickOnce = false;
         dialogueDelayOne = 0;
         dialogueDelayTwo = 0;
         questState = QuestState.QuestStart;
         beeAnimator = GetComponent<Animator>();
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
+
     }
 
-	void Update()
+    void Update()
 	{
 		switch (questState)
 		{
@@ -95,7 +100,15 @@ public class BeeNPCManager : Interactable
             case QuestState.QuestEnd:
                 questEndDialogue.TriggerDialogue();
                 if (tally < questEndDialogue.dialogue.sentences.Length) tally++;
-                else billboard.SetActive(false);
+                else
+                {
+                    billboard.SetActive(false);
+                    if (!tickOnce)
+                    {
+                        tickOnce = true;
+                        progressManager.QuestCountUp();
+                    }
+                }
 				break;
 			}
 	}

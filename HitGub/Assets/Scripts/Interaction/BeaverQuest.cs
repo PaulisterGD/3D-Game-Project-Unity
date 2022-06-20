@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BeaverQuest : Interactable
 { 
-    private bool questComplete;
+    private bool questComplete, tickOnce;
     private ItemObject itemObject;
     private int tally, questID;
     private bool[] beaverUIFlags = new bool[5];
@@ -15,15 +15,20 @@ public class BeaverQuest : Interactable
     public GameObject billboard;
     public DialogueTrigger startQuest, finishQuest;
     public ItemObject beaverRequirement;
+    public QuestProgressManager progressManager;
+
 
     // Start is called before the first frame update
     void Start()
     {
         questComplete = false;
+        tickOnce = false;
         tally = 0;
         questID = 5;
         itemObject = GetComponent<ItemObject>();
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
+
     }
 
     void Update()
@@ -53,6 +58,11 @@ public class BeaverQuest : Interactable
         if (tally < finishQuest.dialogue.sentences.Length) tally++;
         else
         {
+            if (!tickOnce)
+            {
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
             billboard.SetActive(false);
             questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[6], questID);
         }

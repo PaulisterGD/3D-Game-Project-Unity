@@ -13,14 +13,16 @@ public class BlueNPC : Interactable
     public GameObject[] billboards = new GameObject[2];
     private int dialogueTallyStart, dialogueTallyEnd;
     private int questID = 6;
-    private bool questComplete;
+    private bool questComplete, tickOnce;
     public QuestUIConditionals questUI;
     public QuestUIManager questUIManager;
     public Animator animator;
+    public QuestProgressManager progressManager;
 
     private void Start()
 	{
         questComplete = false;
+        tickOnce = false;
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         billboards[0].gameObject.SetActive(true);
         billboards[1].gameObject.SetActive(false);
@@ -28,10 +30,11 @@ public class BlueNPC : Interactable
         dialogueTallyEnd = 0;
         animator.GetComponent<Animator>();
         animator.SetBool("OwnerHappy", false);
-	}
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
+    }
 
-	// Function that triggers the Blue NPC's dialogue when the player interacts with it.
-	void StartDialogue()
+    // Function that triggers the Blue NPC's dialogue when the player interacts with it.
+    void StartDialogue()
     {
         questStart.TriggerDialogue();
         if(dialogueTallyStart < questStart.dialogue.sentences.Length) dialogueTallyStart++;
@@ -53,6 +56,11 @@ public class BlueNPC : Interactable
             billboards[0].SetActive(false);
             questUIManager.SetClipboardSprite(questUI.clipboardQuestUI[1], questID);
             animator.SetBool("OwnerHappy", true);
+            if (!tickOnce)
+            {
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
         }
     }
 

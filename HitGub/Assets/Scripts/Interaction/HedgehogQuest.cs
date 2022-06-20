@@ -5,20 +5,24 @@ using UnityEngine;
 public class HedgehogQuest : Interactable
 {
 
-    public bool questComplete;
+    public bool questComplete, tickOnce;
     private ItemObject itemObject;
-    private int tally;
+    private int endTally, tally;
 
     public HedgehogUI hedgehogUI;
     public DialogueTrigger startQuest, hedgehogObject;
     public ItemObject hedgehogRequirement;
+    public QuestProgressManager progressManager;
 
     // Start is called before the first frame update
     void Start()
     {
         questComplete = false;
+        tickOnce = false;
         tally = 0;
+        endTally = 0;
         itemObject = GetComponent<ItemObject>();
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
     }
 
     void StartQuest()
@@ -37,8 +41,18 @@ public class HedgehogQuest : Interactable
     // Function that handles dropping off the worms for the hedgehog and playing a dialogue that marks the end of the quest
     void UpdateHedgehog()
     {
-        itemObject.OnHandleDropOffItem();
         hedgehogObject.TriggerDialogue();
+        if(endTally < hedgehogObject.dialogue.sentences.Length) endTally++;
+		else
+		{
+            itemObject.OnHandleDropOffItem();
+			if (!tickOnce)
+			{
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
+            
+        }
     }
 
     //Provides instructions on how to interact and why

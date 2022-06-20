@@ -9,7 +9,14 @@ public class ButtonBehaviour : MonoBehaviour
     public CinemachineFreeLook vcam;
     public bool zoomCheck;
     public QuestProgressManager progressManager;
-    public void LoadScene(string sceneName)
+
+	private void Start()
+	{
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
+
+    }
+
+	public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
     }

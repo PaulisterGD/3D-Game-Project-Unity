@@ -9,9 +9,15 @@ EditorBuildSettings:
     path: Assets/Menu/menu.unity
     guid: bfd0b2227669a364fbc878552033f5b8
   - enabled: 1
+    path: Assets/Scenes/INTRO.unity
+    guid: 949078417d186524c9d5ba7a261d3e5e
+  - enabled: 1
     path: Assets/Menu/Settings.unity
     guid: ec078a7b759ab52438b19ff98aa2787d
   - enabled: 1
     path: Assets/Scenes/Overworld.unity
     guid: e3e3172a99ea89c449f632ddbaaafbc9
+  - enabled: 1
+    path: Assets/Scenes/OUTRO.unity
+    guid: f83c4ec2449ae964aad52bb1ce135b93
   m_configObjects: {}

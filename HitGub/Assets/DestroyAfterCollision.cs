@@ -42,7 +42,7 @@ public class DestroyAfterCollision : MonoBehaviour
 	void Update()
     {
 		float timeSinceInitialization = Time.realtimeSinceStartup - initializationTime;
-        if (destroymyCrumb || timeSinceInitialization >= 5)
+        if (destroymyCrumb || timeSinceInitialization >= 3)
         {
             Destroy(crumb);
         }

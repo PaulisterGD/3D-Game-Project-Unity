@@ -13,18 +13,23 @@ public class Squirel : Interactable
     public GameObject questCompleteDetect;
     public DialogueTrigger startQuestDialogue, endQuestDialogue;
     public int questID = 4;
-    private bool questFlag, uiFlag;
+    private bool questFlag, uiFlag, tickOnce;
     private int questStartTally, questEndTally;
+    public QuestProgressManager progressManager;
 
 
-	private void Start()
+
+    private void Start()
 	{
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         questFlag = false;
         uiFlag = false;
+        tickOnce = false;
         questStartTally = 0;
         questEndTally = 0;
-	}
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
+
+    }
 
     // Function that triggers the Blue NPC's dialogue when the player interacts with it.
     void UpdateDialogue()
@@ -45,9 +50,14 @@ public class Squirel : Interactable
             if (questEndTally < endQuestDialogue.dialogue.sentences.Length) questEndTally++;
 			else
 			{
+                if (!tickOnce)
+                {
+                    tickOnce = true;
+                    progressManager.QuestCountUp();
+                }
                 uiFlag = true;
                 QuestStartUI();
-			}
+            }
         }
         /*
         m_light.enabled = isOn;

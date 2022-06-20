@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ToadPondQuestManager : Interactable
 {
-    private bool questComplete;
+    private bool questComplete, tickOnce;
     private int dialogueTally;
     private int questID = 7;
     public QuestUIConditionals questUI;
@@ -15,14 +15,17 @@ public class ToadPondQuestManager : Interactable
     public DialogueTrigger pondObject;
     public ItemObject pondRequirement;
     public GameObject billboard, toad;
+    public QuestProgressManager progressManager;
 
     // Start is called before the first frame update
     void Start()
     {
         questComplete = false;
+        tickOnce = false;
         dialogueTally = 0;
         itemObject = GetComponent<ItemObject>();
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
     }
 
     // Function that handles dropping off the toad in the pond and playing a dialogue that marks the end of the quest
@@ -44,7 +47,12 @@ public class ToadPondQuestManager : Interactable
 		{
             billboard.SetActive(false);
             questUIManager.SetClipboardSprite(questUI.clipboardQuestUI[0], questID);
-		}
+            if (!tickOnce)
+            {
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
+        }
     }
 
     //Provides instructions on how to interact and why

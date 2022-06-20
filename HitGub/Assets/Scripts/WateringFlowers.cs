@@ -23,6 +23,7 @@ public class WateringFlowers : Interactable
     public override string GetDescription()
     {
         if (isWatered) return "You already watered this flower!";
+        else if (!waterCheck.MeetsRequirements()) return "";
         return "Press to water the flower!";
     }
 

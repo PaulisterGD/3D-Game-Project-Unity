@@ -12,7 +12,8 @@ public class DuckQuestManager : Interactable
     public QuestUIConditionals questUI;
     public QuestUIManager questUIManager;
     public ItemObject breadCrumbs;
-    private bool questComplete, breadCrumbsGiven;
+    private bool questComplete, breadCrumbsGiven, tickOnce;
+    public QuestProgressManager progressManager;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,8 @@ public class DuckQuestManager : Interactable
         dialogueTallyStart = 0;
         dialogueTallyEnd = 0;
         questComplete = false;
+        tickOnce = false;
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
     }
 
     // Update is called once per frame
@@ -59,6 +62,11 @@ public class DuckQuestManager : Interactable
             breadCrumbs.OnHandleDropOffItem();
             questUIManager.SetClipboardSprite(questUI.clipboardQuestUI[1], questID);
             questComplete = true;
+            if (!tickOnce)
+            {
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
         }
     }
 

@@ -5,7 +5,7 @@ using UnityEngine;
 public class BunnyQuest : Interactable
 {
     private int dialogueCount, tally;
-    private bool questTriggered, questComplete;
+    private bool questTriggered, questComplete, tickOnce;
     private bool[] bunnyProgressFlags = new bool[4];
     private ItemObject itemObject;
     private int questID = 2;
@@ -18,18 +18,21 @@ public class BunnyQuest : Interactable
     public ItemObject bunnyRequirement;
     public ItemObject[] trash;
     public Animator bunnyAnimator;
+    public QuestProgressManager progressManager;
 
     // Start is called before the first frame update
     void Start()
     {
         questComplete = false;
         questTriggered = false;
+        tickOnce = false;
         dialogueCount = 0;
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         itemObject = GetComponent<ItemObject>();
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
     }
 
-	private void Update()
+    private void Update()
 	{
         UpdateTrashCount();
         if (trashCount > 0) ProgressUI(trashCount);
@@ -65,6 +68,11 @@ public class BunnyQuest : Interactable
             questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[5], questID);
             bunnyAnimator.Play("Bunny Waving Animation");
             billboard.SetActive(false);
+            if (!tickOnce)
+            {
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
         }
     }
 

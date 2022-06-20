@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BirdQuest : Interactable
 {
-    private bool questComplete;
+    private bool questComplete, tickOnce;
     private bool[] uiFlags = new bool[5];
     private ItemObject itemObject;
     private int questID = 8;
@@ -16,6 +16,8 @@ public class BirdQuest : Interactable
     public QuestUIManager questUIManager;
     public DialogueTrigger questStart, questEnd;
     public ItemObject birdRequirement;
+    public QuestProgressManager progressManager;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,11 +27,14 @@ public class BirdQuest : Interactable
         startDialogueCount = questStart.dialogue.sentences.Length;
         finishDialogueCount = questEnd.dialogue.sentences.Length;
         questComplete = false;
+        tickOnce = false;
         questUIManager = GameObject.FindObjectOfType<QuestUIManager>();
         itemObject = GetComponent<ItemObject>();
+        progressManager = GameObject.FindObjectOfType<QuestProgressManager>();
+
     }
 
-	void Update()
+    void Update()
 	{
         if (birdRequirementArray[4].MeetsRequirements()) { QuestProgress(5); }
         else if (birdRequirementArray[3].MeetsRequirements()) { QuestProgress(4); }
@@ -69,6 +74,11 @@ public class BirdQuest : Interactable
         {
             billboard.SetActive(false);
             questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[6], questID);
+            if (!tickOnce)
+            {
+                tickOnce = true;
+                progressManager.QuestCountUp();
+            }
         }
 
         itemObject.OnHandleDropOffItem();
