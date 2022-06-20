@@ -5,6 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/Menu/menu.unity
+    guid: bfd0b2227669a364fbc878552033f5b8
+  - enabled: 1
+    path: Assets/Scenes/INTRO.unity
+    guid: 949078417d186524c9d5ba7a261d3e5e
   - enabled: 0
     path: Assets/Scenes/UI.unity
     guid: 70435f0a850c50d4abb85a3e387e27da
@@ -14,9 +20,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/UI-MAP.unity
     guid: d9a154397c71b374884cb63216d8d717
-  - enabled: 1
-    path: Assets/Menu/menu.unity
-    guid: bfd0b2227669a364fbc878552033f5b8
   - enabled: 1
     path: Assets/Menu/Settings.unity
     guid: ec078a7b759ab52438b19ff98aa2787d
@@ -29,4 +32,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MAP Overworld.unity
     guid: 325a686bc101f5e408f0f219c28c98e3
+  - enabled: 1
+    path: Assets/Scenes/OUTRO.unity
+    guid: f83c4ec2449ae964aad52bb1ce135b93
   m_configObjects: {}
