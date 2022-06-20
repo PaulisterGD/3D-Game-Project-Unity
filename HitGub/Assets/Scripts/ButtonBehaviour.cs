@@ -8,6 +8,7 @@ public class ButtonBehaviour : MonoBehaviour
 {
     public CinemachineFreeLook vcam;
     public bool zoomCheck;
+    public QuestProgressManager progressManager;
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
@@ -40,5 +41,18 @@ public class ButtonBehaviour : MonoBehaviour
             userInterface.SetActive(true);
             gameObject.SetActive(false);
 		}
+	}
+
+    public void FinishGame()
+	{
+        if (progressManager.completionTally >= 6)
+		{
+            LoadScene("OUTRO");
+		}
+	}
+
+    public void QuitGame()
+	{
+        Application.Quit();
 	}
 }
