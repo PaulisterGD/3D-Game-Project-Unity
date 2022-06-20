@@ -12,6 +12,7 @@ public class DuckQuestManager : Interactable
     public QuestUIConditionals questUI;
     public QuestUIManager questUIManager;
     public ItemObject breadCrumbs;
+    private bool questComplete, breadCrumbsGiven;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,7 @@ public class DuckQuestManager : Interactable
         billboards[1].SetActive(false);
         dialogueTallyStart = 0;
         dialogueTallyEnd = 0;
+        questComplete = false;
     }
 
     // Update is called once per frame
@@ -35,7 +37,11 @@ public class DuckQuestManager : Interactable
         if(dialogueTallyStart < questStart.dialogue.sentences.Length) dialogueTallyStart++;
 		else
 		{
-            breadCrumbs.OnHandleGiveItem();
+            if (!breadCrumbsGiven)
+            {
+                breadCrumbsGiven = true;
+                breadCrumbs.OnHandleGiveItem();
+            }
             billboards[1].SetActive(true);
             questUIManager.SetPopUpSprite(questUI.popUpQuestUI[0]);
             questUIManager.SetClipboardSprite(questUI.clipboardQuestUI[0], questID);
@@ -48,16 +54,19 @@ public class DuckQuestManager : Interactable
         if (dialogueTallyEnd < questEnd.dialogue.sentences.Length) dialogueTallyEnd++;
         else
         {
-            breadCrumbs.OnHandleDropOffItem();
             billboards[0].SetActive(false);
             billboards[1].SetActive(false);
+            breadCrumbs.OnHandleDropOffItem();
             questUIManager.SetClipboardSprite(questUI.clipboardQuestUI[1], questID);
+            questComplete = true;
         }
     }
 
     //Provides instructions on how to interact and why
     public override string GetDescription()
     {
+        if (questComplete) return "";
+        else if (ducky.duckReturned) return "The duckies are back! Interact with mama duck!";
         return "Interact to talk with the Mama duck!";
     }
 

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using Cinemachine;
 
 public class ThirdPersonMovement : MonoBehaviour
@@ -27,6 +28,8 @@ public class ThirdPersonMovement : MonoBehaviour
 
     public Joystick joystick;
 
+    public InputAction playerMovement;
+
     //public Interactable focus;
 
     public void Start()
@@ -46,16 +49,18 @@ public class ThirdPersonMovement : MonoBehaviour
         //float horizontal = Input.GetAxisRaw("Horizontal");
         //float vertical = Input.GetAxisRaw("Vertical");
 
-        float horizontal = joystick.Horizontal;
-        float vertical = joystick.Vertical;
+        //Vector2 moveDirection = playerMovement.ReadValue<Vector2>();
 
-        //CustomInput.GetAxis("Camera Horizontal");
-        //CustomInput.GetAxis("Camera Vertical");
+		float horizontal = joystick.Horizontal;
+		float vertical = joystick.Vertical;
 
-        //CustomInput.SetAxis("Camera Horizontal", cameraJoystick.Horizontal);
-        //CustomInput.SetAxis("Camera Vertical", cameraJoystick.Vertical);
+		//CustomInput.GetAxis("Camera Horizontal");
+		//CustomInput.GetAxis("Camera Vertical");
 
-        Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
+		//CustomInput.SetAxis("Camera Horizontal", cameraJoystick.Horizontal);
+		//CustomInput.SetAxis("Camera Vertical", cameraJoystick.Vertical);
+
+		Vector3 direction = new Vector3(horizontal, 0f, vertical).normalized;
 
         velocity.y += gravity * Time.deltaTime;
         controller.Move(velocity * Time.deltaTime);

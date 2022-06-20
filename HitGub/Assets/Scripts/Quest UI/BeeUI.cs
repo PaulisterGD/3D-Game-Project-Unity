@@ -30,6 +30,10 @@ public class BeeUI : MonoBehaviour
 		{
             QuestUIUpdate(1);
 		}
+        else if (npcManager.questState == BeeNPCManager.QuestState.QuestEnd)
+		{
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[2], questID);
+        }
     }
 
     public void QuestUIUpdate(int state)

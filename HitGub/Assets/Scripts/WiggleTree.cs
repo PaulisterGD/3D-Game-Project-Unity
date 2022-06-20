@@ -48,7 +48,7 @@ public class WiggleTree : Interactable
 
     public override string GetDescription()
     {
-        if (!questComplete) return "Press E to interact";
+        if (!questComplete) return "Interact to shake the tree!";
         return "You got the acorns! Return to the squirrel!";
     }
 

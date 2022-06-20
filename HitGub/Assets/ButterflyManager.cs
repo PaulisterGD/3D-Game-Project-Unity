@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ButterflyManager : Interactable
 {
-    private bool startDone, questComplete;
+    private bool startDone, questComplete, allComplete;
     private int dialogueTallyStart, dialogueTallyEnd;
 	public DialogueTrigger questStart, questEnd;
     public Sprite[] billboardSprites = new Sprite[2];
@@ -21,6 +21,7 @@ public class ButterflyManager : Interactable
         dialogueTallyEnd = 0;
         startDone = false;
         questComplete = false;
+        allComplete = false;
         billboard.gameObject.SetActive(true);
         billboard.sprite = billboardSprites[0];
         animator = butterfly.GetComponent<Animator>();
@@ -53,6 +54,7 @@ public class ButterflyManager : Interactable
         if(dialogueTallyEnd < questEnd.dialogue.sentences.Length) dialogueTallyEnd++;
         else
 		{
+            allComplete = true;
             billboard.gameObject.SetActive(false);
             animator.SetBool("QuestDone", true);
         }
@@ -65,7 +67,10 @@ public class ButterflyManager : Interactable
 
 	public override string GetDescription()
     {
-        return "";
+        if (allComplete) return "";
+        else if (questComplete) return "You did it! Interact to tell dad what you see!";
+        else if (startDone) return "Press the magnifying glass button!";
+        else return "Oh look! A cute butterfly! Let's interact with it";
     }
     public override void Interact()
     {

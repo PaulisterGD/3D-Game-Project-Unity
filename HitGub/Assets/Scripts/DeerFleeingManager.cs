@@ -25,9 +25,9 @@ public class DeerFleeingManager : MonoBehaviour
 		if (fleeCheck)
 		{
             billboard.SetActive(false);
-            transform.Translate( Vector3.up * Time.deltaTime * speed );
+            transform.Translate( Vector3.down * Time.deltaTime * speed );
 		}
-        if (transform.position.z > 500)
+        if (transform.position.z > 500 || transform.position.z < 0)
 		{
             Destroy(gameObject);
 		}

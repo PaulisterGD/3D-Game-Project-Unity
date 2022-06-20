@@ -43,7 +43,7 @@ public class wolfprint : Interactable
     {
         //if (isOn) return "Press [E] to turn OFF the light\nand make me appear!";
         //return "Press [E] to turn ON the light\nand make me disappear!";
-        return "Press E to interact";
+        return "Interact to talk about the wolf print!";
     }
 
     //Starts the interaction when the player presses the E button.

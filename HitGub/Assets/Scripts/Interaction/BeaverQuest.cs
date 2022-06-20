@@ -48,19 +48,22 @@ public class BeaverQuest : Interactable
     // Function that handles dropping off the sticks for the beaver and playing a dialogue that marks the end of the quest
     void UpdateBeaver()
     {
-        itemObject.OnHandleDropOffItem();
         finishQuest.TriggerDialogue();
+
         if (tally < finishQuest.dialogue.sentences.Length) tally++;
         else
         {
             billboard.SetActive(false);
             questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[6], questID);
         }
+
+        itemObject.OnHandleDropOffItem();
     }
 
     public void StartQuest()
 	{
         startQuest.TriggerDialogue();
+
         if (tally < startQuest.dialogue.sentences.Length) tally++;
         else
         {
@@ -78,13 +81,14 @@ public class BeaverQuest : Interactable
 
     }
 
-        //Starts the interaction when the player presses the E button.
-        public override void Interact()
+    //Starts the interaction when the player presses the E button.
+    public override void Interact()
     {
         if (beaverRequirement.MeetsRequirements())
         {
-            UpdateBeaver();
             questComplete = true;
+
+            UpdateBeaver();
         }
         else if (questComplete)
         {

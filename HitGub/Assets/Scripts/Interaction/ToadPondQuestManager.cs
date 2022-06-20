@@ -14,7 +14,7 @@ public class ToadPondQuestManager : Interactable
     private ItemObject itemObject;
     public DialogueTrigger pondObject;
     public ItemObject pondRequirement;
-    public GameObject billboard;
+    public GameObject billboard, toad;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +32,12 @@ public class ToadPondQuestManager : Interactable
         pondObject.TriggerDialogue();
         if(dialogueTally < pondObject.dialogue.sentences.Length)
 		{
+            if (dialogueTally == 0)
+            {
+                Instantiate(toad, new Vector3(221.138f, 41.219f, 135.723f), new Quaternion(0.089808f, 0.014844f, 0.10548f, 0.990247f));
+                var toadAnim = toad.GetComponent<Animator>();
+                toadAnim.SetBool("WaveGoodbye", true);
+            }
             dialogueTally++;
 		}
 		else

@@ -8,9 +8,10 @@ public class DialogueManager : MonoBehaviour
     //Declaring the GameObjects on the Canvas in the scene that handle the dialogue.
     public Text nameText;
     public Text dialogueText;
+    public GameObject dialogueBoxPrefab;
 
     //Declaring the animator that makes the dialogue box go in and out of the screen
-    public Animator animator;
+    //public Animator animator;
 
     //Declaring the queue that handles the sequence of sentences in dialogue.
     public Queue<string> names;
@@ -21,12 +22,13 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();            //Initialise the queue of dialogues
         names = new Queue<string>();
+        dialogueBoxPrefab.SetActive(false);
     }
 
     //Function that starts the dialogue
     public void StartDialogue(Dialogue dialogue)
     {
-        animator.SetBool("IsOpen", true);                   //Start the animation that brings the dialogue box on-screen.
+        dialogueBoxPrefab.SetActive(true);                   //Start the animation that brings the dialogue box on-screen.
 
         names.Clear();                                      //Clear the previous queue of names.
         sentences.Clear();                                  //Clear the previous queue of sentences.
@@ -77,7 +79,7 @@ public class DialogueManager : MonoBehaviour
     //Function that happens when there's no more sentences to type.
     void EndDialogue()
     {
-        animator.SetBool("IsOpen", false);      //Bring the dialogue box off-screen.
+        dialogueBoxPrefab.SetActive(false);      //Bring the dialogue box off-screen.
         Debug.Log("End of conversation.");
     }
 

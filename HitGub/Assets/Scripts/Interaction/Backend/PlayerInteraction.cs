@@ -15,15 +15,34 @@ public class PlayerInteraction : MonoBehaviour
     private Collider intCollision;          //Collider that is set to whichever interactable you're closest to.
     public Transform interactCheck;         //An empty child of the player object that is the base for detection code.
     public LayerMask interactMask;          //A layer mask that is set to "Interactables".
-    bool canInteract;                       //The bool that is affected by the interactable detection code.
+    bool canInteract, buttonPressed;                       //The bool that is affected by the interactable detection code.
     public Collider[] interactCollider;     //List of colliders that have been spotted.
 
-    // Update is called once per frame
-    void Update()
-    {
-        //Ray ray = cam.ScreenPointToRay(new Vector3(Screen.width/2f, Screen.height/2f, 0f));
-        //RaycastHit hit;
+    public InputActions playerInteract;
+    private InputAction interactControl;
+    public bool weInteracted;
 
+	private void Awake()
+	{
+		playerInteract = new InputActions();
+	}
+
+	private void OnEnable()
+	{
+        interactControl = playerInteract.Playercontrol.Interact;
+		interactControl.Enable();
+        interactControl.performed += Interact;
+	}
+
+	private void OnDisable()
+	{
+		interactControl.Disable();
+	}
+
+	// Update is called once per frame
+	void Update()
+    {
+        
         //First check for whether there's interactables in the vicinity.
         canInteract = Physics.CheckSphere(interactCheck.position, interactionDistance, interactMask);
         
@@ -54,17 +73,18 @@ public class PlayerInteraction : MonoBehaviour
         }
 
         if (!successfulHit) interactionText.text = "";                  //Check for the above flag.
+        weInteracted = false;
     }
 
     //Code that determines how to interact with an object.
     void HandleInteraction(Interactable interactable)
     {
-        var gamepad = Gamepad.current;
+        
         KeyCode key = KeyCode.E;                                        //Set the interaction key (in our case, this is haed-coded to E)
         switch (interactable.interactionType)
         {
             case Interactable.InteractionType.Click:
-                if (gamepad.buttonSouth.wasPressedThisFrame) { interactable.Interact(); } //Run the interactable's code when the button is PRESSED.
+                if (weInteracted) { interactable.Interact(); } //Run the interactable's code when the button is PRESSED.
                 break;
             case Interactable.InteractionType.Hold:
                 if (Input.GetKey(key)) { interactable.Interact(); }     //Run the interactable's code when the button is HELD.
@@ -78,4 +98,9 @@ public class PlayerInteraction : MonoBehaviour
                 //break;
         }
     }
+
+    void Interact(InputAction.CallbackContext context)
+	{
+        weInteracted=true;
+	}
 }

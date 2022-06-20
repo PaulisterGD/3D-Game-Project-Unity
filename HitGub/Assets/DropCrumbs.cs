@@ -7,6 +7,7 @@ public class DropCrumbs : MonoBehaviour
 {
     public ItemObject breadCrumbRequirement;
     public GameObject breadcrumb, playerModel;
+    public PlayerInteraction interaction;
 
     public bool breadCrumbFlag;
     // Start is called before the first frame update
@@ -27,9 +28,10 @@ public class DropCrumbs : MonoBehaviour
         {
             breadCrumbFlag = false;
         }
-        if(gamepad.buttonSouth.wasPressedThisFrame)
+
+        if (breadCrumbFlag)
         {
-            if(breadCrumbFlag)
+            if(interaction.weInteracted)
             {
                 Instantiate(breadcrumb, new Vector3(playerModel.transform.position.x - 1, playerModel.transform.position.y, playerModel.transform.position.z ),playerModel.transform.rotation); 
             }

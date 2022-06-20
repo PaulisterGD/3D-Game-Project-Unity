@@ -70,11 +70,11 @@ public class BeeNPCManager : Interactable
 	{
         switch (questState)
         {
-            case QuestState.QuestStart: return "Press E to talk to the bee!";
+            case QuestState.QuestStart: return "Interact to talk to the bee!";
             case QuestState.PreFlower: return "Plant 5 flowers!";
-            case QuestState.PostFlower: return "Press E to see what the bee has to say!";
+            case QuestState.PostFlower: return "Interact to see what the bee has to say!";
             case QuestState.Watering: return "You need to water the plants!";
-            case QuestState.QuestEnd: return "Press E to show the watered flowers to the bee!";
+            case QuestState.QuestEnd: return "Interact to show the watered flowers to the bee!";
             default: Debug.LogError("whoa what's going on? The state machine broke in GetDescription!"); return "";
         }
     }
@@ -94,17 +94,10 @@ public class BeeNPCManager : Interactable
                 break;
             case QuestState.QuestEnd:
                 questEndDialogue.TriggerDialogue();
-                if (tally < questEndDialogue.dialogue.sentences.Length)
-                {
-                    tally++;
-                }
-                else
-                {
-                    beeAnimator.Play("Bee flying");
-                    billboard.SetActive(false);
-                }
-					break;
-				}
+                if (tally < questEndDialogue.dialogue.sentences.Length) tally++;
+                else billboard.SetActive(false);
+				break;
+			}
 	}
 
     void QuestStartFunc()
@@ -119,8 +112,8 @@ public class BeeNPCManager : Interactable
 		{
             if (!flowerSeedsGiven)
             {
-                for (int i = 0; i < seedCount; i++) { giveSeeds.OnHandleGiveItem(); }
                 flowerSeedsGiven = true;
+                for (int i = 0; i < seedCount; i++) { giveSeeds.OnHandleGiveItem(); }
                 questState = QuestState.PreFlower;
             }
         }
@@ -138,8 +131,8 @@ public class BeeNPCManager : Interactable
 		{
             if (!waterBottleGiven)
             {
-                giveWaterBottle.OnHandleGiveItem();
                 waterBottleGiven = true;
+                giveWaterBottle.OnHandleGiveItem();
             }
         }
     }

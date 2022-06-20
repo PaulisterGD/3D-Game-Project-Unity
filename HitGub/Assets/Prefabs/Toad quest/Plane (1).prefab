@@ -114,11 +114,13 @@ MonoBehaviour:
   interactionType: 0
   questUI:
     popUpQuestUI: []
-    clipboardQuestUI: []
+    clipboardQuestUI:
+    - {fileID: 21300000, guid: bac78268ad0bcf748b06e3abb429905a, type: 3}
   questUIManager: {fileID: 0}
   pondObject: {fileID: 2723649394123252574}
   pondRequirement: {fileID: 2723649394123252573}
   billboard: {fileID: 0}
+  toad: {fileID: 3892044666010983448, guid: bbf67056d8a1df341a809c390b061655, type: 3}
 --- !u!114 &2723649394123252573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,7 +160,7 @@ MonoBehaviour:
     - Toadie
     sentences:
     - Well done, Timmy!
-    - Look at the little toad, splashing happily!
+    - Little toad will be splashing happily thanks to our help!
     - Don't forget to wash your hands though...
     - Touching toads can irritate your skin!
     - Ahhhh... I can relax now! Thank you Timmy!

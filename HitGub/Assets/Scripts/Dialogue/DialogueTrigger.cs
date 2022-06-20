@@ -5,7 +5,7 @@ using UnityEngine;
 public class DialogueTrigger : MonoBehaviour
 {
     //Declarations of different components, like the dialogue managers.
-    public Animator animator;
+    public GameObject dialogueBox;
     public Dialogue dialogue;
     public DialogueManager dialogueManager;
     private bool firstLineDone = false;                                     //Boolean that determines whether to START dialogue or CONTINUE it.
@@ -14,7 +14,7 @@ public class DialogueTrigger : MonoBehaviour
     private void Awake()
     {
         dialogueManager = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
-        animator = GameObject.FindWithTag("DialogueBox").GetComponent<Animator>();                            //Set up the animator that runs the dialogue box animation.
+        dialogueBox = GameObject.FindWithTag("DialogueBox");                            //Set up the animator that runs the dialogue box animation.
     }
 
     //Function that is called when one wants to start a dialogue.
@@ -31,6 +31,6 @@ public class DialogueTrigger : MonoBehaviour
             dialogueManager.DisplayNextSentence();                          //If no, CONTINUE the dialogue
         }
 
-        if (!animator.GetBool("IsOpen")) { firstLineDone = false; }         //When the dialogue box transitions out of screen, reset the firstLineDone bool.
+        if (!dialogueBox.activeSelf) { firstLineDone = false; }         //When the dialogue box transitions out of screen, reset the firstLineDone bool.
     }
 }

@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 6270446250751956539, guid: df2d60e44c45c6445b960135105dc6aa, type: 3}
-  xConst: 476.5739
+  xConst: 485.5739
   zConst: 381.7553
   xLevel: 0
   zLevel: 0

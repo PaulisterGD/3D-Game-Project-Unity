@@ -85,9 +85,9 @@ public class BunnyQuest : Interactable
     //Provides instructions on how to interact and why
     public override string GetDescription()
     {
-        if (bunnyRequirement.MeetsRequirements()) { return "Press E to throw the trash away!!"; }
+        if (bunnyRequirement.MeetsRequirements()) { return "Interact to throw the trash away!!"; }
         else if (questComplete) { return ""; }
-        else if (!questTriggered) { return "Press E to talk to the bunny"; }
+        else if (!questTriggered) { return "Interact to talk to the bunny"; }
         else { return "Bunny is stuck! Pick up the trash!"; }
     }
 

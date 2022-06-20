@@ -62,18 +62,24 @@ public class BirdQuest : Interactable
     // Function that handles dropping off the sticks for the beaver and playing a dialogue that marks the end of the quest
     void FinishQuest()
     {
-        itemObject.OnHandleDropOffItem();
         questEnd.TriggerDialogue();
+
         if (finishTally < finishDialogueCount) finishTally++;
-        else billboard.SetActive(false);
+        else
+        {
+            billboard.SetActive(false);
+            questUIManager.SetClipboardSprite(questUIConditionals.clipboardQuestUI[6], questID);
+        }
+
+        itemObject.OnHandleDropOffItem();
     }
 
     //Provides instructions on how to interact and why
     public override string GetDescription()
     {
-        if (birdRequirement.MeetsRequirements()) { return "Press E to return the sticks to the Bird!!"; }
+        if (birdRequirement.MeetsRequirements()) { return "Interact to return the sticks to the Bird!!"; }
         else if (questComplete) { return ""; }
-        else { return "Press E to talk to the bird!"; }
+        else { return "Interact to talk to the bird!"; }
 
     }
 
